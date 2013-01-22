@@ -1,0 +1,26 @@
+<script src=vendor/jquery-1.9.0.min.js></script>
+<script src=lib/common.js></script>
+
+<script>
+  function store(type) {
+    console.log(
+    type,
+    type.constructor,
+    type.prototype,
+    type.toString());
+  }
+
+  function something() {
+    console.log(arguments.callee);
+    store(something);
+    this.that = function(){
+      return 1;
+    }
+  }
+
+  var obj = List(something, 3);
+
+  $.get("first.xml", function(doc) {
+    console.log(doc);
+  }, "xml");
+</script>

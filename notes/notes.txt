@@ -1,0 +1,41 @@
+
+thickness of line is related to importance (3 level of thickness)
+
+correlation of topics (weakly or strongly correlated) through dotted or solid
+
+horizontal lines are categories
+
+description - property or attribute it's in a fragment
+  vertical properties represent the linguistic flow
+
+
+boxes are different from background color
+
+nodes:
+  if not linked, not decorated
+  introductory - straight
+  description - slanted ones
+  categorical
+  plain boring textual node that is like a category but isn't
+  all nodes can be linked
+
+
+edges:
+  have titles
+  procedural
+  aside
+
+
+length of line is meaningless
+
+color inheritance
+
+
+content:
+  circles
+  terms
+  topics (circles)
+  cross-references they can be topically classified (through colors) arbitrarily
+
+y-connectors
+  categorical relationship (horizontal) ... those are nodes

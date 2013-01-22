@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml y="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+	<key id="t" for="edge" attr.name="type" />
+	<key id="d0" for="node" attr.name="color" attr.type="string">
+	<graph edgedefault="directed">
+		<node id="a" />
+		<node id="b" />
+		<node id="c" />
+		<node id="d" />
+		<node id="e" />
+		<node id="f" />
+		<node id="g" />
+		<node id="h" />
+		<node id="i" />
+		<node id="j" />
+		<node id="k" />
+		<node id="l" />
+		<node id="m" />
+		<node id="n" />
+		<node id="o" />
+		<node id="p" />
+		<node id="q" />
+		<node id="r" />
+		<node id="s" />
+		<node id="t" />
+		<node id="u" />
+		<node id="v" />
+		<node id="w" />
+		<node id="x" />
+		<edge source="a" target="b">
+		</edge>
+		<edge source="a" target="c">
+		</edge>
+
+			<edge source="c" target="d">
+			</edge>
+				<edge source="d" target="g">
+				</edge>
+		
+			<edge source="c" target="e">
+			</edge>
+			<edge source="c" target="f">
+			</edge>
+
+			<edge source="c" target="h">
+			</edge>
+			<edge source="c" target="k">
+			</edge>
+			<edge source="c" target="l" />
+			</edge>
+
+	</graph>
+</graphml>
+group?
+xhtml?
+vizml
+
