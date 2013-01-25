@@ -74,8 +74,10 @@ var v = {}, u = 0;
         // }
         
         // Modifiable {
-          parent: new Group(),
-          child: new Group(),
+          previous: new ShapeGroup(),
+          next: new ShapeGroup(),
+          members: new ShapeGroup(),
+
           label: "",
           content: "",
         // }
@@ -89,10 +91,10 @@ var v = {}, u = 0;
       var mthis = this;
       this.uid = this.get('uid');
 
-      // Sets up the parent child add/remove hierarchy
+      // Sets up the previous next add/remove hierarchy
       // and events
       _.each(['add', 'remove'], function(what) {
-        _.each(permute(['parent', 'child']), function(which) {
+        _.each(permute(['previous', 'next']), function(which) {
           mthis.get(which[0]).on(what, function(that) {
             console.log([
               that.get('type'), that.uid,
@@ -107,18 +109,21 @@ var v = {}, u = 0;
     },
 
     walk: function() {
-      this.get('child').each(function(which) {
+      this.get('members').each(function(which) {
+        which.walk();
+      });
+      this.get('next').each(function(which) {
         which.walk();
       });
       console.log(
         this.get('type'),
         this.get('content'),
         this.uid,
-        this.get('child').map(function(which) { return which.uid })
+        this.get('next').map(function(which) { return which.uid })
       );
     }
   });
-  _.each(['parent', 'child'], function(which) {
+  _.each(['previous', 'next', 'member'], function(which) {
     Shape.prototype[which] = function(what) {
       return what ? 
         this.get(which).add(what) :
@@ -126,10 +131,7 @@ var v = {}, u = 0;
     }
   });
 
-  _.each([].concat(
-    [ "Aside", "Category" ], // singletons
-    [ "Description", "Intro", "Path", "Procedure" ] // Containers
-  ), function(which) {
+  _.each([ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ], function(which) {
     v[which] = Shape.extend({
       defaults: function(){
         return inheritAndAdd(Shape, {type: which});
@@ -141,18 +143,17 @@ var v = {}, u = 0;
   eval(_inject('i'));
 
   // We need a group of groups.
-  var Group = Backbone.Collection.extend({
+  var ShapeGroup = Backbone.Collection.extend({
     model: Shape
   }),
-  DocGlobal = new Group();
+  DocGlobal = new ShapeGroup();
 
   var root = new v.Category(),
       A = new v.Intro(),
       B = new v.Category();
 
-  root.child(A);
-  A.child(B);
-  A.child(C);
+  root.next(A);
+  A.next(B);
   root.walk();
 
 })(jQuery);
