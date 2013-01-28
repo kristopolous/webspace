@@ -25,7 +25,11 @@
 </script>
 <script id="Category" type="text/template">
   <span class="label"><%= label %></span>
-  <span class="content"><%= content %></span>
+  <span class="content">
+    <% _.each(content, function(row) { %>
+      <%= row.data %>
+    <% }); %>
+  </span>
 </script>
 <script id="Intro" type="text/template">
   <span class="label"><%= label %></span>
@@ -33,7 +37,11 @@
 </script>
 <script id="Description" type="text/template">
   <span class="label"><%= label %></span>
-  <span class="content"><%= content %></span>
+  <span class="content">
+    <% _.each(content, function(row) { %>
+      <%= row.data %>
+    <% }); %>
+  </span>
 </script>
 <script id="Path" type="text/template">
   <span class="label"><%= label %></span>
@@ -55,6 +63,7 @@
     <button class="delete">Delete</button>
 </script>
 <script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/glick-ear.js"></script>
 <script src="js/_inject.js"></script>
 <script src="js/underscore.js"></script>
 <script src="js/backbone.js"></script>

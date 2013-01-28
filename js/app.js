@@ -13,7 +13,6 @@ var m = {}, u = 0;
     defaults: function(){
       return {
         // Ostensibly immutable {
-          uid: register(this),
           type: 'Shape',
         // }
         
@@ -39,6 +38,14 @@ var m = {}, u = 0;
 
     initialize: function() {
       var mthis = this;
+
+      // Register tricks that permit for someone to drop
+      // their own id
+      if(this.get('uid')) {
+        register[this.get('uid')] = this;
+      } else {
+        this.set('uid', register(this));
+      }
       this.uid = this.get('uid');
       this.view = new v[this.get('type')](this);
 
@@ -102,14 +109,22 @@ var m = {}, u = 0;
   }),
   DocGlobal = new ShapeGroup();
 
-  var root = new m.Category({content: "Abraham Lincoln"}),
-      A = new m.Intro({content: "First Republican President"}),
-      B = new m.Category(),
-      C = new m.Description();
-
-  root.next(A);
-  A.next(B);
-  B.member(C);
-  root.walk($('#document'));
-
 })(jQuery);
+
+function parse(payload) {
+  var root;
+  _.each(payload, function(shape) {
+    // This means it's the root node.
+    if(shape.parent == shape.uid) {
+      root = new m[shape.type](shape);
+
+      // Otherwise we should have seen the parent
+      // before the child (if the parser did its work, that is)
+    } else {
+      register[shape.parent].member(new m[shape.type](shape));
+    }
+  });
+  root.walk($('#document'));
+}
+
+parse(payload);

@@ -60,6 +60,14 @@ function parse(txt) {
   return content;
 }
 
+function map(xml, test, obj) {
+  for(var key in test) {
+    if(xml[key]) {
+      obj[test[key]] = xml[key];
+    }
+  }
+}
+
 function recurse(what, type) {
 
   stack.push(UID++);
@@ -71,9 +79,10 @@ function recurse(what, type) {
       type: type,
       content: parse(what.$.id.replace(/\s+/g, ' '))
     };
-    if(what.$.transition) {
-      payload.label = what.$.transition;
-    }
+    map(what.$, {
+      imagename: 'image',
+      transition: 'label'
+    }, payload);
     output.push(payload);
   }
   [
