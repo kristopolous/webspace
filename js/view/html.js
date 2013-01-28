@@ -1,6 +1,6 @@
-var v = {};
+v.html = {};
 _.each(NodeType, function(which) {
-  v[which] = Backbone.View.extend({
+  v.html[which] = Backbone.View.extend({
     tagName: 'div',
     className: which,
     template: $("#" + which).html(),

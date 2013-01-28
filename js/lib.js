@@ -1,7 +1,8 @@
 
 var NodeType = [ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ];
 
-var slice = Array.prototype.slice;
+var slice = Array.prototype.slice,
+  ev = EvDa();
 
 function enum(array) {
   var ret = {};
@@ -64,3 +65,9 @@ function permute(array) {
   return ret;
 }
 
+function setView(engine) {
+  v.use = v[engine];
+  ev.set('view');
+}
+
+var v = {};

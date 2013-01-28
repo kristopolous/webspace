@@ -47,7 +47,8 @@ var m = {}, u = 0;
         this.set('uid', register(this));
       }
       this.uid = this.get('uid');
-      this.view = new v[this.get('type')](this);
+
+      this.view = new v.use[this.get('type')](this);
 
       // Sets up the previous next add/remove hierarchy
       // and events
@@ -74,14 +75,6 @@ var m = {}, u = 0;
       this.get('next').each(function(which) {
         which.walk(what);
       });
-      
-/*
-      console.log(
-        this.get('type'),
-        this.uid,
-        this.get('next').map(function(which) { return which.uid })
-      );
-*/
     }
   });
   _.each(['previous', 'next', 'member', 'container'], function(which) {
@@ -106,11 +99,22 @@ var m = {}, u = 0;
   // We need a group of groups.
   var ShapeGroup = Backbone.Collection.extend({
     model: Shape
-  }),
-  DocGlobal = new ShapeGroup();
+  });
 
 })(jQuery);
 
+function render(node) {
+  if(v.use.$pre) {
+    v.use.$pre();
+  }
+  try {
+    node.walk($('#document'));
+  } finally {
+    if(v.use.$post) {
+      v.use.$post();
+    }
+  }
+}
 function parse(payload) {
   var root;
   _.each(payload, function(shape) {
@@ -124,7 +128,10 @@ function parse(payload) {
       register[shape.parent].member(new m[shape.type](shape));
     }
   });
-  root.walk($('#document'));
+  render(root);
 }
 
-parse(payload);
+$(function(){
+  setView('mx');
+  parse(payload);
+});
