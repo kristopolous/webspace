@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Macromolecules" transition="There are 4 types" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-3407872" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407872" linesize="3" fontsize="3" wordwrap="off" justify="center">
+		<Node id="Proteins" alignment="2" arrowcolor="-13408513" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13408513" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="are made of amino acid" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="the process of breaking down proteing into amino acids is called <br>    hyrdrolysis" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="if you put long chaings of amino acids together, you make a protein" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="if you put 10-100 of them together, you make a protein" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="Lipids" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="there are different types" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="if you put glycerol and fatty acids together, you made triglycerides" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="examples include waxes, oil," alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="recall cell memberanes are made of phospoholipid bilayer.  Cell membranes <br>    are mostly lipids" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="Carbohydrates" alignment="2" arrowcolor="-13382656" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13382656" linesize="1" fontsize="3" wordwrap="off" justify="left">
+			<Item id="are known as sugars" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="smallest unit = monosachaides" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="putting monosacharides together, you get polysaccahrides" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Node id="3 types" alignment="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="1" fontsize="1" wordwrap="on" justify="left">
+				<Node id="monosaccharides" alignment="2" arrowcolor="-16711936" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16711936" linesize="1" fontsize="1" wordwrap="off" justify="left">
+					<Item id="glucose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="fructose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="lactose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="M: &quot;I lack glu to put stick the pen in fruit&quot;" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+				</Node>
+				<Node id="disaccharides" alignment="2" arrowcolor="-16711936" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16711936" linesize="1" fontsize="1" wordwrap="off" justify="left">
+					<Item id="maltose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="galactose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="sucrose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+				</Node>
+				<Node id="polysaccharides" alignment="2" arrowcolor="-16711885" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16711885" linesize="1" fontsize="1" wordwrap="off" justify="left">
+					<Item id="Glycogen" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="Cellulose" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+					<Item id="Chitin" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Nucleic Acids" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="3" wordwrap="off" justify="center">
+			<Node id="Two types" alignment="1" arrowcolor="-6711040" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6711040" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Node id="DNA" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1" wordwrap="off" justify="center">
+					<Item id="= Deoxy-Ribo Nucleic Acid" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+					<Node id="Made of 3 things" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1" wordwrap="off" justify="center">
+						<Item id="Sugar" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+						<Item id="Phosphates" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+						<Item id="Bases" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+					</Node>
+				</Node>
+				<Item id="RNA" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			</Node>
+		</Node>
+	</Node>

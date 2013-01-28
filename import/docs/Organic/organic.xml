@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ justify="center"	<Node id="Big picture of Organic Chem" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="3 Basic Mechanisms of Reaction in Organic Chemistry" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold">
+			<Node id="Polar Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+				<Node id="These Rxns occur electrophiles (or Lewis Acids) and Nucleophilles (or Lewis Bases)" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Electophiles are e- poor reagents" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="		Nucleophiles are e- rich reagents" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="These Rxns are hetrolytric processes and involve species w/ an even # of valence electrons" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Heterogenic bond formation -bonds are made when a nucleophile donates an <br>    e- pair to an electophile" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Heterolytic bonds clearage - bonds are broken when one product fragment <br>    leaves w/ an e- pair" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="These Rxns can be grouped into 5 general categories" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Node id="Electophilic Addition Rxns (2 steps)" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="1st - electophile adds to alkene/alkyne bonds to yield a carbocatine <br>    intermediate" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="2nd  - where rxns further to yield the addition product" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="*even though all the mechanism don't exactly follow above, they are very <br>    similar" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="Examples:  " alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Node id="Addition to Alkenes " alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Electophilic addition of HX (x=CL, Br, I)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="					Electophilic addition of x2  (x=CL, Br)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="					Electophilic addition of HO-X (x=CL, Br, I)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Electophilic addition of H2O by hydroxymercutation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Rearrangement during electophilic addition to alkenes" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Addition of BH3 (hydroboration)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Catalytic addition of H2" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Hydroxylation w/ OsO4" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="				Addition to Alkynes" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Electophilic addition of HX (x=CL, Br, I)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="					Electrophilic addition of H2O" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="					Addition of H2" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+					<Node id="Elimination Rxns" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Node id="E1" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="3 alkyl halides undergo E1b and compute w/ SN1 whom a nonbasic nucleophile is used in a hydroxylic solvent" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="(2 steps)" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="1st - spontaneous disassociation of alkyl halide leading to a carbocatron <br>    intermediate" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="2nd - loses a H+" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Examples:" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Dehydration of Alcohols (alkene formation)" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+						<Node id="E2 " alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Node id="Need strong base - OH-" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="       RO- alkoxide ion" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="       NH2 Amide ion" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Item id="Alkyl halide react by E2 mechanism" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="				Mechanism is one single step" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="				Examples: " alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Dehydrohalogenation of alkyl halides - alkene formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Dehydrohalogen ation of Vinylic halides -alkalyne formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Dehydrohalogenation of Arylhalides - benzene formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+					<Node id="		Nucleophilic alkyl substitution Rxns" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Node id="SN1" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="3 alkyl halides react this way" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="				2 steps" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="1ST -spontaneous disassociation of alkyl halide" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="anion and a carbocation intermediate" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="2nd - rxn of carbocation w/ a nucleophile" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Examples " alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="General rxn" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="					Preparation of alkyl halides from alcohol" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+						<Node id="SN2" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="Most 1* halides and many 2* halides undergo SN2 w/ many different kinds of Nuleophiles" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="Single step mechanism" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Attach of incoming nucleophile from 180*  away from the leaving group resulting in umbrella line inversion" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="			Examples:" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="General rxn" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Alkylation of terminal alkyne anion to give alkyne – alkyne alkylation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+					<Node id="Electrophilic aromatic substitution rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Node id="2 step" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Node id="1st - This step is similar to the 1st step in electrophillic addition to<br><br>alkenes" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="An electron poor reagent reacts w/ the e- rich aromatic ring" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Item id="2nd - This step is identical to what happens during E1 elimination" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="          A base present in solution attacks a hydrogen atom next to " alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="          Positively charged carbon and elimination of the proton " alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+						<Node id="Examples:" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="Halogenation of aromatic compounds" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="	Nitration of aromatic compounds" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="	Sulfonation of aromatic compounds" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="				Alkylation of aromatic compounds" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="				Acylation of aromatic rings" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+					<Node id="		Nucleophilic Aromatic Substitution Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="A nucleophile attaches on electrophilic aromatic ring" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="  The ring is made electrophilic (hence reactive to nucleophilic when electron withdrawing groups are placed on ring, nitro, cyano, carbonyl" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Steps occur either as addition-elimination or elimination-addition run" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="Example:" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="Nucleophilic aromatic substitution" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="Radical Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+				<Item id="These rxns are homolytric rxns and involve species w/ odd number of e’s." alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Homogenic formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="		Homolytic formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="		There are 2 types" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Node id="Radical Addition Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Node id="There are 3 steps all of which include odd # of e- species." alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="1. 	Innitron steps" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="2. 	Propagatron steps" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="3. 	Termination Steps" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="Examples:" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Radical addition of HBr" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+					<Node id="Radical Substitution Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="The key feature is that one radical abstracts an atom from a neutral molecule, learning a new radical" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="Examples:" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="Chlorination of methane" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="	NBS allylic bromination of alkenes" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="Pericyclic Rxns" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+				<Item id="Rxns do not have nucleophiles or electonphiles nor have a radical rxn mechanism of Rxns rapor" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Processes take place in a single of bonding e’s through a cyclic transform state" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Examples:" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Addition of Carbonoids-cyclopoane formation" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="	Cycloaddition to drenes" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="*There are 4 basic types of rxns in organic chemistry " alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3">
+			<Item id="Addition" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Elimination" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Substitution" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Rearrangement" link="C:\Viz Docs\Organic/	Rearrangement.xml" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Besides rearrangement during electrophil addition to alkenes there is rearrangement during Frre del-crafts alkylatra" alignment="1" justify="center" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+	</Node>

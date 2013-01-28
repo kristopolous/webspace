@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Power" alignment="1" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+		<Item id="This camcorder's 2-way power supply system lets you choose the most        appropriate source of power." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Item id="Do not use provided power supply units with other equipment." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Node id="Steps to charging the battery pack" alignment="2" arrowcolor="-13421569" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+			<Item id="1) Tilt the viewfinder updward." alignment="1" imagename="C:\My Documents\My Pictures\JVC images\JVC power1.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-65536" arrowsize="1" backgroundcolor="-205" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Node id="2) With the arrow on the battery pack pointing downward," alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-16711936" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+				<Item id="push the battery pack slightly against the battery pack mount." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			</Node>
+			<Item id="3) Then, slide down the battery pack until it locks in place." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-16711732" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Set the Power Switch to OFF." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="4) Connect the AC Adapter to the camcorder." alignment="1" imagename="C:\My Documents\My Pictures\JVC images\JVC power2.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3381760" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Node id="5) Plug the AC Adapter into an AC outlet." alignment="2" arrowcolor="-13421569" arrowsize="1" backgroundcolor="-52276" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+				<Item id="The Charge lamp on the camcorder blinks to indicate charging has started." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Node id="When the Charge lamp stops blinking but stays lit, charging is finished." alignment="1" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="Unplug the AC Adapter from the AC outlet.  Disconnect the AC Adapter        from the camcorder." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

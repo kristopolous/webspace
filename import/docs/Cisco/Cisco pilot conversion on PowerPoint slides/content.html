@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<base target="_self">
+<title></title>
+</head>
+
+<body bgcolor="#E7E7E7" topmargin="1" leftmargin="1" background="../../images/bg.gif"
+link="#000000" vlink="#000000" alink="#000000" onLoad="window.focus();">
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+  <tr>
+    <td rowspan="2" bgcolor="#000000"><img border="0" src="../../images/transdot.gif"
+    width="2" height="1"></td>
+    <td bgcolor="#CE1031"><img border="0" src="../../images/transdot.gif" width="2" height="1"></td>
+    <td bgcolor="#CE1031" valign="top"><font color="#FFFFFF" face="Arial" size="2"><b>2.2</b></font></td>
+    <td width="100%" bgcolor="#CE1031" valign="top"><font color="#FFFFFF" face="Arial"
+    size="2"><b>The OSI Reference Model</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#0086AD"><img border="0" src="../../images/transdot.gif" width="2" height="1"></td>
+    <td bgcolor="#0086AD" valign="top"><font color="#FFFFFF" face="Arial" size="2"><b>2.2.5</b></font></td>
+    <td width="100%" bgcolor="#0086AD" valign="top"><font color="#FFFFFF" face="Arial"
+    size="2"><strong>Names for data at each layer of the OSI model</strong></font></td>
+  </tr>
+  <tr>
+    <td colspan="4"><table border="0" cellpadding="0" cellspacing="0" width="90%">
+      <tr>
+        <td><font face="Arial" size="2">In order for data packets to travel from
+          the source to the destination, each layer
+          of the OSI model at the source must communicate with its peer layer at
+          the destination. This form of communication is referred to as <i>Peer-to-Peer
+          Communications</i>.&nbsp; During this process, each layer's protocol
+          exchanges information, called&nbsp; <i>protocol
+        data units</i> (<i>PDUs), </i>between peer layers . Each layer of
+        communication, on the source computer, communicates with a layer-specific PDU, and with
+        its peer layer on the destination computer as illustrated in the Figure. <img border="0" src="../../images/1.gif" width="12" height="12">
+          </font>
+          <p><font face="Arial" size="2">Data packets on a network originate at a source and
+        then travel to a destination. Each layer depends on the service function of the OSI layer
+        below it. To provide this service, the lower layer uses encapsulation to put the PDU from
+        the upper layer into its data field; then it adds whatever headers and trailers the layer
+        needs to perform its function. Next, as the data moves down through the layers of the OSI model, additional headers and trailers are added.&nbsp;
+          After Layers 7, 6, and 5 have added their
+        information, Layer 4 adds more information. This grouping of data, the Layer 4 PDU, is
+        called a <i>segment</i>. <img border="0" src="../../images/2.gif" width="12" height="12"></font></p>
+        <p><font face="Arial" size="2">The network layer, for example, provides a service to the transport layer, and the transport layer presents data to the internetwork subsystem. The network layer has the task of moving the data through the internetwork. It accomplishes this task by encapsulating the data and attaching a header creating a packet (the Layer 3 PDU). The header contains information required to complete the transfer, such as source and destination logical addresses.</font></p>
+        <p><font face="Arial" size="2">The data link layer provides a service to the network
+        layer. It encapsulates the network layer information in a <i>frame</i> (the Layer 2 PDU);
+        the frame header contains information (e.g. physical addresses) required to complete the
+        data link functions. The data link layer provides a service to the network layer by
+        encapsulating the network layer information in a frame.</font></p>
+        <p><font face="Arial" size="2">The physical layer also provides a service to the data link
+        layer. The physical layer encodes the data link frame into a pattern of 1s and 0s (bits)
+        for transmission on the medium (usually a wire) at Layer 1.</font>
+        <p>&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

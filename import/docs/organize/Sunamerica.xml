@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Welcome to Sun America Learning Center" alignment="1" arrowcolor="-26368" arrowsize="2" linecolor="-26368" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="Get Started" alignment="1" arrowcolor="-16777012" arrowsize="2" linecolor="-16776961" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Don't Let Time Slip Away" alignment="1" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold">
+				<Node id="Introduction" alignment="1" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="People have all sorts of reasons for postponing their retirement        savings, but none of them can change the fact that missing even a few of        the stock market's best days can make a big difference." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="We think you should start saving now, whether you are old or young,        wealthy or just getting by." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="To demonstrate why this is, we'll address the questions we think you might      have:" alignment="2" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="What determines a portfolio's performance?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="What if I can't afford to save?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Why should I start now, I'm young?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Shouldn't I save for a house first?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="What's the point?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="I'm near retirement, where I begin?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Node id="What Determines a Portolio's Performance?" alignment="2" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="As shown in the chart, investors' gains would have been reduced by        almost 60 % if they missed the 40 best days of the market." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="What if I Can't Afford to Save?" alignment="2" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Saving is a matter of priority, not income." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="If you save the very minimal sum of $1.70 a day- you'll have $50 each        month to contribute to an automatic investment plan with a mutual fund        or to your company's 401 K plan." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Either way, if you the money transferred directly from your checking        account or paycheck, you'll never miss it." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Why Should I Start Now?  I'm Young." alignment="2" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Time is the most powerful ally you have in saving for retirement." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="For example, suppose you're 25 and you sock away $2000 a year in a        tax-deferred IRA until you reach the age of 35.  Assuming a 10% rate of        return, by the time you turn 60, your money will grow to $401,560." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Shouldn't I Save for a House First?" alignment="2" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Saving for a house is a good idea in theory, but not necessarily in        practice." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Investing with a tax-deferred 401 K plan, offered by about half of all        employers nationwide, can actually help you to borrow up to 50% of your        account value for major purchases, such as a house." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="You'll pay interest on the loan, but the bulk of the payment will go        right back into your retirement savings account." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="What's the Point? I'm Near Retirement." alignment="2" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="If you live as long as the average life expectancy, which is increasing        each year, you'll need your savings to last you a long time." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="This is all the more reason to consider investments that can provide a        steady stream of income." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Where Do I Begin?" alignment="2" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Read through The Learning Center and other trusted sources of        information, such as personal-investment magazines." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="Also, if you don't already have a financial representative, arrange a        meeting to consult with one." alignment="1" arrowcolor="-16763905" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="A financial representative can recommend investments you can use to        build your personal Retirement Portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="Dollar Cost Averaging" alignment="1" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="2" fontstyle="bold">
+				<Node id="Introduction" alignment="2" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="If we could predict fluctions in the market with perfect accuracy,        investing would be simple- and extraordinary profitable." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="We could time our transactions to realize big gain and avoid big losses.         Buy low, sell high would be a practicable strategy instead of an        elusive goal." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Unfortunately, not even the most experienced investment professionals        can predict the market." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Attempting to time investments is at best a risky business." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Nevertheless, there is a proven strategy that can help investors        overcome the volatility of the market and sometimes even profit from it." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="This strategy is called dollar cost averaging." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="How Dollar Cost Averaging Works:  Consistency is the Key" alignment="2" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Dollar cost averaging means investing the same amount of money in the        same investment at regular intervals- say, each month or each quarter." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="While it cannot guarantee a profit nor prevent a loss, this approach        ensures that you will buy more shares when share prices are low, fewer        shares when share prices are high." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The result is that the average amount you pay for each share- your        average cost per share- will always be lower than the average price per        share." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="A Sound Strategy is Falling or Rising Markets" alignment="1" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1" fontstyle="bold">
+					<Node id="Dollar cost averaging can work to your advantage whether the market is        falling or rising.  Here's how it works:" alignment="1" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1">
+						<Node id="Falling Market" alignment="2" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1">
+							<Item id="Let's say you invest $500 each month over a period of six months, and        during this period, the market declines steadily." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="You buy $500 worth of shares at several different prices.  At the end of        this six month period,  you have invested $3000 and you own 312.5        shares.  This makes your average price per share $9.60." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="So, how do you benefit?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="Clearly, dollar cost averaging can't shield you from a loss when the        market declines." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="However, it can help to reduce your loss." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+						<Node id="Rising Market" alignment="2" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1">
+							<Item id="Suppose you invest $500 each month.  But, this time the market is rising." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="You buy $500 worth of shares at different prices.  In the end, you own        252.08 shares, and your average price per share was $12.67." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="As you can see, your average share cost is less than the average shae        price for the period." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="Is Dollar cost Averaging Right for you?" alignment="2" arrowcolor="-3407668" arrowsize="1" linecolor="-3407668" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Dollar cost averaging has been used successfully by many investors." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="But it is not for everyone." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="It is designed not to produce sudden, dramatic profits but to generate        sustained growth over the long term, despite short-term fluctuations of        the market." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="It is most appropriate for long-term investors who have the discipline        to keep investing when the market falls and to resist selling when the        market rises." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Above all, you need to be patient and give the strategy an opportunity        to work." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="You should also consider your ability to continue to invest through        periods of falling prices." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="What a Financial Representative Can Do for You" alignment="2" arrowcolor="-4743363" arrowsize="1" linecolor="-4348868" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="Few people buy or sell a house without the aid of a real estate agent." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="A real estate agent's expertise can help you save money and make more        informed decisions." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="When it comes to investing, the same can be said of financial        representatives." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="With the myriad of investment products, services, and information        flooding the market everyday, it helps to consult with a professional        who knows the industry and has experience pairing investments with        investors." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Everyone can use good financial advice, not just wealthy people." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="In fact, investors on a tight budget can benefit the most from sound        advice." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="A financial representative's job is to help you determine your financial        needs and goals." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="Determine a Strategy" alignment="1" arrowcolor="-3355648" arrowsize="1" linecolor="-3355648" linesize="1" fontsize="2" fontstyle="bold">
+			<Item id="How to Approach Asset Allocation" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Are Your Investments Diversified" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="FAQs about IRAs" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Roth IRA" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Mutual Funds: Investing Made Simple" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Annuities and Your Portfolio" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Charitable Giving and Annuities" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="Stay on Track" alignment="1" arrowcolor="-16724992" arrowsize="1" linecolor="-13382656" linesize="1" fontsize="2" fontstyle="bold">
+			<Item id="Benchmarks" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Rebalancing Your Portfolio" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Buy, Sell, Hold?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="New IRA Rules" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Social Security Update" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="What Happens When You Annuitize" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Payout Options" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="Tax Planning" alignment="1" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold">
+			<Item id="How Annuity Payments Are Taxed" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="How Mutual Fund Distributions Are Taxed" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="Estate Planning" alignment="1" arrowcolor="-52429" arrowsize="1" linecolor="-52429" linesize="1" fontsize="2" fontstyle="bold">
+			<Node id="Universal Life Insurance: More than Financial Protection for You and Your      Family" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="You may thinkof life insurance as only a way to help protect your family        against an unexpected death." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="However, life insurance can also be an important part of your estate        plan." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Among its many uses, life insurance can provide several benefits:" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="tax advantages to you and your hiers" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="an immediate death benefit that avoids the delays and costs of probate" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="a simple and convenient way to distribute assets to your heirs" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="One of the most popular forms of life insurance now being used in estate        planning is universal life insurance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="For many retirees who have accumulated more money than they need for        their retirement nest egg, universal life offers a way to transfer        wealth to heirs free of federal income taxes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="What is Universal Life Insurance" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Universal life insurance is a type of permanent life insurance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="There are two basic forms of life insurance:" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Node id="Term life insurance" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="term insurance provides protection for a specific period of time" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="generally ranges from 1 to 20 years" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="Permanent life insurance" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="offers lifetime protection" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="lasts as long as premiums are paid or enough cash value remains to        support policy expenses" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="there are 3 types of permanent life insurance:" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="universal life" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="whole life" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="variable life" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Item id="The main difference between a universal life policy and other types of        permanent insurance is that it offers greater flexibility to change        premium payments or the policy's death benefit amont." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="How Does Universal Life Work?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Like most permanent policies, universal life offers a feature known as        cash value.  When you pay your premiums, part of your money goes toward        paying policy expenses and charges." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="The rest is allocated to a cash value account that earns interest." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="The interest rate will typically vary over time: however, many policies        offer a minimum fixed rate that is guaranteed by the claims-paying        ability of the insurer." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="In a variable universal life policy, the money in your cash value        account can be allocated to a wide variety of investments, including        stocks and bonds, that provide greater growth potential but can        fluctuate in value based on market conditions." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="These variable investment features involve risk of loss to your cash        value." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="How Can Universal Life Contribute to an Estate Plan?" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Besides replacing the lost income of a wage earner, the death benefit        from a universal life policy is generally federal income tax free to        your heirs." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="In addition to this valuable tax advantage, your heirs receive the death        proceeds without having to deal with the hassle and costs of probate." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="That means your beneficiearies will have liquid funds that can help them        pay any estate taxes, funeral costs, or other miscellaneous expenses        that occur at death." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Another attracitve feature is that policy proceeds may be protected from        creditors and bankruptcy." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Unviersal Life Insurance: Family Protection Plus Tax-efficient Wealth        Transfer" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Universal life offers options and benefits that go beyond financial        protection for your family in case you die." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Universal life offers benefits to last throughout a lifetime wheather        you are:" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="1. young and seeking a way to maintain your family's standard of living        in the event of your death" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="2. middle-aged and seeking a plicy that can meet your family's changing        needs" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="3. older and seeking a way to transfer wealth free from federal income        taxes to your loved ones." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

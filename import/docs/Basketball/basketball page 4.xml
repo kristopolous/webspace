@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Rule for starting the game" alignment="1" arrowcolor="-52429" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="2" fontsize="3" fontstyle="bold">
+		<Item id="<a color='red' href='#jump ball'>one member of each team stands in the <br>    circle on either side of the line marked across the circle.</a>" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Item id="<a color='red' href='#jump ball'>all other players must remain outside the <br>    circle until the ball has been touched by one of the jumpers.</a>" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Item id="<a color='red' href='#jump ball'>the referee tosses the ball up between <br>    the two players to a height greater than the players can reach by jumping <br>    ==> after the ball has reached its heighest point, the jumpers may tap it <br>    in any direction, while it is on its downward flight.</a>" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Node id="<a color='red' href='#jump ball'>Note</a>" alignment="2" arrowcolor="-52429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="1" fontsize="2">
+			<Item id="the jumpers may not leave their position until one of them has touched the      ball." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Node id="Neither of the jumpers may tap the ball more than twice (so, the ball can      be tapped twice but not more) the player who touched it twice has to      wait until the ball has touched" alignment="2" arrowcolor="-52429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="1" fontsize="1">
+				<Item id="one of the other players OR" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="the basket OR" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="backboard OR" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="the floor" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+	</Node>

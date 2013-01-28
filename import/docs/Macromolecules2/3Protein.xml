@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Proteins" alignment="1" arrowcolor="-13408513" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13408513" linesize="2" fontsize="3" wordwrap="off" justify="center">
+		<Node id="Recall" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Node id="are made of amino acid" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left">
+				<Node id="There are 20 of them" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center">
+					<Item id="Type 1: Hydrophilic" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+					<Item id="Type 2: Hydrophobic" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+				</Node>
+			</Node>
+			<Item id="the process of breaking down proteing into amino acids is called <br>    hyrdrolysis" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="if you put long chaings of amino acids together, you make a protein" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="if you put 10-100 of them together, you make a protein" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="4 types based on their structure" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center">
+			<Item id="Primary" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Node id="Secondary" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="Alpha Helix" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+				<Item id="Beta Pleated Sheet" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			</Node>
+			<Node id="Tertioary" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="Enzymes" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center"></Item>
+			</Node>
+			<Item id="Quarternary" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+		</Node>
+	</Node>

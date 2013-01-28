@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Cell" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-154" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold" wordwrap="off" justify="center">
+		<Node id="Contains Organelles" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center">
+			<Item id="Ribosome" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Item id="ER" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Item id="Golgi" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Item id="Nucleus" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Item id="Lysosome" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+		</Node>
+		<Item id="Is the functional unit of the cell." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center"></Item>
+	</Node>

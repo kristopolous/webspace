@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="<i>All Algebra problems </i>" transition="can be grouped into 4 categories" transitionplacement="1" transitionfontsize="3" alignment="1" arrowcolor="-6711040" arrowsize="2" backgroundcolor="-3355648" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6711040" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="Simplification / Transformation" alignment="1" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-6684775" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Definition:" alignment="1" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="2" fontsize="2">
+				<Item id="Simplification = Given a set of rules, you write the same expression <br>      (problem) in a different form." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			</Node>
+			<Node id="Types of simplification problems:" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="2" fontsize="2">
+				<Node id="The 4 Operations" alignment="2" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="2">
+					<Item id="Addition" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Subtraction" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Multiplication" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Divison" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="Absolute value" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Ratio, proportion, %" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Basic Algebra Formulas the will appear over over again." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Special products" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Radical" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Factoring" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Logrithm" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Matrices" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Functions" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Progressions" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Binomial theorem" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			</Node>
+		</Node>
+		<Node id="Solving" alignment="1" arrowcolor="-12763755" arrowsize="2" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-12763755" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Definition:" alignment="1" arrowcolor="-11776865" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-11776865" linesize="2" fontsize="2">
+				<Item id="You use the rules of simplification to get a variable by itself on one <br>    side of the equation and everything on the other side of the equation." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Types of solving problems:" alignment="2" arrowcolor="-14079620" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-14079620" linesize="2" fontsize="2">
+				<Node id="Solving linear equations" alignment="2" arrowcolor="-14145429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-14145429" linesize="1" fontsize="2">
+					<Item id="with one variable" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="with more than 1 variable" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				</Node>
+				<Node id="Solving Equations containg:" alignment="2" arrowcolor="-12504957" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-12504957" linesize="1" fontsize="2">
+					<Item id="Inequalitites" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Absolute Value" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Radicals" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Exponents" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Log" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				</Node>
+				<Node id="Solving Quadratic Equation" alignment="2" arrowcolor="-12109188" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-12109188" linesize="1" fontsize="2">
+					<Item id="Normal solving" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Factoring" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Quadratic formula" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					<Item id="Completing the square" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				</Node>
+				<Node id="Solving Simultaneous Equations" alignment="1" arrowcolor="-14145436" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-14145436" linesize="1" fontsize="2">
+					<Node id="with 2 variable equations" transition="4 different methods to get to the same answer" transitionplacement="1" transitionfontsize="1" alignment="2" arrowcolor="-13096088" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13096088" linesize="1" fontsize="1">
+						<Item id="graphing" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+						<Item id="substituition" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+						<Item id="addition / elimination" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+						<Item id="matrices" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					</Node>
+					<Node id="with 3 variable equations" transition="3 different methods to get to the same answer" transitionplacement="1" transitionfontsize="1" alignment="2" arrowcolor="-12833176" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-12833176" linesize="1" fontsize="1">
+						<Item id="addition / elimination" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+						<Item id="Gussian elimination" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+						<Item id="matrices" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Graphing" alignment="1" arrowcolor="-26368" arrowsize="2" backgroundcolor="-26368" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Definition:" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="1">
+				<Item id="You are given and equation and asked to graph it." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Types of graphing problems:" alignment="2" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="1">
+				<Item id="Graphing by plotting points" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Graphing linear equations" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Graphing inequalities" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Conic section" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			</Node>
+		</Node>
+		<Item id="Combination of previous 3 types" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold"></Item>
+	</Node>

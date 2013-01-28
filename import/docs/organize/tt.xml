@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="ANATOMY OF THE EAR" transition="Anatomically the ear is divided into 3 parts:">
+		<Node id="EXTERNAL EAR" transition="Consists of 2 parts:">
+			<Node id="AURICLE / PINNA">
+				<Item id="Is made of elastic cartilage with skin around it."></Item>
+				<Item id="Its function is to direct sound towards the ear."></Item>
+				<Item id="Is attached to the skull via muscles ligaments."></Item>
+				<Node id="The anatomical parts of the auricle are:">
+					<Item id="tragus"></Item>
+					<Item id="antitragus"></Item>
+					<Item id="<i>concha</i>/dummy"></Item>
+					<Item id="<i>helix</i>/dummy"></Item>
+					<Item id="<i>antihelix</i>/dummy"></Item>
+					<Item id="lobule"></Item>
+				</Node>
+			</Node>
+			<Node id="EXTERNAL AUDITORY MEATUS">
+				<Item id="Is a curved tube"></Item>
+				<Item id="Lies within temporal bone."></Item>
+				<Item id="Its function is to direct sound from auricle to tympanic membrane / ear"></Item>
+				<Item id="Is covered with elastic cartilage and skin."></Item>
+				<Node id="Contains <a name='cercuminous glands' color='green'>cercuminous glands</a><br><br><br><br>(modified sebaceous / swea">
+					<Item id="<a href='#cercuminous glands' color='green'>Produce cercumen/ ear wax.</a>/dummy"></Item>
+					<Item id="<a color='green' href='#cercuminous glands'>help keep foreign objects out <br>    of the ear.</a>/dumm"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="MIDDLE EAR / TYMPANIC CAVITY">
+			<Node id="Has 3 Functions">
+				<Item id="Transmits vibration into the inner ear."></Item>
+				<Item id="Equalizes pressure between outside inside of ear to prevent rupture of<br><br>tympani"></Item>
+				<Item id="Reduces amplitude or vibration of ossicles to prevent loud noise."></Item>
+			</Node>
+			<Node id="Has 3 Communications">
+				<Node id="Posteriorly with <a name='tympanic antrum' color='red'>tympanic antrum</a>/dummy">
+					<Item id="<a href='#tympanic antrum' color='red'>Connects the middle ear with mastoid <br>    air cells</a"></Item>
+				</Node>
+				<Node id="Anteriorly with <a name='auditory tube' color='purple'>auditory tube / <br>    eustachian tube</a>/dummy">
+					<Item id="<a color='purple' href='#auditory tube'>Connects middle ear to nasopharynx to <br>    equalize the pressure in the tympanic cavity with the atmospheric pressure</a>/dummy"></Item>
+				</Node>
+				<Item id="Medially with lateral wall of the inner ear."></Item>
+			</Node>
+			<Node id="Its main components are <a name='Ossicles' color='navy'>the Ossicles</a>/dummy">
+				<Item id="<a color='navy' href='#Ossicles'>Are 3 small bones that extend across the <br>    middle ear</a>/dummy"></Item>
+				<Node id="MALLEUS ('HAMMER')">
+					<Item id="Is the largest of the 3 bones."></Item>
+					<Node id="Anatomical parts are:">
+						<Node id="Head">
+							<Item id="Head of malleus articulates with the incus."></Item>
+						</Node>
+						<Item id="Neck"></Item>
+						<Item id="Processes"></Item>
+						<Node id="Manubrium">
+							<Item id="Manubrium of malleus is attached to the tympanic membrane."></Item>
+							<Item id="Tensor tympani muscle attaches to the manubrium."></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="INCUS ('ANVIL')">
+					<Item id="Articulates with malleus stapes."></Item>
+				</Node>
+				<Node id="STAPES / STAPEDIUS ('STIRRUP')">
+					<Item id="Head of stapes articulates with incus."></Item>
+					<Item id="Base of stapes articulates with oval window via annular ligament."></Item>
+					<Item id="Stapedius muscle attaches to head of stapes."></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="INNER EAR / LABYRINTH" transition="Has 2 components">
+			<Node id="OSSEOUS LABYRINTH">
+				<Item id="Is a series of bony canals within the petrous part of temporal bone."></Item>
+				<Node id="Is lined with periosteum.">
+					<Item id="Here is a quote (&quot;)"></Item>
+				</Node>
+				<Item id="Is separated from membranous labyrinth by a fluid called the perilymph."></Item>
+				<Item id="Contains the membraneous labyrinth."></Item>
+				<Node id="Has 3 parts:">
+					<Node id="SEMICIRCULAR CANALS">
+						<Item id="Funcation: balance"></Item>
+						<Item id="Lies in 3 planes of space: posterior, lateral, anterior"></Item>
+					</Node>
+					<Node id="VESTIBULE">
+						<Item id="Function:  balance"></Item>
+						<Item id="Is medial to tympanic membrane, anterior to cochlea, posterior to <br>      semicircular cana"></Item>
+						<Item id="Anteriorly opens to scala vestibuli of cohclea, posteriorly opens to <br>    ampullae of semicircular cana"></Item>
+					</Node>
+					<Node id="COCHLEA">
+						<Item id="Function: hearing"></Item>
+						<Item id="Is anterior to vestibule."></Item>
+						<Item id="Resembles a snail shell."></Item>
+						<Node id="<a name='2 membranes' color='lime'>2 membranes</a><br>  <br>  <br>     extend across the osseous cochlea dividing it into 3 tunnel">
+							<Item id="<a href='#2 membranes' color='lime'>Vestibular / Reissner's membrane </a>/dummy"></Item>
+							<Node id="<a href='#2 membranes' color='lime'>Basilar membrane</a>/dummy">
+								<Node id="Is the site where Organ of Corti / Spiral organ rests on.">
+									<Item id="Contains the receptors for hearing."></Item>
+									<Item id="Covered on top by tectorial membrane."></Item>
+									<Node id="Consists of a series of supporting cells a series of <a name='hair cells' color='olive'><br>hair cells</a>/dummy">
+										<Item id="<a color='olive' href='#hair cells'>The hair cells are arranged in 1 row of <br>    inner hair cells 3 rows of outer hair cells.</a>/dumm"></Item>
+									</Node>
+								</Node>
+							</Node>
+							<Node id="Scala vestibuli">
+								<Item id="Contains perilymph"></Item>
+							</Node>
+							<Node id="Scala media / cochlear duct">
+								<Item id="Contains endolymph"></Item>
+							</Node>
+							<Node id="Scala tympani">
+								<Item id="Contains perilymph."></Item>
+								<Item id="Ends at the round window."></Item>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="MEMBRANOUS LABYRINTH">
+				<Item id="Is a series of sacs tubes inside the bony labyrinth."></Item>
+				<Item id="Floats in perilymph."></Item>
+				<Node id="Is filled with endolymph.">
+					<Item id="The components are as follows:"></Item>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

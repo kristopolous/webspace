@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="ANATOMY OF THE EAR" transition="Anatomically the ear is divided into 3 parts:" transitionplacement="1" transitionfontsize="2" alignment="1" arrowcolor="-3407617" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3394561" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="EXTERNAL EAR" transition="Consists of 2 parts:" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-65536" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="AURICLE / PINNA" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is made of elastic cartilage with skin around it." link="c:\tbpproto\music.xml" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Its function is to direct sound towards the ear." link="c:\tbpproto\schwab.xml" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is attached to the skull via muscles ligaments." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="The anatomical parts of the auricle are:" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="tragus" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="antitragus" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="<i>concha</i>" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="<i>helix</i>" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="<i>antihelix</i>" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="lobule" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="EXTERNAL AUDITORY MEATUS" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a curved tube" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Lies within temporal bone." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Its function is to direct sound from auricle to tympanic membrane / ear" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is covered with elastic cartilage and skin." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Contains <a color='green' name='cercuminous glands'>cercuminous glands </a>      (modified sebace" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="<a href='#cercuminous glands' color='green'>Produce cercumen/ ear wax.</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="<a href='#cercuminous glands' color='green'>help keep foreign objects out <br>    of the ear.</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="MIDDLE EAR / TYMPANIC CAVITY" alignment="1" arrowcolor="-16738048" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Has 3 Functions" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1">
+				<Item id="Transmits vibration into the inner ear." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Equalizes pressure between outside inside of ear to prevent rupture of      tympanic" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Reduces amplitude or vibration of ossicles to prevent loud noise." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Has 3 Communications" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+				<Node id="Posteriorly with <a color='red' name='tympanic antrum'>tympanic antrum</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="<a color='red' href='#tympanic antrum'>Connects the middle ear with mastoid <br>    air cells</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Anteriorly with <a color='purple' name='auditory tube'>auditory tube / <br>    eustachian tube</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="<a href='#auditory tube' color='purple'>Connects middle ear to nasopharynx to <br>    equalize the pressure in the tympanic cavity with the atmospheric pressure</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="Medially with lateral wall of the inner ear." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Its main components are <a color='navy' name='Ossicles'>the Ossicles</a>" transition="Are 3 small bones that extend across the middle ear" transitionplacement="2" transitionfontsize="1" alignment="1" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+				<Node id="MALLEUS ('HAMMER')" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Is the largest of the 3 bones." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="Anatomical parts are:" alignment="2" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+						<Node id="Head" alignment="2" arrowcolor="-10040320" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10040320" linesize="1" fontsize="1">
+							<Item id="Head of malleus articulates with the incus." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+						<Item id="Neck" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Processes" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="Manubrium" alignment="2" arrowcolor="-13382656" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13382656" linesize="1" fontsize="1">
+							<Item id="Manubrium of malleus is attached to the tympanic membrane." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="Tensor tympani muscle attaches to the manubrium." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="INCUS ('ANVIL')" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Articulates with malleus stapes." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="STAPES / STAPEDIUS ('STIRRUP')" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Head of stapes articulates with incus." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Base of stapes articulates with oval window via annular ligament." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Stapedius muscle attaches to head of stapes." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="INNER EAR / LABYRINTH" transition="Has 2 components" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-16737793" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="OSSEOUS LABYRINTH" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a series of bony canals within the petrous part of temporal bone." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is lined with periosteum." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is separated from membranous labyrinth by a fluid called the perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Contains the membraneous labyrinth." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Has 3 parts:" alignment="1" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+					<Node id="SEMICIRCULAR CANALS" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Funcation: balance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Lies in 3 planes of space: posterior, lateral, anterior" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="VESTIBULE" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Function:  balance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Is medial to tympanic membrane, anterior to cochlea, posterior to <br>      semici" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Anteriorly opens to scala vestibuli of cohclea, posteriorly opens to <br>    ampullae of semici" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="COCHLEA" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Function: hearing" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Is anterior to vestibule." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Resembles a snail shell." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="<a name='2 membranes' color='lime'>2 membranes </a>extend across the      osseous cochlea dividing it i" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="<a color='lime' href='#2 membranes'>Vestibular / Reissner's membrane </a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="<a color='lime' href='#2 membranes'>Basilar membrane</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Node id="Is the site where Organ of Corti / Spiral organ rests on." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+									<Item id="Contains the receptors for hearing." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									<Item id="Covered on top by tectorial membrane." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									<Node id="Consists of a series of supporting cells a series of <a color='olive' name='hair cells'><br>hair cells</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+										<Item id="<a href='#hair cells' color='olive'>The hair cells are arranged in 1 row of <br>    inner hair cells 3 rows of outer hair cells.</a>" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									</Node>
+								</Node>
+							</Node>
+							<Node id="Scala vestibuli" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains perilymph" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Scala media / cochlear duct" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains endolymph" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Scala tympani" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Ends at the round window." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="MEMBRANOUS LABYRINTH" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a series of sacs tubes inside the bony labyrinth." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Floats in perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Is filled with endolymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="The components are as follows:" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="test" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3">
+			<Node id="Global Edutainment, Incjhgkjgkjgkjhgkj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="afka;ljadef" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="dfaeifa" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="asdkj4ri3e" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="jds;lkjaet" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="asgdsgh" alignment="1" imagename="C:\Documents and Settings\Administrator\My Documents\My Pictures\background image information architects.jpg" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Item id="
+Fuel for the Knowledge Economy ™
+
+Overview
+Global Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" is a company in Los Angeles, California with a unique portfolio of intellectual properties geared towards transforming the learning and teaching process into an enjoyable experience" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  Most significantly, the company has developed a “visual language”-- TheBigPicture (TBP) language" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" The Big Picture language is a breakthrough in human communication with the potential to produce a major cultural revolution comparable to Gutenberg’s invention of movable type" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+There are numerous applications and usages for TBP language in diverse market segments, with potential to spin off new industries" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Perhaps the most significant initial application will be its role in helping the millions of individuals suffering from learning disabilities and Attention Deficit Syndrome (ADS)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" According to the International Dyslexia Association, 15-20% of the population has a reading disability" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Billions of dollars are spent every year by government, business, researchers, and private individuals to combat dyslexia and other pervasive learning disabilities" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  The Company promises to solve the bulk of this difficult puzzle" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+In short, text expressed in TBP language empowers readers to easily digest the content of a document- even for many who have been diagnosed with “learning disabilities”" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+
+TBP language is comprised of many pedagogical tools (e" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="g" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" graphic organizers, semantic maps) that have been subject to stringent research and have long been found by cognitive psychologists and many educators to improve comprehension and memory for both challenged and non-challenged readers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+Despite the research supporting the effectiveness of graphic representation of text, the implementation has not been without problems" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  Development of such materials tax the time of already overburdened teachers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  In addition, many teachers lack the training and experience to employ such techniques" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Even if publishers were willing to broadly include such formats in future publications, it would do little for the myriad of texts already published" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+To solve the implementation challenge of presenting text visually, numerous research companies with advanced knowledge of software technologies have been working to provide the answers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" As a result, a new field has emerged called “Information Visualization”" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" However, for the most part, the research findings remain in the labs of universities and corporate research centers around the world" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+A visual language is considerably more complex than semantic maps" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  That is, a visual language allows for complete presentation of a topic graphically without dependence of its linear text counterpart" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  Is it possible for someone to read entire textbook in sciences, mathematics, history, arts, or business in a visual language?  
+As such, the companyGlobal Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" is the first company in the world to have succeeded in developing a visual language with potential for wide spread adoption in diverse disciplines and market segments" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" TBP language has been successfully applied to thousands of pages of information including academic and general topics" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=", Iinformally tested and used by over 10,000 learners, and it has also undergone refinementsignificantly evolved over the past two decades since its inception" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+Most practically, Global Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" has developed software innovativeprocesses (6 pending patents with the first one approved) to semi-automate authoring topics in TBP language, as well as enabling anyone to processes to rapidly mass convert large quantities of existing information in their possession into TBP language easily and cost effectively" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+
+The company has successfully developed tFor example, the prototype of its software which can demonstrate the semi-automated conversion of an entire text of a science or history textbook, a training manual, a VCR manual, or even a newspaper into TBP language" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+
+The Business:
+The Company’s Company’s mission is to build a global service company that offers an online and offline access to TBP tools for producing content in TBP lLanguage" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Publishing companies may license the authoring and conversion tools to mass-produce textbooks in TBP lLanguage with various delivery options including the internet, CDs, DVD, s, hand-held devices, e-books, and print media" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Businesses may license the tools to convert training manuals, product and service literature into TBP language in order to make their content more accessible for those with reading disabilities" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Government agencies may use TBP technologies to make their vast resources of public information more accessible for diverse learners" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Educators and researchers may use TBP tools to produce lectures and curriculum in a visual language" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+Global The CompanyEdutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" has gathered a mastermind group of experienced professionals on its Advisory Board" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" This mastermind includes business executives, technology experts, educators, scientists, researchers, and other creative talentsindividuals" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" With strong support from the educational community, several investors, including Mr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Joseph Duncan, former Senior Vice President of Oracle Corporation provided the seed funding for prototype development" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Other high profileprominent individuals on the company’s Advisory Board include: 
+
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Kirstie Bellman, former Program Manager for the Department of Defense (DARPA 93-97), developed and managed the largest government funded education technology program in the U" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="S" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" with $100 M-plus budget)
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Jim Spohrer, CTO, IBM Venture Capital Relations Group
+·	Mr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Richard Saul Wurman, Chairman of TED conferences
+
+The company is now seeking a $5 mMillion of investment from visionary individuals and corporations to complete software development, establish partnership agreement with key partners, develop topics in TBP lLanguage for different market segments as case scenarios, and launch TBP authoring and conversion services" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+Vision
+Our vision is to transform the educational system across the worldglobally by:
+1" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Developing TBP tools that make learning and teaching easy;
+2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Setting the international standard in visual and interactive communication;  
+3" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Fueling the economy and creating jobs for information architects and knowledge workers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Within the next ten years we will see substantial shifts in how and where people work" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" The labor force will eventually shift away from the production and provision of physical goods and services to information technologies and services" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Information specialists and architects of the information economy will perform these jobs" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" TBP technologies may be foundational to such a shift in the labor market" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Just as manufacturing tools fueled the industrial economy, providing tools that will empower people to communicate information efficiently and effectively will drive the Information Economy" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+History
+Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Ray Emrani, Executive VP & CTO:  The Big Picture was born in the imagination of Ray Emrani in 1979" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" As a young student in Manchester, England, Ray began to experiment with ways of deconstructing linear information and re-representing the information as visual, linked diagrams in order to see how the parts related to the whole" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Later in America, for the next two decades he embarked upon a comprehensive program of independent research into education, cognition, memory, information architecture, visualization, brain structure and function, learning disabilities, psychology, interactive multimedia, Graphical User Interface, and software design" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" His passion to identify and find practical solutions to various difficulties encountered during the learning process resulted in a sweeping vision that has now been formally organized into The Big Picture Project" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Emrani holds 6 pending patents on new methods of expressing information, collaborating, and publishing paradigms" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" James J" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Showghy, President & CEO:  In 1995, Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" James Showghy joined The Big Picture project as President & CEO of Global Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" to provide the next level of investment capital needed to complete the R&D and provide business development guidance for Global Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Showghy has a long track record of successful business venture development and investment strategies" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" In 1984, as President & CEO of Beverly Hills Multispeciality Medical Group, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=", he developed an extremely successful chain of medical clinics from ground zero" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" By 1994 whenthe time he liquidated the business in 1994, the clinics had grossed over $100 million" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Prior to his business ventures, Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Showghy was a full-time professor of Clinical Psychiatry at UCLA with special interests in education and teaching" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+
+
+
+
+
+
+
+Summary of Milestones:
+
+1979-1995:  Research & Development 
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Ray Emrani conceives of the idea of presenting knowledge visually as a young student in Manchester, England in 1979" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	“TheBigPicture” Visual Language invented and refined in U" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="S" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Ray converts thousands of pages of information in diverse topics into TBP language successfully completed on large drawing papers- manually" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+·	Over 10,000 students use TBP l Language in a variety of private, group, and classroom tutoring environments" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Endorsements from researchers and educators" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Numerous academic textbook publishers including McGraw-Hills and Churchill Livingston praise TBP language but find it impractical to produce study guides using TBP language due to size and cost of production" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+1995-2000: Research & Development continues to overcome the cost structures:
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" James Showghy joins TheBigPicture project as President & CEO and investing $250 K over the next 5 years" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+·	Expanded endorsements from researchers and educators" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Software processes for authoring text in TBP Language invented" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Software processes for converting existing text to TBP language invented" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	A portfolio of related intellectual properties invented" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+·	4 Patents filed on the invented processes" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Formation of Advisory Board (see “Advisory Board” document for member profiles)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+2001-2002:  Prototype completed 
+·	 Seed funding received total of $400 K from:
+- Mr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Joseph Duncan, former Senior VP of Oracle 
+- Ms" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Marcie Polier, Founder of Entertainment Data, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+- Mr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" William Shernoff, Esq" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" of Shernoff, Bidart & Darras Law
+·	1st patent is approved by the United States Department of Commerce- this invention explains how any text can be converted semi-automatically into graphical format" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Increased network to individuals for business development" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	2 additional patents filed (total of 6 pending patents with the first one approved)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Prototype of the tool for easy and rapid communication of TBP visual language development successfully completed" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="for the first tool for easy and rapid communication of a visual language in the world
+·	IBM and Global Edutainment sign mutual NDA" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" IBM commits to developing cost structure for online hosting of TBP application" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Expected completion of cost model by January 20, 2002" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Agreement with IBM to host TBP service as an ISP provider in progress" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Cisco and Global Edutainment sign mutual NDA and commit to pilot project converting samples of Cisco technical documentation to TBP language" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Discussions with Cisco about business relationship with Global Edutainment to commence upon successful completion of pilot conversion project" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+
+The Opportunity / Size of the Market:
+Current technologies have facilitated the Internet revolution without fundamentally transforming the ways that information is presented so as to have a significant impact on the way most people learn-- visually" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" The fundamental opportunity for the future of publishing and online communication resides in defining the standards that take full advantage of the attributes of interactive digital media to facilitate learning and communication" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" According to Credit Suisse/First Boston: Equity Research "e-Learning: Power for the Knowledge Economy" March 10, 2000: 
+
+·	The educational market is estimated to be approximately $815 billion in 2000 in the United States alone and over $2 trillion worldwide" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+·	More money is spent in the United States on education than in any other industry with the exception of health care" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Annual expenditures are more than social security and defense combined" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	In 1998, education was the primary full-time occupation (including students) of approximately 75 million people in the United States, representing over 1 in 4 people" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+·	Public schools in the United States (grades K-12) spent $2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="9 billion on instructional technology in 1998" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" This amount is projected to increase to $6" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="8 billion by 2003" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	In 1998, approximately 700,000 students were enrolled in distance learning courses and this number is projected to increase to over 2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="2 million by 2002" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	The corporate e-Learning market in 1997 was $234 million but is expected to increase to $11" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="4 billion by 2003" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+Value proposition:
+
+Benefits to publishers and corporate training developers:  
+·	Extends the life cycle of current assets by transforming content into new format that more individuals can access (especially the learning disabled population)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Competitive advantage and enhanced branding over publishers who do not provide a visual language of their text" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Broadens global market opportunities due to its adaptability to different languages
+?
+Benefits to educators:
+·	Can easily be easily integrated into existing curricula" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Great Highly effective tool for classroom teaching- teachers can provide the “big picture” while exploring the details, allowing students to easily follow the lecture" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+Benefits to businesses selling products or services with complex literatures: 
+·	Companies producing products such as VCRs, dDigital vVideo cCameras, hHand held devices, cell phones, etc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" may communicate their product features and usage in an easy format to novice customers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Companies providing services such as investment, retirement, medical or legal information to lay individuals will be able to express those information more effectively" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+·	Competitive advantage and enhanced branding over companies who do not provide their products or services in a visual language format" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+TBP TECHNOLOGY REPRESENTS A POTENTIAL “KILLER APP” WITH APPLICATIONS TO DIVERSE MARKET SEGMENTS" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+Revenue sources:
+Revenue sources include:
+
+1" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Royalties from content produced in TBP language:  Revenue-sharing model will be implemented with publishers and other content providers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Subscription to TBP authoring and conversion tools:  Software rental model will be implemented with non-commercial publishers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  For example, corporate training or business communicators may subscribe to the tools for internal sharing of documents in TBP language" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+3" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Technical support:  Additional recurring revenue per month would be available for back office technical support to answer technical questions from customers" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+4" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="	Hosted Services:  Hosted services are based on subscription dollars per user per month" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  
+
+Competitive Landscape:
+From software development companies:
+Information visualization technology is emerging from research into practice" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Numerous research centers and companies all over the world are working to develop new publishing paradigms based on new ways of interacting with information" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" The Company believes that its technology is 10-20 years ahead of its competitors based on field research and publications" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" Competition is therefore likely to come from imitators and not from other proactive companies" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id=" 
+
+From content publishers:
+Based on our field research, there are no publishers who have the technology to publish material that can offer the significant benefits gained from content in TBP lLanguage" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="
+
+
+" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+	</Node>

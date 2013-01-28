@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="MARKETING PLAN" transition="will target 3 categories" transitionplacement="0" transitionfontsize="1" alignment="1" arrowcolor="-39424" arrowsize="2" backgroundcolor="-26368" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39424" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="CATEGORY I: Primary Customers" alignment="2" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-10027162" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="College students" alignment="2" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="2" fontsize="2">
+				<Item id="Group 1: Community colleges" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Group 2: Colleges (Universities, 4 year schools)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+				<Item id="Group 3: Professional schools (medical, dental, pharmacy, chiropractic, <br>    acupuncture, nursing, osteopathic, optometry, physical therapy, technical, <br>    business, and law schools)." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			</Node>
+		</Node>
+		<Node id="CATEGORY II: Secondary Customers" alignment="2" arrowcolor="-13312" arrowsize="1" backgroundcolor="-205" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13312" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Group 1: <br>College Teachers (national and international)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 2: <br>College administrators (national and international)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 3: <br>Individuals focused on effective communication" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 4: <br>Individuals focused on accessibility" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 5: <br>Individuals focused on content business" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 6: <br>Individuals focused on technology business" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		</Node>
+		<Node id="CATEGORY III: Reporters / Media" alignment="2" arrowcolor="-16724788" arrowsize="1" backgroundcolor="-10040065" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724788" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Group 1:<br>Newspaper reporters" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 2: <br>Magazine reporters" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 3: <br>Writers in journals" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 4: <br>TV reporters and talk shows" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Group 5: <br>Radio reporters" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		</Node>
+	</Node>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Protein" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold" wordwrap="off" justify="center">
+		<Node id="Are made of a.a" alignment="2" arrowcolor="-65383" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65383" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="kjkljd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="ljlkdj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jlkjd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jjlkj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="lj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jljd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="kljkdj" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="ddjljlkdjjljdjlkja" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jljdlkjlkdj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="ljljlkjd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="ljljlj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jljlkjd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="jljd" alignment="2" arrowcolor="-3342592" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3342592" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="a" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jjdlkjd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jlkjd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jlkjlkd" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Node id="jlkjd" alignment="2" arrowcolor="-256" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-256" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="kdjlkjlkdjlkja" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="ljdjljlkdj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+	</Node>

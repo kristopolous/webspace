@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="IBM Venture Capital Group" alignment="1" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="Overview" alignment="2" arrowcolor="-26368" arrowsize="1" linecolor="-26368" linesize="2" fontsize="3" fontstyle="bold">
+			<Item id="The IBM Venture Capital Group is currently building business        relationships with venture capital firms and their portfolio companies." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="The combined experience of our team of professionals covers a wide range        of competencies." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="We look forward to working together to explore new ideas and        technologies and bring world-class solutions to market." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="Attention Venture Capital Enterprises:" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="2" fontsize="3" fontstyle="bold">
+			<Item id="IBM recently reached an important milestone in our corporate history by        becoming top-ten market-cap company." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="We are one of the world's most valuable businesses because of our        commitment to technological innovation." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="IBM was offering e-business solutions long before we actually named the        phenomenon." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Today, as the world's leading e-business organization, we are driving        development of next-generation technologies for tomorrow's markets." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Node id="One of our key intitiatives is the IBM Venture Capital Group" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="Is building business relationships with many of the world's preeminent        venture capitals and their top portfolio companies." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Collaborative efforts between IBM and venture capital enterprises such        as yours result in win-win relationships." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65485" linesize="1" fontsize="1">
+					<Item id="IBM gains new insights into the marketplace and new technologies to        complement our core e-business offerings, as well as the speed and        agility that only a small company can provide." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="You benefit from our broad range of innovative technologies and        integrated solutions, global reach and services, and IBM Business        Partner offerings and experience." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="By leveraging our extensive resources, you can:" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+						<Item id="Optimize investments while reducing risks" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Accelerate time-to-market for your portfolio companies" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Attain revenue goals faster" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Gain access to new IBM research and key technologies" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Expand your portfolio companies' reach through our leading global        services organization." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Item id="Together, we can achieve more while risking less." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="We can seize important opportunities and provide innovation and        leadership for tomorrow's markets." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Above all, we can accomplish great things." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="I invite you to join us." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Gerry Mooney" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="2" fontstyle="bold">
+					<Item id="Vice President" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="IBM Venture Capital Group" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="mooneyg@us.ibm.com" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="The Team" alignment="1" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="2" fontsize="3" fontstyle="bold">
+			<Node id="Gerard M. Mooney" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="3" fontstyle="bold">
+				<Item id="Vice President" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Gerry has extensive experience in new business development." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="He has started businesses founded on technologies as diverse as display        and printing systems and DNA chips." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Prior to coming to IBM was president of a development-stage company        acquired by Hewlett-Packard." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Gerry leads the IBM Venture Capital Group in initiating and building        business relationships with the venture capital community and their        leading portfolio companies." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Phone: 1 (408) 927-1997" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Email: mooneyg@us.ibm.com" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Techologies and Strategic Insights" alignment="1" arrowcolor="-10027162" arrowsize="1" linecolor="-13369549" linesize="1" fontsize="2">
+				<Node id="Drew Clark" alignment="2" arrowcolor="-13369600" arrowsize="1" linecolor="-13369600" linesize="1" fontsize="2" fontstyle="bold">
+					<Item id="Director of Strategic and Market Intelligence" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Drew has more than 19 years of experience in software development and        technology, product marketing, and emerging business development and        strategy." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="He led several intrapreneurial initiatives that delivered many of the        first IBM e-business products and services and, more recently, IBM        knowledge management offerings." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Drew works closely with new IBM business units to keep venture capital        enterprises up to date on corporate areas of interest." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Phone: 1 (408) 463-3373" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="e-mail: alclark@us.ibm.com" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Jim Spohrer" alignment="2" arrowcolor="-16711936" arrowsize="1" linecolor="-13369600" linesize="1" fontsize="2" fontstyle="bold">
+					<Item id="Chief Technology Officer" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Jim directed the Computer Science Foundations Group at the IBM Almaden        Research Center" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Was a distinguised Scientist in Apple Computer's Advanced Technology        Group" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Holds a doctoral degree in computer science from Yale University and a        bachelor's degree in physics from MIT" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Jim currently works with existing an emerging IBM business units to        identify new technologies for the marketplace." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Phone: 1 (408) 927-1928" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="e-mail: spohrer@us.ibm.com" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="Marketing and Communications" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+				<Item id="Christine Simpson Brent" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Suzy Bauter" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Leslie Roloff" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Lisa Christine Summerville" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="Market Development / Global Coverage and Support" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+				<Item id="Wesley Hom" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Cameron Miner" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="David LaPotin" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Claudia Fan Munce" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Deborah Magid" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Linda Rindt" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Anita C. Yee" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="Geographic Contacts" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+				<Node id="Americas" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Tom L. Smith" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				</Node>
+				<Node id="Asia Pacific (AP)" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Owen Rayment" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				</Node>
+				<Node id="Europe, Middle East and Africa (EMEA)" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="David Chaffetz" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

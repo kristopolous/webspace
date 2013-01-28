@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Eathernet 10-BASE T media and topologies" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="Overview" alignment="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-10027162" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id=" In a LAN, where the star topology is used, the networking media is run from a central hub out to each device attached to the network." alignment="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="1" fontsize="1">
+				<Node id="The physical layout of the star topology resembles spokes  radiating from the hub of a wheel." alignment="2" imagename="C:\My Documents\My Pictures\Ciscostar1.bmp" imagedisplay="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="1" fontsize="1">
+					<Item id="As the graphic shows, a central point of control is used in a star <br>    topology." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="When a star topology is used, communication between devices attached to <br>    the local area network is via point-to-point wiring to the central link or <br>    hub." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="All network traffic in a star topology passes through the hub." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="How hubs talk to each other in a star topology:" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-13261" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="The hub receives frames on a port." alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+				<Item id="Then, the hub copies and transmits (repeats) the frame to all of the other <br>    ports." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id=" The hub can be either active or passive" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="1">
+				<Node id="Active hub:" alignment="2" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+					<Item id=" An active hub connects the networking media  as well as regenerates the signal" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id=" By regenerating the signal, active hubs enable data to  travel over greater distances" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Passive hub:" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+					<Item id=" A passive hub is a device used to connect networking media and does not regenerate a signal" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Item id=" In Ethernet where hubs act as multiport repeaters, they are sometimes referred to as concentrators" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="What are the advantages and disadvantages of star topology?" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1216143" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="5 Advantages of star topology:" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="2" fontsize="2">
+				<Node id="1) Star topology is considered the easiest to design and install." alignment="2" arrowcolor="-52480" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52480" linesize="1" fontsize="1">
+					<Item id=" This is due to the networking media being run directly out from a central hub to each workstation  area" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="2) Another advantage is its ease of maintenance" alignment="2" arrowcolor="-52429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="1" fontsize="1">
+					<Item id="This is because the only area of concentration is located at the hub." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="3) In a star topology, the layout used for the networking media is easy to <br>    modify and troubleshoot." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="4) Workstations can be easily added to a network employing a star topology." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="5) If one run of networking media is broken or shorted, then only the <br>    device attached at that point is out of commission, the rest of the LAN <br>    will remain functional." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="In summary:" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="A star topology means greater reliability" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="2 disadvantages of star topology" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="2" fontsize="2">
+				<Item id="In some ways a star topology's advantages can also be considered disadvantages" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="1) For example, while limiting one device per run of networking media can <br>    make diagnosis of problems easier, it also increases the amount of <br>    networking media required, which adds to the setup costs." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) And, while the hub can make maintenance easier, it represents a single <br>    point of failure (if the hub breaks, everyone's network connection is <br>    lost)." alignment="1" imagename="C:\My Documents\My Pictures\CiscostarTIA.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="TIA/EIA-568-A Star topology specifications" alignment="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-3368449" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Physical layout specification" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="2">
+				<Node id="TIA/EIA-568-A specifies that the physical layout, or topology that is to <br>    be used for horizontal cabling, must be a star topology." alignment="2" imagename="C:\My Documents\My Pictures\Ciscoimage3.bmp" imagedisplay="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Node id="This means the mechanical termination for each telecommunications outlet / <br>    connector is located at the patch panel in the wiring closet." alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+						<Item id="Every outlet is independently and directly wired to the patch panel." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="Cable length specification" alignment="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="2">
+				<Node id="For cable run" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Item id="The TIA/EIA-568-A specification, for the maximum length of horizontal <br>    cabling for unshielded twisted pair cable, is 90 m." alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage4.bmp" imagedisplay="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="For patch cord" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Item id="The maximum length for patch cords at the telecommunications  outlet/connector is 3 m, and the maximum length for patch cords/jumpers at the horizontal cross-connect is 6 m. " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Note" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Node id="The maximum distance for a run of horizontal cabling, that extends from the hub to any workstation, is 100 m." alignment="2" imagename="C:\My Documents\My Pictures\Ciscoimage5.bmp" imagedisplay="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+						<Item id="(actually 99 m. but it is commonly rounded up to 100 m.)" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="This figure includes  the 90 meters for the horizontal cabling, the 3 meters for the patch cords, and the 6 meters for the jumpers at the horizontal cross-connect" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id=" Horizontal cabling runs in a star topology radiate out  from the hub, much like the spokes of a wheel" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id=" This means that a LAN that uses a star topology could cover the area of a circle with a radius of 100 m" alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage6.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Case scenario of TIA/EIA-568-A specification:" alignment="1" arrowcolor="-6724096" arrowsize="1" backgroundcolor="-2902402" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6724096" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="The challenge:" alignment="2" arrowcolor="-6724096" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6724096" linesize="1" fontsize="2">
+				<Item id="There will be times when the area to be covered by a network will exceed the TIA/EIA-568-A specified maximum length that a simple star topology can accommodate" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" For example, envision a  building where the dimensions are 200 m x 200 m" alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage7.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  A simple star topology that adhered to the horizontal cabling standard specified by TIA/EIA-568-A could not provide complete coverage for  that building" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Understanding the challenge:" alignment="2" arrowcolor="-6724096" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6724096" linesize="1" fontsize="2">
+				<Item id="As indicated in the Figure , workstations E, F, and C are located outside the area that can be covered by a star topology that adheres to TIA/EIA-568-A specifications" alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage8.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" As shown, they are not  part of the local area network" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" So users at these workstations wanting to send, share, and receive files, would have to use sneakernet" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" Because no one wants to return to the days of sneakernet,  some cable installers are tempted to solve the problem of a star topology's inadequate coverage by extending the length of the networking media beyond the TIA/EIA-568-A specified maximum  length" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Why the problem occurs:" alignment="2" arrowcolor="-6724096" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6724096" linesize="1" fontsize="2">
+				<Item id="  When signals first leave a transmitting station, they are clean and easily recognizable" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" However, the longer the cable length, the weaker and more deteriorated the signals become as they pass  along the networking media" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" If a signal travels beyond the specified maximum distance, there is no guarantee that when it reaches a NIC card, the NIC card will be able to read it" alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage9.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="The solution:" alignment="2" arrowcolor="-6724096" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6724096" linesize="1" fontsize="2">
+				<Item id=" If a star topology cannot provide enough coverage for an area to be networked, the network can be extended through the use of internetworking devices that do not result in attenuation of the  signal" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" This resulting topology is designated as an extended star topology" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" By using repeaters, the distance over which a network can operate is extended" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" Repeaters take in weakened signals,  regenerate and retime them, and send them back out onto the network" alignment="1" imagename="C:\My Documents\My Pictures\Ciscoimage91.bmp" imagedisplay="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+	</Node>

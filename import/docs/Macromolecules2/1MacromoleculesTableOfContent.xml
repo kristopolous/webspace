@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="BIOLOGY" alignment="2" arrowcolor="-16777216" arrowsize="1" backgroundcolor="-16777216" foregroundcolor="-1" initialexpanded="1" linecolor="-16777216" linesize="3" fontsize="3" fontstyle="bold" wordwrap="off" justify="left">
+		<Node id="CH.1 Macromolecules" transition="There are 4 types" transitionplacement="1" transitionfontsize="1" alignment="2" arrowcolor="-3407872" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407872" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="Proteins" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="Lipids" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="Carbohydrates" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="Nucleic Acids" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+		</Node>
+		<Node id="CH.2 Stoichiometry" transition="there are 5 types" transitionplacement="1" transitionfontsize="1" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="left">
+			<Item id="ble" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="jlkj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="lk" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+			<Item id="Jlkj" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="left"></Item>
+		</Node>
+		<Item id="CH.3 Light" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+		<Item id="CH.4 Lewis Dot" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+		<Item id="CH.5 VESPER" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+		<Item id="CH. 6 Gases" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+		<Item id="CH.7 Liquids" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+		<Item id="CH.8 Solids" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="on" justify="left"></Item>
+	</Node>

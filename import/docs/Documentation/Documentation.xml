@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Documentation" alignment="2" arrowcolor="-10066177" arrowsize="1" backgroundcolor="-6710785" foregroundcolor="-1" initialexpanded="1" linecolor="-10066177" linesize="1" fontsize="3" fontstyle="bold" wordwrap="off" justify="left">
+		<Item id="1. Business Objective" link="C:\Viz Docs\Documentation\BusinessStrategy.xml" alignment="1" arrowcolor="-6710785" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6710785" linesize="2" fontsize="2" wordwrap="off" justify="left"></Item>
+		<Item id="2. Technical Overview" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2" wordwrap="off" justify="left"></Item>
+		<Node id="3. Feature list" alignment="1" arrowcolor="-39424" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-39424" linesize="1" fontsize="2" wordwrap="on" justify="left">
+			<Item id="Completed" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			<Node id="To Do" alignment="1" arrowcolor="-39424" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-39424" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="Level 1" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+				<Item id="Level 2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+				<Item id="Level 3" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+				<Item id="Level 4" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+			</Node>
+			<Item id="Bugs and Errors" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center"></Item>
+		</Node>
+	</Node>

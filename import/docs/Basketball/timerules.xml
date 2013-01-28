@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Time Rules">
+		<Node id="30 seconds">
+			<Item id="the team in control of the ball must make a try for basket w/ in 30        seconds of having gained control."></Item>
+		</Node>
+		<Node id="20 seconds">
+			<Item id="Substitutions must not take more than 20 seconds, regardless of the number      of substitutions effected by one team.  If more time is taken it is      charged as a time-out to the offending team."></Item>
+		</Node>
+		<Node id="10 seconds">
+			<Item id="when a team gains control of the ball in its back court it must cause the      ball to go into the front court w/ in 10 seconds."></Item>
+			<Node id="<a color='red' name='player'>Note ==> a player must not cause the ball to go      into his team's back court when he is in the front court. </a>/dummy">
+				<Item id="<a color='red' href='#player'>This applies to all situations including      throw-in from out-of-bounds, rebounds, interceptions. It does not apply,      however, to a jump ball at the center circle, or the other situation when      a team has a throw-in from out-of bound from the mid-point on the side      line when the captain uses his option of taking possession instead of free      throws, or following a coach technical foul. </a>/dummy"></Item>
+			</Node>
+		</Node>
+		<Node id="5 seconds">
+			<Item id="On a throw-in from out-of-bounds a player must w/ in 5 sec throw, bounce        or roll the ball to another player w/ in the court."></Item>
+			<Node id="When the ball has been placed at the disposal of a player to attempt a      free throw, he must throw the ball w/ in <a color='yellow' name='5 sec'>5      sec</a>/dummy">
+				<Item id="<a color='yellow' href='#5 sec'>the 5 sec is started when the ball is at the      disposal of the player finishes when he releases the ball or whistle is      blown because he has exceeded the 5 sec. </a>/dummy"></Item>
+			</Node>
+		</Node>
+		<Node id="3 seconds">
+			<Item id="A player shall not remain in his opponents' restricted area for more than      3 sec when he or his team has control of the ball.  ==> this restriction      is in force for all out-of bounds situations, but does not apply while the      ball is in the air on a try for goal or during a rebound from the back      board."></Item>
+			<Item id="Exception ==> when a player has been in the restricted area for less than      3 seconds dribbles in to shoot for goal."></Item>
+		</Node>
+	</Node>

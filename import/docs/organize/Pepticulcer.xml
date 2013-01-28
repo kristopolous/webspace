@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="The Role of Nutrient Essential Fatty Acids in Gastric Mucosal Protection" alignment="1" arrowcolor="-16738048" arrowsize="2" linecolor="-16738048" linesize="3" fontsize="2" fontstyle="bold,italic">
+		<Node id="1. INTRODUCTION" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="2" fontsize="1" fontstyle="bold">
+			<Item id="Diet therapy and nutritional manipulation have fallen into disfavor in        the management of peptic ulcer disease." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Node id="Before the advent of potent antacids and H-receptor antagonists, diet        therapy for patients with ucler disease was very important." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="Patients were instructed to to follow complicated rigid schemes designed        to eliminate irritating foods." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Patients became dietary and social cripples and were often sentenced to        a lifelong adherence to dietary restriction." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Fortunately, these days are over." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="Dietary therapy fell into oblivion because it did not work and because        effective drugs appeared on the market." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="We certainly would not want to return to those good old days, ..." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="but, recent studies from our laboratory have raised the possibility that        specific dietary factors can be extremently effective in preventing        mucosal injury by alcohol, aspirin, and perhaps other irritants." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="These protective dietary factors are the two essential fatty acid --        arachidonic and linoleic and related fatty acids." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="2. DIETARY PRECURSORS OF PROSTANOID SYNTHESIS" alignment="2" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="2" fontsize="1" fontstyle="bold">
+			<Node id="The gastroduodenal mucosa and most other tissues synthesize prostanoids        from arachidonic or linoleic acids." alignment="1" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="2" fontsize="1">
+				<Item id="Normally, arachidonic acid is stored in cell membranes as a phospholipid." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Background endogenous synthesis of prostaglandins (PG) is derived from        the circulating methabolic pool of essential fatty acids (EFA)." alignment="1" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Node id="The most common dietary EFA is linoleic acid." alignment="1" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="Linoleic acid is present in significant amounts in vegetable oils such        as corn or safflower oil." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Node id="Stimulated synthesis of PG (such as trauma or irritation) comes from the        cell membrane pool." alignment="1" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="In this process, the enzyme phospholipase A releases arachidonic acid        from the cell membrane and provides the fatty acid for prostanoid        synthesis through the cyclo-oxygenase or lipoxygenase pathways." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Prostanoids can also be synthesized from fatty acids not usually found        in the Western diet." alignment="1" arrowcolor="-16777012" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="Evening primrose oil is rich in linoleic acid, which can be converted to        PG." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Omego-3 fatty acids are fatty acids found in fish oils that can be        converted predominantly into biologically inactive thromboxanes but        biologically active prostaglandins (the PGI series)." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Item id="3. PROTECTIVE ACTIVITY OF DIETARY ESSENTIAL FATTY ACIDS AGAINST ACUTE        INJURY" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="4. ADVANTAGES OF DIETARY ESSENTIAL FATTY ACIDS OVER SYNTHETIC        PROSTAGLANDINS" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="5. MUCOSAL PROTECTIVE EFFECT OF CHRONIC FEEDING OF DIETARY ESSENTIAL        FATTY ACIDS" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="6. EFFECT OF DIETARY ESSENTIAL FATTY ACIDS ON HUMAN GASTRIC MUCOSA" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="7. DIETARY ESSENTIAL FATTY ACIDS AND THE EPIDEMIOLOGY OF PEPTIC ULCER        DISEASE" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="8. CONCLUSIONS AND FUTURE DIRECTIONS" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+		<Item id="ANNOTATED BIBLIOGRAPHY" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="bold"></Item>
+	</Node>

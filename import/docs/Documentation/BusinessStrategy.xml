@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Business Objectives &amp; Strategy" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold" wordwrap="off" justify="center">
+		<Node id="Thinking out loud:" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3" wordwrap="off" justify="center">
+			<Node id="What we do know" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="We do know that the software has to be further developed. We don't have<br>the <br>    viewer and we don't have the writer or converter. WE cannot do<br>research <br>    or partner or do anything until the viewer, writer are developed." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="center"></Item>
+			</Node>
+			<Node id="What we don't know" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="But how far do u take it?  Do you need the context or is it a luxury?  Do you need a top portions to see business context?  Do you need various versions… content business vs tools business?  How far do you take it?  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="center"></Item>
+			</Node>
+			<Node id="Conclusion" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="off" justify="center">
+				<Item id="SINCE WE CANNOT PREDICT, WE NEED TO HAVE A MULTI-PURPOSE TOOL… It would have to be good enough for research, for partnership and for VC attraction.  SO, it must be as realistic as possible and even incorporate the browser.  " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1" wordwrap="on" justify="center"></Item>
+			</Node>
+		</Node>
+	</Node>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Fouls" transition="2 types" transitionplacement="1" transitionfontsize="2" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-65536" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="Personal fouls" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3368449" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2">
+			<Item id="is a player foul which involves contact w/ an oppoent" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Node id="there are several <a name='points' color='red'>points</a> that need to be      considered for determining personal foul" alignment="1" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737895" linesize="2" fontsize="1">
+				<Item id="<a href='#points' color='red'>these points / rules give special protection to      a player taking a shot even contact w/ the hand of the shooter is      penalized w/ a foul. </a>/dummy" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Point 1" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Item id="It is the duty of every player on court to avoid contact ==> If contact      occurs, a personal foul is awarded against the player whom the official      considers to be primarily responsible." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Point 2" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Node id="<a name='every player' color='green'>Every player on court is entitled to      occupy any part of the court not occupied by an opponent, provided that he      does not cause any personal contact in obtaining that position. </a>/dummy" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="<a href='#occupied' color='blue'>Note: a player is considered to occupy not      only the part of the floor covered by his feet, but, in addition a" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="<a href='#every player' color='green'>If a player is extending his arm or leg      outside his cylinder causes contact, then he is responsible for that      contact. </a>/dummy" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="Note:  ==> It is legal for a player to extend his arm or leg, but should      an opponent wish to move by, then the extended limb must be withdrawn." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="Point 3" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Node id="When players are stationary, it is relatively easy for a referee to make a      correct judgement as to which player is responsible for any contact that      may occur, but it is more difficult when the players are moving. The rules      of the game differentiate between a <a name='dribbler' color='aqua'>     dribbler</a> a player who does not have the bal" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Node id="<a href='#dribbler' color='aqua'>the dribbler</a>/dummy" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="is expected to be in full control be able to stop, change direction,      pass or shoot in a split second." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="should expect that defenders will move into his path at any time should      be prepared to take any action necessary to avoid contact." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="until the dribbler gets his head shoulders past the opponent the greater      responsibility for contact remains w/ the dribbler." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="Point 4" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Node id="when defending against a player who does not have the ball, the defender      must give a moving opponent time distance in which to stop or change      direction." alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="A player must not move into the path of an opponent w/ out the ball so      quickly that he cannot stop or change direction." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Node id="Point 5" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Item id="A player may not contact an opponent w/ his hand, unless such contact is      only w/ the opponent's hand while it is on the ball is incidental to an      attempt to play the ball." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Technical fouls" alignment="2" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3368449" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+			<Item id="Is an infringement against the spirit of the rules or the use of      unsportsman-like tactics." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+	</Node>

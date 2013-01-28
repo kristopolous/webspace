@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Rules during the play" transition="a player may either">
+		<Node id="catch / pass / shoot / control the ball" transition="a player may">
+			<Item id="shoot & score from any point in the court w/ either or both hands."></Item>
+			<Item id="control the ball by pivoting w/ the ball in his hands ==> therefore ==>        he can step once or move in any direction w/ one foot while turning on        the other, which must stay on the floor at its point of contact."></Item>
+			<Item id="pass the ball w/ either or both hands (but may not hit the ball w/ fist or      foot on purpose)"></Item>
+		</Node>
+		<Node id="progress / move w/ the ball" transition="2 way to progress w/ the ball">
+			<Node id="progressing by taking a pace / step">
+				<Item id="if the ball was received while standing still ==> then ==> a player may      carry the ball for one complete pace => but, not for 2 or more paces."></Item>
+				<Item id="if the ball was received on the run ==> then ==> a player may carry the      ball for one pace.  => i.e => a step w/ one foot & then a step w/ the      other foot before passing or shooting."></Item>
+			</Node>
+			<Node id="progressing by running w/ the ball ==> "dribbling"">
+				<Item id="bouncing the ball to the ground w/ one hand (can alternate between the two      hands)"></Item>
+			</Node>
+		</Node>
+	</Node>

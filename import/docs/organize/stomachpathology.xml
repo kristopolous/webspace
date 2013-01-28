@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Pathology of stomach" transition="3 basic types" transitionplacement="1" alignment="1" arrowcolor="-16737997" arrowsize="2" linecolor="-16738048" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="Inflammations" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="3" fontsize="3" fontstyle="bold">
+			<Node id="Acute Gastritis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="2" fontsize="3" fontstyle="bold">
+				<Item id="is a very common lesion" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="not a serious condition" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="majority of cases are nonspecific inflammatory lesions" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="etiology" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="aspirin" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="alcohol consumption" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="bacterial infection" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="food poisoning" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="stress" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="systemic diseases such as uremia" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="types" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-52480" linesize="1" fontsize="1">
+					<Item id="hemorrhage with inflamatory lesions" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="erosions.. acute erosive gastritis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="acute fibrous gastritis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="acute purulative gastritis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="clinical symptoms" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="something moving in stomach" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="epigastric pain" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="nausea" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="vomitting" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="hemoptysis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="dehydration due to vomitting" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="but, if agent goes away, we don't see much" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Item id="Chronic Gastritis" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold"></Item>
+		</Node>
+		<Item id="Ulcers" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold"></Item>
+		<Item id="Neoplasms" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold"></Item>
+	</Node>

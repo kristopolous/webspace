@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<head>
+		<Item>[has]</Item>
+		<eyes>
+			<Item>[has]</Item>
+			<cornea>
+				<Item>very pretty and has enormous potential for harm</Item>
+				<Item>very good for seeing</Item>
+				<Item>Is nice</Item>
+			</cornea>
+		</eyes>
+		<Item>nose</Item>
+		<mouth>
+			<Item>[wants]</Item>
+			<food>
+				<eats2>
+					<Item>meals per day</Item>
+				</eats2>
+			</food>
+		</mouth>
+	</head>

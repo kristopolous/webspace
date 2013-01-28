@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="More rules on progressing w/ the ball" alignment="1" arrowcolor="-39424" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39424" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="rules for dribbling" alignment="1" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="2" fontsize="2">
+			<Node id="beginning the dribble" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="2">
+				<Item id="when a player wants to advance the ball by dribbling, he may begin a      dribble by tossing the ball into the air touching it again before it      hits the floor, thereafter it must always touch the floor before he      touches it again." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="ending the dribble" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="2">
+				<Node id="the dribble ends when the player touches the ball w/ both hands at once or      allows it to rest in either or both hands. ==> once ending the dribble, he      may not begin another dribble until he has" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Item id="taken a shot OR" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="passed to another player" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="to reach to the stage of touching the ball w/ both hands (i.e. ==> ending      the dribble), the player must stop by taking <a name='2 steps' color='red'>     2 steps</a>/dumm" alignment="2" arrowcolor="-3407668" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407668" linesize="1" fontsize="1">
+					<Item id="<a href='#2 steps' color='red'>one w/ each foot</a>/dumm" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="rules for stopping then pivoting when carring the ball" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="2" fontsize="1">
+			<Node id="these <a color='blue' name='rules'>rules</a> are defined by a 2 count ryt" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="2" fontsize="1">
+				<Node id="<a color='blue' href='#rules'>rule 1</a>" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+					<Item id="a player who receives the ball while standing still may pivot using either      foot as the pivot foot" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="rule 2" alignment="2" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+					<Node id="A player who receives the ball while standing still, or who comes to a      legal stop while holding the ball <a color='green' name='may'>may</a>/dummy" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+						<Item id="<a href='#may' color='green'>lift the pivot foot OR jump when he throws for      goal or passes, but the ball must leave his hands before one or both feet      again touch the floor. </a>/dumm" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="<a href='#may' color='green'>not lift the pivot foot, in starting a dribble      before the ball leaves his hands. </a>/dumm" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Node id="<a color='blue' href='#rules'>rule 3</a>" alignment="2" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+					<Node id="A player who receives the ball while he is progressing or upon competion      of a dribble may use a <a name='2 count' color='purple'>2 count</a> rythm      in coming to a stop or getting rid of the ball" alignment="2" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+						<Node id="<a color='purple' href='#2 count'>1st count</a>" alignment="2" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+							<Node id="1st count occurs as" alignment="1" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+								<Item id="the player receives the ball if either foot is is touching the floor at      the time he receives it. OR" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="either foot touches the floor simultaneously after he receives the ball,      if both feet are off the floor when he receives it." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+						<Node id="<a color='purple' href='#2 count'>2nd count</a>" alignment="2" arrowcolor="-3355648" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355648" linesize="1" fontsize="1">
+							<Item id="2nd count occurs when (after count of one) either foot touches the floor      or both feet touch the floor simultaneously." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="Note ==> when a player comes to a legal stop, if one foot is in advance of      the other, he may pivot, but only on the one count foot (usually the rear)." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

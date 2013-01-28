@@ -18,6 +18,32 @@
         </div>
     </form>
 </div>
+<div id='document'></div>
+<script id="Aside" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+<script id="Category" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+<script id="Intro" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+<script id="Description" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+<script id="Path" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+<script id="Procedure" type="text/template">
+  <span class="label"><%= label %></span>
+  <span class="content"><%= content %></span>
+</script>
+
 <script id="bookTemplate" type="text/template">
     <img src="<%= coverImage %>"/>
     <ul>
@@ -32,6 +58,8 @@
 <script src="js/_inject.js"></script>
 <script src="js/underscore.js"></script>
 <script src="js/backbone.js"></script>
+<script src="js/lib.js"></script>
+<script src="js/view/html.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

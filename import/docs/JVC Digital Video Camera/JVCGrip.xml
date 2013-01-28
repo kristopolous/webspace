@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Grip Adjustment" transition="3 steps " transitionplacement="1" transitionfontsize="1" alignment="2" imagename="C:\My Documents\My Pictures\JVC images\JVC 10.1.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2" fontstyle="bold">
+		<Item id="1) Separate the Velcro strip." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Item id="2) Pass your right hand through the loop and grasp the grip." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Node id="3) Adjust your tomb and fingers through the grip, to easily operate the <br>    following bottons..." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+			<Item id="Recording Start / Stop button" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Power Switch" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Power Zoom Lever" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Item id="Be sure to fasten the Velcro strip to your preference." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2"></Item>
+	</Node>

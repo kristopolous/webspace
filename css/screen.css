@@ -62,3 +62,10 @@ body {
     font-size:0;
     line-height:0;
 }
+
+#books { display: none }
+
+.Category { 
+background: #aaf;
+border: #000
+}

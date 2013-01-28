@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="ANATOMY OF THE EAR" transition="Anatomically the ear is divided into 3 parts:" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-3407617" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3394561" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="EXTERNAL EAR" transition="Consists of 2 parts:" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-65536" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="AURICLE / PINNA" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is made of elastic cartilage with skin around it." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+				<Item id="Its function is to direct sound towards the ear." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+				<Item id="Is attached to the skull via muscles ligaments." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+				<Node id="The anatomical parts of the auricle are:" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="tragus" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+					<Item id="antitragus" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+					<Item id="<i>concha</i>/du" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+					<Item id="<i>helix</i>/du" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+					<Item id="<i>antihelix</i>/du" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+					<Item id="lobule" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-6750208" foregroundcolor="-1" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="EXTERNAL AUDITORY MEATUS" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a curved tube" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Lies within temporal bone." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Its function is to direct sound from auricle to tympanic membrane / ear" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is covered with elastic cartilage and skin." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Contains <a color='green' name='cercuminous glands'>cercuminous glands </a>      (modified sebace" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="<a href='#cercuminous glands' color='green'>Produce cercumen/ ear wax.</a>/dum" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="<a href='#cercuminous glands' color='green'>help keep foreign objects out <br>    of the ear.</a>/d" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="MIDDLE EAR / TYMPANIC CAVITY" alignment="1" arrowcolor="-16738048" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Has 3 Functions" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1">
+				<Item id="Transmits vibration into the inner ear." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Equalizes pressure between outside inside of ear to prevent rupture of      tympanic" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Reduces amplitude or vibration of ossicles to prevent loud noise." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Has 3 Communications" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+				<Node id="Posteriorly with <a color='red' name='tympanic antrum'>tympanic antrum</a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="<a color='red' href='#tympanic antrum'>Connects the middle ear with mastoid <br>    air cells</a>/dum" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Anteriorly with <a color='purple' name='auditory tube'>auditory tube / <br>    eustachian tube</a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="<a href='#auditory tube' color='purple'>Connects middle ear to nasopharynx to <br>    equalize the pressure in the tympanic cavity with the atmospheric pressure</a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="Medially with lateral wall of the inner ear." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Its main components are <a color='navy' name='Ossicles'>the Ossicles</a>/du" transition="Are 3 small bones that extend across the middle ear" transitionplacement="2" transitionfontsize="1" alignment="1" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+				<Node id="MALLEUS ('HAMMER')" alignment="1" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Is the largest of the 3 bones." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="Anatomical parts are:" alignment="1" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+						<Node id="Head" alignment="2" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+							<Item id="Head of malleus articulates with the incus." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+						<Item id="Neck" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Processes" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="Manubrium" alignment="2" arrowcolor="-13395712" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1">
+							<Item id="Manubrium of malleus is attached to the tympanic membrane." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Item id="Tensor tympani muscle attaches to the manubrium." alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						</Node>
+					</Node>
+				</Node>
+				<Node id="INCUS ('ANVIL')" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13395712" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Articulates with malleus stapes." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="STAPES / STAPEDIUS ('STIRRUP')" alignment="2" arrowcolor="-16738048" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="1" fontsize="1" fontstyle="bold">
+					<Item id="Head of stapes articulates with incus." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Base of stapes articulates with oval window via annular ligament." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Stapedius muscle attaches to head of stapes." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="INNER EAR / LABYRINTH" transition="Has 2 components" transitionplacement="1" transitionfontsize="1" alignment="1" arrowcolor="-16737793" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="OSSEOUS LABYRINTH" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a series of bony canals within the petrous part of temporal bone." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is lined with periosteum." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Is separated from membranous labyrinth by a fluid called the perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Contains the membraneous labyrinth." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Has 3 parts:" alignment="1" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+					<Node id="SEMICIRCULAR CANALS" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Funcation: balance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Lies in 3 planes of space: posterior, lateral, anterior" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="VESTIBULE" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Function:  balance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Is medial to tympanic membrane, anterior to cochlea, posterior to <br>      semici" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Anteriorly opens to scala vestibuli of cohclea, posteriorly opens to <br>    ampullae of semici" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="COCHLEA" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1">
+						<Item id="Function: hearing" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Is anterior to vestibule." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Resembles a snail shell." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Node id="<a name='2 membranes' color='lime'>2 membranes </a>extend across the      osseous cochlea dividing it i" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+							<Item id="<a color='lime' href='#2 membranes'>Vestibular / Reissner's membrane </a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							<Node id="<a color='lime' href='#2 membranes'>Basilar membrane</a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Node id="Is the site where Organ of Corti / Spiral organ rests on." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+									<Item id="Contains the receptors for hearing." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									<Item id="Covered on top by tectorial membrane." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									<Node id="Consists of a series of supporting cells a series of <a color='olive' name='hair cells'><br>hair cells</a>/du" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+										<Item id="<a href='#hair cells' color='olive'>The hair cells are arranged in 1 row of <br>    inner hair cells 3 rows of outer hair cells.</a>/d" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+									</Node>
+								</Node>
+							</Node>
+							<Node id="Scala vestibuli" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains perilymph" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Scala media / cochlear duct" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains endolymph" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+							<Node id="Scala tympani" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+								<Item id="Contains perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								<Item id="Ends at the round window." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="MEMBRANOUS LABYRINTH" alignment="2" arrowcolor="-16737793" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737793" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Is a series of sacs tubes inside the bony labyrinth." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Floats in perilymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Is filled with endolymph." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="The components are as follows:" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+	</Node>

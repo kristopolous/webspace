@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Origin / history of the game" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3">
+		<Node id="started in 1891 by <a name='James' color='red'>Dr. James Naismith</a>" alignment="1" imagename="C:\Documents and Settings\Administrator\Desktop\The Big Picture Documents\Basketball\Basketball images\basketinventor.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+			<Item id="<a href='#James' color='red'>came up w/ the game when he was a student at <br>    YMCA training college at Springfiel, Mass., USA </a>" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		</Node>
+		<Item id="the game 1st came into olympiad in 1936 is now an olympic sport for men <br>    women" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+	</Node>

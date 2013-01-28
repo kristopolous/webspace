@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Shoulder Strap Attachment" alignment="2" imagename="C:\My Documents\My Pictures\JVC images\JVC 10.3.bmp" imagedisplay="1" imagedisplayscale="60" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold">
+		<Item id="1) Make sure the battery pack is removed. Following the illustration, <br>    thread the strap through the eyelet" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16448256" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2"></Item>
+		<Item id="2) then fold it back and thread it through the buckle" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777211" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2"></Item>
+		<Item id="3) Repeat the procedure to attach the other end of the strap to the <br>      other eyelet located under the Grip Strap." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777210" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2"></Item>
+	</Node>

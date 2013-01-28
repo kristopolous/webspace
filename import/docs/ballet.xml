@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Tree of News" alignment="1" arrowcolor="-39424" arrowsize="2" backgroundcolor="-13261" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39424" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="News papers" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52480" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="3" fontsize="3" fontstyle="bold">
+			<Item id="LA Times" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="NY Times" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Fortune" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Wall Street" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		</Node>
+		<Node id="Magazines" alignment="2" arrowcolor="-10066432" arrowsize="1" backgroundcolor="-3355648" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10066432" linesize="3" fontsize="3" fontstyle="bold">
+			<Item id="Reader's Diegest" link="c:\tbpproto\education.xml" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2"></Item>
+			<Item id="Times" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+			<Item id="Cars" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		</Node>
+	</Node>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="JVC Digital Video Camera" transition="There are 5 sections to help you with your new JVC Digital Video Camera" transitionplacement="1" transitionfontsize="2" alignment="1" arrowcolor="-26368" arrowsize="2" backgroundcolor="-13312" foregroundcolor="-16777216" initialexpanded="1" linecolor="-26368" linesize="2" fontsize="3" fontstyle="bold">
+		<Node id="Getting Started" alignment="2" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13434625" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Power" link="c:\tbpproto\JVCpower.xml" alignment="1" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Grip Adjustment" link="c:\tbpproto\JVCGrip.xml" alignment="2" arrowcolor="-3394561" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407617" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Viewfinder Adjustment" link="c:\tbpproto\JVCViewfinder.xml" alignment="2" arrowcolor="-16724788" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724788" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Shoulder Strap Attachment" link="c:\tbpproto\JVCshoulderstrap.xml" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Tripod Mounting" alignment="2" arrowcolor="-26164" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39220" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Date / Time Settings" alignment="2" arrowcolor="-6684775" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10027162" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Loading / Unloading A Cassette" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737895" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Recording Mode Setting" alignment="2" arrowcolor="-52429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Loading A Memory Card" alignment="2" arrowcolor="-10092289" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10092289" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Picture Quality Mode Setting" alignment="2" arrowcolor="-16737844" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737844" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+		<Node id="Video" alignment="1" arrowcolor="-52480" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52480" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Video Recording" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="1" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Basic Recording" alignment="2" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Journalistic Shooting" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Self-Recording" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Operation Mode" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Zooming" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Video Light" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Time Code" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="Video Playback" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="1" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Still Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Shuttle Search" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Frame-By-Frame Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Connections" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Blank Search" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+		</Node>
+		<Node id="Digital Still Camera (D.S.C.)" alignment="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="D.S.C. Recording" alignment="1" arrowcolor="-13382656" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="1" linecolor="-13382656" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Basic Shooting (Snapshot)" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="D.S.C. Playback" alignment="2" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Auto Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="INDEX Screen" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Index Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Jump Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Protecting Images" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Deleting Images" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Setting Print Information" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Initializing A Memory Card" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+		</Node>
+		<Node id="Advanced Features" alignment="2" arrowcolor="-6711040" arrowsize="1" backgroundcolor="-3355648" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6711040" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="For Recording" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Using the menud for detailed adjustment" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Dubbing" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Using the remote control unit" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="System conections" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+		<Node id="References" alignment="2" arrowcolor="-3394561" arrowsize="1" backgroundcolor="-2316552" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3394561" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Details" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Troubleshooting" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="User maintenance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Index" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Cautions" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Terms" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Specifications" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+	</Node>

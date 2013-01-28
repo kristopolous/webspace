@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Names for data at each layer of the OSI model" alignment="1" arrowcolor="-16738048" arrowsize="2" backgroundcolor="-3342439" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16738048" linesize="2" fontsize="3" fontstyle="bold">
+		<Node id="How data layers communicate (peer-to-peer):" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="In order for data packets to travel from the source to the destination, <br>    each layer of the OSI model at the source must communicate with its peer <br>    layer at the destination." alignment="1" imagename="C:\\Viz Docs\Cisco\cisco images\cisco image 2.gif" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+				<Node id="This form of communication = Peer-to-Peer Communications." alignment="1" imagename="C:\My Documents\My Pictures\ciscop2p.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2">
+					<Node id="During this process, each layer's protocol exchanges information between <br>      peer layers." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="This information is called protocal data units (PDUs)." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+				<Item id="Each layer of communication, on the source computer, communicates with a <br>      layer-specific PDU, and with its peer layer on the destination computer <br>      as illustrated in the Figure." alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="How data layers communicate (up / down):" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-13210" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Data packets on a network originate at a source and then travel to a destination." alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+				<Node id="Each layer depends on the service function of the OSI layer below it. " alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+					<Node id="To provide this service, the lower layer uses  encapsulation to put the PDU from the upper layer into its data field" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+						<Node id="then it adds whatever headers and trailers the layer needs to perform its function" alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+							<Node id="Next, as the data moves down through the  layers of the OSI model, additional headers and trailers are added." alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+								<Node id="After Layers 7, 6, and 5 have added their information, Layer 4 adds more information." alignment="1" arrowcolor="-26368" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-26368" linesize="1" fontsize="1">
+									<Item id="This grouping of data, the Layer 4 PDU,  is called a segment. " alignment="1" imagename="C:\My Documents\My Pictures\Ciscop2psecond.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+								</Node>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="How data packets travel (logical):" alignment="1" arrowcolor="-4539620" arrowsize="1" backgroundcolor="-4473831" foregroundcolor="-16777216" initialexpanded="0" linecolor="-4539620" linesize="2" fontsize="3">
+			<Node id="The Network Layer" alignment="1" arrowcolor="-3355381" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3355381" linesize="1" fontsize="1">
+				<Item id="provides a service to the transport layer, and the transport layer presents data to the internetwork subsystem" alignment="1" arrowcolor="-6711040" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6711040" linesize="1" fontsize="1"></Item>
+				<Node id=" The network layer has the task of moving the data  through the internetwork" alignment="1" arrowcolor="-3881708" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3881708" linesize="1" fontsize="1">
+					<Node id=" It accomplishes this task by encapsulating the data and attaching a header creating a packet (the Layer 3 PDU)" alignment="1" arrowcolor="-4868584" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-4868584" linesize="1" fontsize="1">
+						<Item id=" The header contains information required to complete  the transfer, such as source and destination logical addresses" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="How data packets travel (physical / cable)" alignment="1" arrowcolor="-52480" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52480" linesize="2" fontsize="3">
+			<Node id="The data link layer" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="provides a service to the network layer" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id=" It encapsulates the network layer information in a frame (the Layer 2 PDU)" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="the frame header contains information (e.g. physical  addresses) required to complete the data link functions. " alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id=" The data link layer provides a service to the network layer by encapsulating the network layer information in a frame" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="The physical layer" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-65536" linesize="1" fontsize="1">
+				<Item id="also provides a service to the data link layer" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" The physical layer encodes the data link frame into a pattern of 1s and 0s (bits) for transmission on the medium (usually a wire)  at Layer 1" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+	</Node>

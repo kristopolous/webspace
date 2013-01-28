@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="ANATOMY OF THE EAR" transition="consists of 2 parts:">
+		<Item id="EXTERNAL EAR"></Item>
+		<Item id="MIDDLE EAR / TYMPANIC CAVITY"></Item>
+		<Item id="INNER EAR / LABYRINTH"></Item>
+	</Node>

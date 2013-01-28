@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Schwab MarketTrack Portfolios" alignment="1" arrowcolor="-26368" arrowsize="1" linecolor="-26368" linesize="3" fontsize="3" fontstyle="bold,italic">
+		<Node id="Introduction" alignment="1" arrowcolor="-16738048" arrowsize="2" linecolor="-16738048" linesize="2" fontsize="3" fontstyle="bold">
+			<Node id="The portfolios in this prospectus share the same investment approach." alignment="1" arrowcolor="-16737997" arrowsize="1" linecolor="-16738048" linesize="1" fontsize="1">
+				<Item id="Each portfolio seeks to maintain a defined mix of asset classes over        time, and each invests mainly in a combination of other SchwabFunds,        which are managed using indexing strategies." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Each portfolio pursues a different investment goal." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="This approach is intended to offer the investor key features of 2 types        of invetment strategies:" alignment="2" arrowcolor="-13395712" arrowsize="1" linecolor="-16737997" linesize="1" fontsize="1">
+					<Item id="asset allocation" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="indexing" alignment="1" arrowcolor="-13395712" arrowsize="1" linecolor="-13395712" linesize="1" fontsize="1">
+						<Item id="is a strategy of tacking the performance of a given market over time" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="involves looking to an index to determine what securities to own" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="By investing in a combination of index mutual funds, the portfolios can        offer diversification in a single investment" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="We offer 4 types of Portfolios:" alignment="1" arrowcolor="-16777165" arrowsize="1" linecolor="-16777165" linesize="2" fontsize="3" fontstyle="bold">
+			<Node id="All Equity Portfolio" alignment="1" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="This portfolio seeks high capital growth through an all-stock portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="italic"></Item>
+				<Node id="Strategy" alignment="2" arrowcolor="-16777012" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="To pursue its goal, this portfolio maintains a defined asset allocation." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Asset allocation is a strategy of investing specific percentages of a        portfolio in various asset classes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="This portfolio's allocation focuses on stock investments for long-term        growth." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="It typically does not have an investment policy that requires it to        change its stock segment allocations." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Main Risks" alignment="2" arrowcolor="-16763956" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="Stock markets rise and fall daily." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's stock allocations can have an effect on returns." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many of the risks of this portfolio are associated with stock index        funds." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many factors can affect stock market performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The values of certain types of stocks, such as small-cap stocks and        international stocks, may fluctuate more widely than others." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Performance" alignment="2" arrowcolor="-16763956" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="Below are a chart and a table showing the portfolio's performance, as        well as data on an unmanaged market index." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These figures assume that all distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Keep in mind that future performance may differ from past performance,        and that indices do not include any costs of investment." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Portfolio Fees and Expenses" alignment="2" arrowcolor="-16763956" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="The following table describes what you could expect to pay as a        portfolio investor." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Shareholder fees are charged to you directly by the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Annual operating expenses are paid out of portfolio assets, so their        effect is included in total return." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Fees of the underlying funds are reflected in those funds' performance,        and thus indirectly in portfolio performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These fees are are approximately 0.43 % of the portfolio's average net        assets based on current investments, and may fluctuate." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Financial Highlights" alignment="2" arrowcolor="-16763956" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2">
+					<Item id="This section provides further details about the portfolio's finantial        history." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Total return shows the percentage that an investor in the portfolio        would have earned or lost during a given period, assuming all        distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's independent accountants, PricewaterhouseCoopers, audited        these figures." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="Growth Portfolio" alignment="1" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="This portfolio seeks high capital growth with less volatility than an        all-stock portfolion." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="italic"></Item>
+				<Node id="Strategy" alignment="2" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2">
+					<Item id="To pursue its goal, this portfolio maintains a defined asset allocation." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Asset allocation is a strategy of investing specific percentages of a        portfolio in various asset classes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The Growth Portfolio's allocation focuses on stock investments, while        including some bonds and cash investments to reduce volatility." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio typically does not have an investment policy that requires        it to change its asset allocations for purposes of investment strategy        and seeks to remain close to the target allocations of 80% stocks, 15%        bonds, and 5% cash." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Main Risks" alignment="2" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2">
+					<Item id="Stock and bond markets rise and fall daily." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's asset and stock allocations can have an effect on return." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many of the risks of this portfolio are associated with stock index        funds." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many factors can affect stock market performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The values of certain types of stocks, such as small-cap stocks and        international stocks, may fluctuate more widely than others." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Performance" alignment="2" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2">
+					<Item id="Below are a chart and a table showing the portfolio's performance, as        well as data on two unmanaged market indices." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These figures assume that all distributions were reinvestes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Keep in mind that future performance may differ from past performance,        and that indices do not include any costs of investment." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Portfolio Fees and Expenses" alignment="2" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2">
+					<Item id="The following table describes what you could expect to pay as a        portfolio investor." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Shareholder fees are charged to you directly by the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Annual operating expenses are paid out of portfolio assets, so their        effect is included in total return." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Fees of the underlying funds are reflected in those funds' performance,        and thus indirectly in portfolio performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These fees are approximately 0.30% of the portfolio's average net assets        based on current investment, and may fluctuate." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Financial Highlights" alignment="2" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2">
+					<Item id="This section provides further details about the portfolio's financial        history." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Total return shows the percentage that an investor in the portfolio        would have earned or lost during a given period, assuming all        distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's independent accountants, PricewaterhouseCoopers, audited        these figures." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="Balanced Portfolio" alignment="1" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="This portfolio seeks both capital growth and income." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="italic"></Item>
+				<Node id="Strategy" alignment="2" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="1" fontsize="2">
+					<Item id="To pursue its goal, the portfolio maintains a defined asset allocation." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Asset allocation is a strategy of investing specific percentages of a        portfolio in various asset classes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The Balanced Portfolio's allocation is weighted toward stock        investments, while including substantial bond investments to add income        and reduce volatility." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio typically does not have an investment policy that requires        it to change its asset allocations for purposes of investment strategy        and seeks to remain close to the target allocations of 60% stocks, 35%        bonds, and 5% cash." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Main Risks" alignment="2" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="1" fontsize="2">
+					<Item id="Stock and bond markets rise and fall daily." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's asset and stock allocations can have a substantial        effect on performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many factors can affect stock market performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Bond prices generally fall when interest rates rise, which can affect        the bond portion of the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Performance" alignment="2" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="1" fontsize="2">
+					<Item id="Below are a chart and a table showing the portfolio's performance, as        well as data on two unmanaged market indices." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These figures assume that all distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Keep in mind that future performance may differ from past performance,        and that indices do not include any costs of investment." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Portfolio Fees and Expenses" alignment="2" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="1" fontsize="2">
+					<Item id="The following table describes what you could expect to pay as a        portfolio investor." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Shareholder fees are charged to you directly by the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Annual operating expenses are paid out of portfolio assets, so their        effect is included in total return." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Fees of the underlying funds are reflected in those funds' performance,        thus indirectly in portfolio performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These fees are approximately 0.32% of the portfolio's average net assets        based on current investments, and may fluctuate." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Financial Highlights" alignment="2" arrowcolor="-6750055" arrowsize="1" linecolor="-6750055" linesize="1" fontsize="2">
+					<Item id="This section provides further details about the protfolio's financial        history." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Total return shows the percentage that an investor in the portfolio        would have earned or lost during a given period, assuming all        distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's independent accounts, PricewaterhouseCooper, audited        these figures." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="Conservative Portfolio" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="This portfolio seeks income and more growth potential than an all-bond        portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1" fontstyle="italic"></Item>
+				<Node id="Strategy" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65485" linesize="1" fontsize="2">
+					<Item id="To pursue its goal, the portfolio maintains a defined asset allocation." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Asset allocation is a strategy of investing specific percentages of a        portfolio in various asset classes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The Conservative Portfolio's allocation is weighted toward bond        investments, while including substantial stock investments for long-term        growth." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio typically does not have an investment policy that requires        it to change its asset allocations for purposes of investment strategy        and seeks to remain close to the target allocations of 55% bonds, 40%        stocks, and 5% cash." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Main Risks" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="2">
+					<Item id="Stock and bond markets rise and fall daily." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's asset and stock allocations can have a substantial        effect on performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many of the risks of this portfolio are associated with index funds." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Bond prices generally fall when interest rates rise, which can affect        the bond portion of the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Many factors can affect stock market performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Performance" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="2">
+					<Item id="Below are a chart and a table showing the portfolio's performance, as        well as data on two unmanaged market indices." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These figures assume that all distributions were reinvented." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Keep in mind that future performance may differ from past performance,        and that indices do not include any costs of investment." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Portfolio Fees and Expenses" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-52429" linesize="1" fontsize="2">
+					<Item id="The following table describes what you could expect to pay as a        portfolio investor." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Shareholder fees are charged to you directly by the portfolio." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Annual operating expenses are paid out of portfolio assets, so their        effect is included in total return." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Fees of the underlying funds are reflected in those funds' performance,        and thus indirectly in portfolio performance." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="These fees are approximately 0.33% of the portfolio's average net assets        based on current investments, and may fluctuate." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="Financial Highlights" alignment="2" arrowcolor="-65536" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1">
+					<Item id="This section provides further details about the portfolio's financial        history." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Total return shows the percentage that an investor in the portfolio        would have earned or lost during a given period, assuming all        distributions were reinvested." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="The portfolio's independent accounts, PricewaterhouseCoopers, audited        these figures." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Portfolio Management" alignment="2" arrowcolor="-16711834" arrowsize="1" linecolor="-13369498" linesize="1" fontsize="2" fontstyle="bold">
+			<Item id="The portfolios' investment adviser, Charles Schwab Investment        Management, Inc. has more than $120 billion under management." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Node id="The investment adviser for the Schwab MarketTrack Portfolios is Charles        Schwab Investment Management, Inc." alignment="2" arrowcolor="-16711936" arrowsize="1" linecolor="-16711936" linesize="1" fontsize="1">
+				<Item id="Location: 101 Montgomery Street, San Francisco, CA 94104" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Founded in 1989" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="The firm manages assets for more than 5 million shareholder accounts        (all figures on this page are as of 10.31.2000)" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="Investing in The Portfolios" alignment="1" arrowcolor="-16777165" arrowsize="1" linecolor="-16777165" linesize="2" fontsize="3" fontstyle="bold">
+			<Item id="Buying Shares" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Selling / Exchanging Shares" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Transaction Policies" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Distributions and Taxes" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+	</Node>

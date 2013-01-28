@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="The Big Picture Trees" alignment="1" arrowcolor="-39424" arrowsize="2" backgroundcolor="-26368" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39424" linesize="3" fontsize="3" fontstyle="bold">
+		<Item id="Tree of Knowledge" link="c:\tbpproto\treeofknowledge.xml" alignment="1" arrowcolor="-16776961" arrowsize="2" backgroundcolor="-13369549" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3"></Item>
+		<Item id="Tree of Business" link="c:\tbpproto\treeofbusiness.xml" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-6710785" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3"></Item>
+		<Item id="Tree of News" link="c:\tbpproto\treeofnews.xml" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3"></Item>
+		<Item id="Tree of Government" link="c:\tbpproto\treeofgovernment.xml" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-6711040" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3"></Item>
+		<Item id="Tree of Communities" link="c:\treeofcommunities.xml" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-3394561" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="2" fontsize="3"></Item>
+	</Node>

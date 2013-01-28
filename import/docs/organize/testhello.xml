@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="JVC Digital Video Camera" transition="There are 5 sections to guide you through on using your new JVC Digital Video Camera" transitionplacement="1" transitionfontsize="2" alignment="1" arrowcolor="-26368" arrowsize="2" backgroundcolor="-13312" foregroundcolor="-16777216" initialexpanded="1" linecolor="-26368" linesize="2" fontsize="3" fontstyle="bold">
+		<Node id="Getting Started" alignment="2" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="1" linecolor="-13434625" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Power" link="c:\tbpproto\JVCpower.xml" alignment="1" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Grip Adjustment" link="c:\tbpproto\JVCGrip.xml" alignment="2" arrowcolor="-3394561" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3407617" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Viewfinder Adjustment" link="c:\tbpproto\JVCViewfinder.xml" alignment="2" arrowcolor="-16724788" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16724788" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Shoulder Strap Attachement" alignment="2" arrowcolor="-3955146" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3494598" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Tripod Mounting" alignment="2" arrowcolor="-26164" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-39220" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Date / Time Settings" alignment="2" arrowcolor="-6684775" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10027162" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Loading / Unloading A Cassette" alignment="2" arrowcolor="-16737895" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737895" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Recording Mode Setting" alignment="2" arrowcolor="-52429" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-52429" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Loading A Memory Card" alignment="2" arrowcolor="-10092289" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-10092289" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Picture Quality Mode Setting" alignment="2" arrowcolor="-16737844" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16737844" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+		<Node id="Video" alignment="1" arrowcolor="-52480" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="1" linecolor="-52480" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="Video Recording" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="1" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Basic Recording" alignment="2" arrowcolor="-13434625" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Journalistic Shooting" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Self-Recording" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Operation Mode" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Zooming" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Video Light" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Time Code" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Global Edutainment, Inc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" is a company in Los Angeles, California with a unique portfolio of intellectual properties geared towards transforming the learning process into an enjoyable experience" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  Most significantly, the company has developed a software prototype for expressing textual information into a revolutionary visual and interactive display format" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  For example, the prototype can demonstrate the entire text of a science or history textbook, a training manual, a VCR manual, or even a newspaper graphically" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="
+Text expressed in the invented visual format, along with a number of other "information architecture" principles, will enable readers to easily digest the content of the document" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  
+
+Consisting of software tools, a dynamic visual display format that facilitates rapid comprehension, and a unique publishing model, The Big Picture is a fundamental innovation in interactive communication and publishing system" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  In order to maximize widespread benefits of its innovations, the company plans to partner with IBM for launching a global on-line service infrastructure for the education market" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  Education spending is projected to be approximately $815 billion in 2000 in the United States alone and over $2 trillion worldwide 
+
+The Company is moving to launch the online service via an Application Service Provider (ASP) model" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  The project is code named "The Big Picture"" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  The Big Picture (TBP) Project is designed to be an end-to-end service that enables publishers, business communicators, government agencies, and individual authors to author or transform existing knowledge into a new visual format with a structure that uniquely leverages the attributes of interactive media (Web, CD-ROM, Interactive TV, etc" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=")" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" 
+
+The Company has gathered a mastermind group of experienced professionals on its Advisory Board" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  This mastermind includes business executives, technology experts, educators, researchers, and other creative talents" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  With incredible support from the educational community, several investors, including former Senior VP of Oracle, provided the seed funding ($400 K) for prototype development" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  Other high profile individuals on the company's Advisory Board include:  
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" Kirstie Bellman, former DARPA Program Manager who developed the largest government funded education and technology program in the U" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="S" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" (over $150 M)
+·	Dr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" Jim Spohrer, CTO and Director of Venture Funds at IBM, Almaden Center 
+·	Mr" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id=" Richard Saul Wurman, Chairman of TED conferences
+
+The company has successfully reached the prototype stage of its core technology" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  We are now seeking $5 Million of investment from visionary individuals or corporations to complete product development, establish partnership agreement with IBM and other partners needed to develop a global scalable online service, develop topics in TBP format for different market segments as case scenarios, and launch the service" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="  
+" alignment="1" arrowcolor="-16776961" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Video Playback" alignment="2" arrowcolor="-65536" arrowsize="1" backgroundcolor="-52429" foregroundcolor="-16777216" initialexpanded="1" linecolor="-65536" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Still Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Shuttle Search" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Frame-By-Frame Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Connections" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Blank Search" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+		</Node>
+		<Node id="Digital Still Camera (D.S.C.)" alignment="1" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+			<Node id="D.S.C. Recording" alignment="1" arrowcolor="-13382656" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="1" linecolor="-13382656" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Basic Shooting (Snapshot)" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="D.S.C. Playback" alignment="2" arrowcolor="-16724992" arrowsize="1" backgroundcolor="-3342388" foregroundcolor="-16777216" initialexpanded="1" linecolor="-16724992" linesize="2" fontsize="2" fontstyle="bold">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Auto Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="INDEX Screen" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Index Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Jump Playback" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Protecting Images" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Deleting Images" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Setting Print Information" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Initializing A Memory Card" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+		</Node>
+		<Node id="Advanced Features" alignment="2" arrowcolor="-6711040" arrowsize="1" backgroundcolor="-3355648" foregroundcolor="-16777216" initialexpanded="0" linecolor="-6711040" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="For Recording" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Using the menud for detailed adjustment" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Dubbing" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Using the remote control unit" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="System conections" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+		<Node id="References" alignment="2" arrowcolor="-3394561" arrowsize="1" backgroundcolor="-2316552" foregroundcolor="-16777216" initialexpanded="0" linecolor="-3394561" linesize="2" fontsize="2" fontstyle="bold">
+			<Item id="Details" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Troubleshooting" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="User maintenance" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Index" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Cautions" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Terms" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			<Item id="Specifications" alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+		</Node>
+	</Node>

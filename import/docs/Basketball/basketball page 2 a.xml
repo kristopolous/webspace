@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="The game">
+		<Node id="Features">
+			<Item id="Chief feature ==> skillful play is more important than physical strength"></Item>
+			<Item id="Is one of the most exhilarating of all games"></Item>
+			<Node id="Requires">
+				<Item id="fitness"></Item>
+				<Item id="skill"></Item>
+				<Item id="dexterity"></Item>
+				<Item id="co-ordination"></Item>
+				<Item id="agility"></Item>
+				<Item id="alertness"></Item>
+				<Item id="ability to co-operate w/ other members of the team"></Item>
+			</Node>
+		</Node>
+		<Node id="Players of the game">
+			<Node id="the game is played by <a color='blue' name='2 teams'>2 teams</a>/dummy">
+				<Item id="<a color='blue' href='#2 teams'>each team can consist of up to ten players,      five players from each team being on court during the match. </a>/dummy"></Item>
+				<Node id="<a href='#2 teams' color='blue'>each team has a </a><a color='red' name='coach'> coach</a><a href='#2 teams' color='blue'></a>/dummy">
+					<Node id="<a color='red' href='#coach'>is responsible for:</a>/dummy">
+						<Item id="his team's tactical play"></Item>
+						<Item id="suppling the names numbers of his players to the scorer before the match"></Item>
+						<Item id="instructing the substitute to report to the scorer"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Goal of the game">
+			<Node id="<a color='navy' name='goal'>The aim of each team is to throw the ball into its      opponents' basket to prevent other team from securing the ball or      scoring. </a>/dummy">
+				<Item id="<a color='navy' href='#goal'>to be done only using the hands + no tackling      (so, basketball is a no-contact sport) + players can't take more than 1      pace while holding the ball </a>/dummy"></Item>
+			</Node>
+		</Node>
+		<Node id="Playing the game">
+			<Node id="starting the game">
+				<Item id="the game is started by a "jump ball" at the center when the referee        throws the ball up"></Item>
+			</Node>
+			<Node id="during the game">
+				<Node id="during the game, the ball may be">
+					<Item id="passed"></Item>
+					<Item id="thrown"></Item>
+					<Item id="rolled"></Item>
+					<Item id="battled"></Item>
+					<Item id="dribbled"></Item>
+				</Node>
+			</Node>
+			<Node id="stopping / interupting the game">
+				<Node id="the game is stopped when certain <a name='rules' color='purple'>rules</a>      are infringe">
+					<Node id="<a href='#rules' color='purple'>relate mainly to</a">
+						<Item id=""contact" rules"></Item>
+						<Item id=""progressing w/ the ball" rules"></Item>
+						<Item id=""dribbling" rules"></Item>
+						<Item id=""time" rules"></Item>
+					</Node>
+				</Node>
+			</Node>
+		</Node>
+		<Node id="Time play of the game">
+			<Item id="the game is divided into 2 haves of 20 min each w/ 10 min "half time"      intervals (break)"></Item>
+			<Item id="a game cannot end in a draw ==> so, an extra period of 5 min is played &      as many extra periods as necessary to break the tie."></Item>
+		</Node>
+	</Node>

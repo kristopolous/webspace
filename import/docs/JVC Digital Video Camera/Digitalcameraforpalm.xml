@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="JVC Digital Video Camera" alignment="1" arrowcolor="-3355648" arrowsize="1" linecolor="-3355648" linesize="1" fontsize="1" fontstyle="bold">
+		<Node id="Getting Started" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-52429" linesize="1" fontsize="1" fontstyle="bold">
+			<Node id="Power" alignment="2" arrowcolor="-65485" arrowsize="1" linecolor="-65536" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="1) Tilt the viewfinder updward." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) With the arrow on the battery pack pointing downward, push the        battery pack slightly against the battery pack mount." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) then, slide down the battery pack until it locks in place." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="4) Set the Power Switch to OFF.  Connect the AC Adapter to the camcorder." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="5) Plug the AC Adapter into an AC outlet." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="6) When the Charge lamp stops blinking but stays lit, charging is        finished." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Grip Adjustment" transition="3 steps " transitionplacement="1" alignment="2" arrowcolor="-3394561" arrowsize="1" linecolor="-3407617" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="1) Separate the Velcro strip." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) Pass your right hand through the loop and grasp the grip." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Adjust your tomb and fingers through the grip, to easily operate the        Recording Start / Stop button and Power Switch and Power Zoom Lever.  Be        sure to fasten the Velcro strip to your preference." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Viewfinder Adjustment" transition="2 steps" transitionplacement="1" alignment="2" arrowcolor="-16724788" arrowsize="1" linecolor="-16724788" linesize="1" fontsize="1" fontstyle="bold">
+				<Item id="Set the Power Switch to A or M while pressing down the Lock Button        located on the switch." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Turn the Diopter Adjestment Control until the indications in the        viewfinder are clearly focused." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+	</Node>

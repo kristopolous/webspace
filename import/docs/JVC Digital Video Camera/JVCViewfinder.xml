@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="Viewfinder Adjustment" transition="2 steps" transitionplacement="1" transitionfontsize="1" alignment="2" imagename="C:\My Documents\My Pictures\JVC images\JVC 10.2.bmp" imagedisplay="1" imagedisplayscale="100" arrowcolor="-13421569" arrowsize="1" backgroundcolor="-3355393" foregroundcolor="-16777216" initialexpanded="0" linecolor="-13421569" linesize="2" fontsize="3" fontstyle="bold">
+		<Item id="Set the Power Switch to A or M while pressing down the Lock Button        located on the switch." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+		<Item id="Turn the Diopter Adjustment Control until the indications in the <br>    viewfinder are clearly focused." alignment="1" arrowcolor="-65536" arrowsize="1" backgroundcolor="-1" foregroundcolor="-16777216" initialexpanded="0" linecolor="-16776961" linesize="1" fontsize="2"></Item>
+	</Node>

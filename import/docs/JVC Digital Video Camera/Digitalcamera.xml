@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<Node id="JVC Digital Video Camera" alignment="1" arrowcolor="-3355648" arrowsize="1" linecolor="-3355648" linesize="3" fontsize="3" fontstyle="bold">
+		<Node id="Getting Started" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-52429" linesize="2" fontsize="3" fontstyle="bold">
+			<Node id="Power" alignment="1" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="This camcorder's 2-way power supply system lets you choose the most        appropriate source of power." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Do not use provided power supply units with other equipment." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="Steps to charging the battery pack" alignment="2" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+					<Item id="1) Tilt the viewfinder updward." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="2) With the arrow on the battery pack pointing downward, push the        battery pack slightly against the battery pack mount." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="3) then, slide down the battery pack until it locks in place." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="4) Set the Power Switch to OFF.  Connect the AC Adapter to the camcorder." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="5) Plug the AC Adapter into an AC outlet." alignment="1" arrowcolor="-13421569" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="The Charge lamp on the camcorder blinks to indicate charging has started." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Node id="6) When the Charge lamp stops blinking but stays lit, charging is        finished." alignment="1" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="Unplug the AC Adapter from the AC outlet.  Disconnect the AC Adapter        from the camcorder." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+				</Node>
+			</Node>
+			<Node id="Grip Adjustment" transition="3 steps " transitionplacement="1" alignment="2" arrowcolor="-3394561" arrowsize="1" linecolor="-3407617" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="1) Separate the Velcro strip." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) Pass your right hand through the loop and grasp the grip." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Adjust your tomb and fingers through the grip, to easily operate the        Recording Start / Stop button and Power Switch and Power Zoom Lever.  Be        sure to fasten the Velcro strip to your preference." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Viewfinder Adjustment" transition="2 steps" transitionplacement="1" alignment="2" arrowcolor="-16724788" arrowsize="1" linecolor="-16724788" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="Set the Power Switch to A or M while pressing down the Lock Button        located on the switch." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Turn the Diopter Adjestment Control until the indications in the        viewfinder are clearly focused." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Shoulder Strap Attachement" alignment="2" arrowcolor="-3955146" arrowsize="1" linecolor="-3494598" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="Make sure the battery is removed." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="1) Following the illustration, thread the strap through the eyelet." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) then fold it back and thread it through the buckle" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Repeat the procedure to attach the other end of the strap to the        other eyelet" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Confirm the strap is not twisted." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Tripod Mounting" alignment="2" arrowcolor="-26164" arrowsize="1" linecolor="-39220" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="To attach the camera to a tripod, align the direction stud and screw to        the mounting socket and stud hole on the camera." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Then tighten the screw clockwise." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Some tripods are not equipped with studs." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Date / Time Settings" alignment="2" arrowcolor="-6684775" arrowsize="1" linecolor="-10027162" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="The date / time is recorded onto the tape at all time, but its display        can be turned on or off during playback." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="1) Set the Power Switch to M while pressing down the Lock Button located        on the switch." alignment="1" arrowcolor="-16711936" arrowsize="1" linecolor="-13369549" linesize="1" fontsize="1">
+					<Item id="The power lamp light and the camcorder is turned on." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="2) Press the MENU / BRIGHT wheel in to access the Menu Screen." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Rotate the MENU / BRIGHT wheel to select DISPLAY.  Press it and the        DISPLAY Menu appears." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="4) Rotate the MENU / BRIGHT wheel to select CLOCK ADJ.  Press it and        month is highlighted." alignment="1" arrowcolor="-13369600" arrowsize="1" linecolor="-16711936" linesize="1" fontsize="1">
+					<Item id="Rotate the MENU / BRIGHT wheel to input the month.  Press it. Repeat to        input the day, year, hour, and minute." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Rotate the MENU / BRIGHT wheel to select RETURN and press it twice.  The        Menu Screen closes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+			</Node>
+			<Node id="Loading / Unloading A Cassette" alignment="2" arrowcolor="-16737895" arrowsize="1" linecolor="-16737895" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="The camcorder needs to be powered up to load or eject a cassette." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Node id="1) Slide and hold OPEN / EJECT in the direction of the arrow then pull        the cassette holder cover open until it locks." alignment="1" arrowcolor="-16737895" arrowsize="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Item id="The cassette holder opens automatically." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="Do not touch internal components." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Node id="2) Insert or remove a tape and press PUSH HERE to close the cassette        holder." alignment="1" arrowcolor="-16737895" arrowsize="1" linecolor="-16737895" linesize="1" fontsize="1">
+					<Item id="Once the cassette holder is closed, it recedes automatically.  Wait        until it recedes completely before closing the cassette holder cover." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="When the battery's charge is low, you may not be able to close the        cassette holder cover.  Do not apply force.  Replace the battery with a        fully charged one before continuing." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="3) Close the cassette holder cover firmly until it locks into place." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Recording Mode Setting" alignment="2" arrowcolor="-52429" arrowsize="1" linecolor="-52429" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="1) Set the Power Switch to M while pressing down the Lock Button located        on the switch." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) Press the MENU / BRIGHT wheel in.  The Menu Screen appears." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Rotate the MENU / BRIGHT wheel to select A CAMERA and press it. The        CAMERA Menu appears." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="4) Rotate the MENU / BRIGHT wheel to select REC MODE and press it.  The        Sub Menu appears.  Select SP or LP by rotating the MENU / BRIGHT wheel        to select RETURN and press it twice.  The Menu Screen closes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Loading A Memory Card" alignment="2" arrowcolor="-10092289" arrowsize="1" linecolor="-10092289" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="1) Make sure the camcorder's power is off." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) Open the card cover (MEMORY CARD)." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Insert the memory card clipped edge first.  Do not touch the terminal        on the reverse side of the label." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="4) To close the card cover, push it until you hear a click." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="Picture Quality Mode Setting" alignment="2" arrowcolor="-16737844" arrowsize="1" linecolor="-16737844" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="1) Set the Power Switch to M while pressing down the Lock Button located        on the switch.  The power lamp lights and the camcorder turns on." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="2) Press the MENU / BRIGHT wheels in.  The Menu Screen appears." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="3) Rotate the MENU / BRIGHT wheel to select DSC and press it.  The DSC        Menu appears." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="4) Rotate the MENU / BRIGHT wheel to select QUALITY and press it.  The        Sub Menu appears.  Rotate the MENU / BRIGHT wheel to select the desired        mode and press it." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="5) Rotate the MENU / BRIGHT wheel to select RETURN and press it twice.         The Menu Screen closes." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="Video" alignment="1" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="2" fontsize="3" fontstyle="bold">
+			<Node id="Video Recording" alignment="1" arrowcolor="-6711040" arrowsize="1" linecolor="-6711040" linesize="1" fontsize="2" fontstyle="bold">
+				<Node id="Basic Recording" alignment="2" arrowcolor="-13434625" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold">
+					<Item id="You should already have performed the procedures listed under Getting        Started." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="1) Press in the tabs on the lens cap to remove it." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Node id="2) Set the Poer Switch to A or M while  pressing down the Lock Button        located on the switch." alignment="1" arrowcolor="-16776961" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+						<Item id="Shooting while using the LCD monitor: Make sure the LCD monitor is fully        open.  Tilt it upward / downward for best viewability." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+						<Item id="Shooting while using the viewfinder:  Lcose the LCD monitor." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					</Node>
+					<Item id="3) Press the Recording Start / Stop Button.  REC appears while recording        is in progress." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="To Stop Recording, press the Recording Start / Stop Button.  The        camcorder re-enters the Record-Standby mode." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+					<Item id="To Adjust the brightness of the display, rotate the MENU / BRIGHT wheel        until the bright level indicator on the display moves and the        appropriate brightness is reached." alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				</Node>
+				<Item id="Journalistic Shooting" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Self-Recording" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Operation Mode" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Zooming" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Video Light" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+				<Item id="Time Code" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold"></Item>
+			</Node>
+			<Node id="Video Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="2" fontstyle="bold">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Still Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Shuttle Search" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Frame-By-Frame Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Connections" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Blank Search" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="Digital Still Camera" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="3" fontstyle="bold">
+			<Node id="D.S.C. Recording" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Basic Shooting" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+			<Node id="D.S.C. Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1">
+				<Item id="Normal Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Auto Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="INDEX Screen" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Index Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Jump Playback" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Protecting Images" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Deleting Images" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Setting Print Information" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+				<Item id="Initializing A Memory Card" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			</Node>
+		</Node>
+		<Node id="Advanced Features" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+			<Item id="For Recording" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Using the menud for detailed adjustment" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Dubbing" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Using the remote control unit" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="System conections" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+		<Node id="References" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="2" fontsize="3" fontstyle="bold">
+			<Item id="Details" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Troubleshooting" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="User maintenance" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Index" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Cautions" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Terms" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+			<Item id="Specifications" alignment="1" arrowcolor="-65536" arrowsize="1" linecolor="-16776961" linesize="1" fontsize="1"></Item>
+		</Node>
+	</Node>
