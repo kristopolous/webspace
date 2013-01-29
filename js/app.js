@@ -66,16 +66,18 @@ var m = {}, u = 0;
       });
     },
 
-    walk: function(what, parent) {
+    walk: function(what, parent, depth) {
+      if(!depth) {
+        depth = 0;
+      }
       var mthis = this;
 
-      this.set('render', this.view.render(what, parent));
+      this.set('render', this.view.render(what, parent, depth));
 
-      this.get('member').each(function(which) {
-        which.walk(what, mthis);
-      });
-      this.get('next').each(function(which) {
-        which.walk(what, mthis);
+      _.each(['member','next'], function(relation) {
+        mthis.get(relation).each(function(which) {
+          which.walk(what, mthis, depth + 1);
+        });
       });
     }
   });

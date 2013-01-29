@@ -1,8 +1,58 @@
+div{
+  white-space:nowrap;
+  font-size:0.92em
+}
+#document div {
+  text-align:center;
+}
+#document div.visible { display:none}
 body {
   padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  font-size:2em;
 }
-.Category { 
-  background: #aaf;
-  border: #000
+.content { white-space: normal }
+.Category > .content { 
+  background: #eef;
+  display:inline-block;
+  margin:0.25em 0;
+  padding:0.25em;
+  border-bottom: 1px solid #000
 }
-.label{background:lime}
+.Category {
+  width:auto;
+  background:rgba(100,100,100,0.15);
+  display:inline-block;
+  vertical-align:top;
+}
+#document div.Description { text-align: left }
+.Description .content { 
+  width:15em;
+  border-left: 0.25em solid black;
+  padding:0.25em 2em 0.5em 1em;
+  
+  display:inline-block;
+}
+
+.label{
+  display:block;
+  font-size:0.7em
+}
+.Description > .node > span{
+  display:block
+}
+.Category > .content {
+  cursor:pointer;
+}
+.Description > .Description {
+  margin-left:2em;
+}
+.dest {
+  border-radius:9px;box-shadow:0 0 3px 0.15em #49A;border:0.15em solid #388;margin:0.1em -0.25em;padding:0.05em 0.25em;background:#AFF;whitespace:pre;display:inline-block
+}
+.Aside .content{
+  border-left:0;
+  text-align:right;background:#AFF;
+}
+.Intro .content {
+  font-style: italic;
+}
