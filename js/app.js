@@ -60,20 +60,22 @@ var m = {}, u = 0;
           ), function(which) {
           mthis.get(which[0]).on(what, function(that) {
             that.get(which[1])[what](mthis);
-            mthis.view.render();
+//            mthis.view.render(what);
           });
         });
       });
     },
 
-    walk: function(what) {
-      var el = this.view.render().$el;
-      what.append(el);
+    walk: function(what, parent) {
+      var mthis = this;
+
+      this.set('render', this.view.render(what, parent));
+
       this.get('member').each(function(which) {
-        which.walk(what);
+        which.walk(what, mthis);
       });
       this.get('next').each(function(which) {
-        which.walk(what);
+        which.walk(what, mthis);
       });
     }
   });
@@ -132,6 +134,6 @@ function parse(payload) {
 }
 
 $(function(){
-  setView('mx');
+  setView('html');
   parse(payload);
 });

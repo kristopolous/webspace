@@ -67,6 +67,9 @@ function permute(array) {
 
 function setView(engine) {
   v.use = v[engine];
+  if(v.use.$init) {
+    v.use.$init();
+  }
   ev.set('view');
 }
 
