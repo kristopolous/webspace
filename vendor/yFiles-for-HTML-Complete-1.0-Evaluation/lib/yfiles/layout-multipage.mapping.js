@@ -1,0 +1,76 @@
+/****************************************************************************
+ **
+ ** This file is part of yFiles for HTML 1.0.
+ ** 
+ ** yWorks proprietary/confidential. Use is subject to license terms.
+ **
+ ** Copyright (c) 2013 by yWorks GmbH, Vor dem Kreuzberg 28, 
+ ** 72070 Tuebingen, Germany. All rights reserved.
+ **
+ ***************************************************************************/
+(typeof define=='function'?define:(function(dependencies, fn){fn();}))(['yfiles/lang'],function(){
+  {
+    if(!yfiles.mappings)yfiles.mappings={};
+    yfiles.lang.copyOwnTo({
+      '_$_mal':["id","a"],
+      '_$_nal':["type","b"],
+      '_$_oal':["pageNo","c"],
+      '_$_sal':["referencingNode","d"],
+      '_$_tal':["representedEdge","c"],
+      '_$_ual':["representedNode","e"],
+      '_$_abl':["layoutDone","a"],
+      '_$_bbl':["getEdgeInfo","a"],
+      '_$_cbl':["getNodeInfo","b"],
+      '_$_ebl':["getEdgeLabelInfo","c"],
+      '_$_fbl':["getNodeLabelInfo","d"],
+      '_$_gbl':["createProxyNode","a"],
+      '_$_hbl':["createProxyReferenceNode","b"],
+      '_$_jbl':["createConnectorNode","c"],
+      '_$_kbl':["createProxyReferenceEdge","d"],
+      '_$_mbl':["createProxyEdge","e"],
+      '_$_nbl':["createConnectorEdge","f"],
+      '_$_ucl':["graph","e"],
+      '_$_ddl':["layouter","f"],
+      '_$_gdl':["groupMode","b"],
+      '_$_ndl':["maxPageSize","c"],
+      '_$_ael':["labelLayouter","d"],
+      '_$_bel':["elementFactory","e"],
+      '_$_eel':["layoutCallback","h"],
+      '_$_rel':["edgeBundleModeMask","i"],
+      '_$_afl':["labelLayouterEnabled","j"],
+      '_$_gfl':["preferredMaximalDuration","l"],
+      '_$_kfl':["pageCount","e"],
+      '_$_yfl':["getPage","f"],
+      '_$_cgl':["calcLayout","m"],
+      '_$_dgl':["createNode","g"],
+      '_$_fgl':["getPageEdge","h"],
+      '_$_ggl':["getPageNode","i"],
+      '_$_kgl':["getOriginalEdge","j"],
+      '_$_mgl':["getOriginalNode","k"],
+      '_$_tgl':["addEdgeLabel","l"],
+      '_$_ugl':["addNodeLabel","m"],
+      '_$_vgl':["removeEdgeLabel","n"],
+      '_$_wgl':["removeNodeLabel","o"],
+      '_$_xgl':["createEdge","p"],
+      '_$_ehl':["createElementFactory","n"],
+      '_$_xhl':["getDefaultNodeSize","g"],
+      '_$_yhl':["doIncrementalLayout","o"],
+      '_$_bil':["removeConnectorPair","p"],
+      '_$_gbn':["DefaultElementFactory","SCD"],
+      '_$_hbn':["IEdgeInfo","TCD"],
+      '_$_ibn':["EdgeInfoCompanion","UCD"],
+      '_$_jbn':["IEdgeLabelInfo","VCD"],
+      '_$_kbn':["IElementFactory","WCD"],
+      '_$_lbn':["IElementInfoManager","XCD"],
+      '_$_mbn':["ILayoutCallback","YCD"],
+      '_$_nbn':["INodeInfo","ZCD"],
+      '_$_obn':["NodeInfoCompanion","ADD"],
+      '_$_pbn':["INodeLabelInfo","BDD"],
+      '_$_qbn':["LayoutContext","CDD"],
+      '_$_rbn':["MultiPageLayout","DDD"],
+      '_$_sbn':["MultiPageLayouter","EDD"],
+      '_$$_jec':["yfiles.multipage","Root"]
+    },yfiles.mappings);
+  }
+  return undefined;
+});
