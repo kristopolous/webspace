@@ -12,7 +12,7 @@ _.each(NodeType, function(which) {
     className: which,
     template: $("#" + which).html(),
     render: function(container, parent){
-      var tmpl = _.template(this.template); //tmpl is a function that takes a JSON and returns html
+      var tmpl = _.template(this.template); 
 
       this.$el.html(tmpl(
         _.pick( this.model.attributes , ['label', 'content'] )
@@ -43,6 +43,10 @@ _.each(NodeType, function(which) {
   });
 
 });
+
+v.html.Description.prototype.customRender = function(parent, el) {
+  parent.get('render').append(this.$el);
+}
 
 v.html.Intro.prototype.customRender = function(parent, el) {
   $("> .label", parent.get('render')).after(el);
