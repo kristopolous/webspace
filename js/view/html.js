@@ -7,7 +7,7 @@ v.html.$post = function(){
 }
 
 _.each(NodeType, function(which) {
-  v.html[which] = Backbone.View.extend({
+  v.html[which] = v.$proto[which].extend({
     tagName: 'div',
     className: which,
     template: $("#" + which).html(),

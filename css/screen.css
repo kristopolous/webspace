@@ -13,6 +13,8 @@ body {
 .content { white-space: normal }
 .Category > .content { 
   background: #eef;
+  width:15em;
+  white-space:normal;
   display:inline-block;
   margin:0.25em 0;
   padding:0.25em;

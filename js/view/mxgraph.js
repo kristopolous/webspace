@@ -23,7 +23,7 @@ $(function(){
 
   // Mx definitions
   _.each(NodeType, function(which) {
-    v.mx[which] = Backbone.View.extend({
+    v.mx[which] = v.$proto[which].extend({
       render: function(container, parent){
         if(!parent) {
           parent = global_parent;
