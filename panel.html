@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/panel.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">VizReader</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">File</a></li>
+            </ul>
+            <div class="nav">
+              <li><button onclick="Control.ZoomOut()"class="btn btn-inverse"><i class="icon-minus-sign icon-white"></i></button>
+              <li><button onclick="Control.ZoomIn()" class="btn btn-inverse"><i class="icon-plus-sign icon-white"></i></button>
+            </div>
+            <form class="navbar-form pull-left">
+               <button onclick="Control.PanLeft()" class="btn"><i class='icon-chevron-left'></i></button>
+               <button onclick="Control.PanRight()" class="btn"><i class='icon-chevron-right'></i></button>
+            </form>
+            <form class="navbar-search pull-right">
+               <input type="text" class="search-query" placeholder="Search">
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div id="main-wrapper" class="container-fluid">
+      <div id="main">
+
+      </div> <!-- /container -->
+    </div>
+    <script id="T-Panel" type="text/template">
+      <div class="controls navbar">
+        <div class="navbar-inner">
+          <a onclick="Panel.ToggleCollapse(<%= id %>)" class="brand" href="#"><%= title %></a>
+          <ul class="buttons nav pull-right">
+            <li><button onclick="Panel.ToggleCollapse(<%= id %>)" class="btn"><i class="icon-backward"></i></button></li>
+            <li><button onclick="Panel.ToggleFullscreen(<%= id %>)" class="btn"><i class="icon-fullscreen"></i></button></li>
+            <li><button onclick="Panel.Remove(<%= id %>)" class="btn"><i class="icon-remove"></i></button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <iframe src="<%= url %>"></iframe>
+      </div>
+    </script>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
+
+<script>
+
+var Control = {
+  zoom: 1,
+  offset: 0,
+  zoomTo: function(number) {
+    $("iframe").css({
+      height: (1 / number * 100) + "%",
+      width: (1 / number * 100) + "%",
+      zoom: number,
+      "-moz-transform": "scale(" + number + ")",
+      "-o-transform": "scale(" + number + ")",
+      "-webkit-transform": "scale(" + number + ")"
+    });
+    Control.zoom = number;
+    return number;
+  },
+  zoomSlide: function(to) {
+    var 
+      direction = (to - Control.zoom) > 0 ? 1 : -1,
+      turns = 5,
+      step = (Math.abs(to - Control.zoom) / turns),
+      ival = setInterval(function(){
+        Control.zoomTo(Control.zoom + direction * step); 
+        if(! turns --) {
+          clearInterval(ival);
+        }
+      }, 1);
+  }, 
+  panTo: function(where){
+    $("#main").animate({marginLeft: where});
+    Control.offset = where;
+  },
+  PanLeft: function(){
+    Control.panTo(Math.min(0, Control.offset + $(window).width() * 0.75));
+  },
+  PanRight: function(){
+    Control.panTo(Control.offset - $(window).width() * 0.75);
+  },
+  ZoomIn: function() {
+    Control.zoomSlide(Control.zoom + 0.25); 
+  },
+  ZoomOut: function() {
+    Control.zoomSlide(Control.zoom - 0.25); 
+  }
+}
+  
+var Panel = {
+  map: {},
+  id: 0,
+
+  init: function(){
+    Panel.template = _.template($("#T-Panel").html());
+  },
+
+  Add: function(opts) {
+    Panel.id++;
+    Panel.map[Panel.id] = {
+      DOM: $('<div class="panel well well-small span10" />').html(
+        Panel.template( _.extend( { id: Panel.id }, opts ))
+      )
+    };
+
+    $("#main").append(Panel.map[Panel.id].DOM);
+    return Panel.id;
+  },
+
+  ToggleCollapse: function(id) {
+    var panel = Panel.map[id],
+        width,
+        dom = $(panel.DOM); 
+
+    if(dom.hasClass('collapsed')) {
+      width = panel.width;
+      Control.panTo(Panel.offset(id));
+    } else {
+      panel.width = dom.width();
+      width = '2em';
+    }
+
+    dom.contents().css('visibility', 'hidden');
+    dom.animate({width: width}, function(){
+      dom.contents().css('visibility', 'visible');
+      dom.toggleClass('collapsed');
+    });
+  },
+
+  offset: function(id) {
+    return -(Panel.map[id].DOM.offset().left - $("#main").offset().left);
+  },
+
+  ToggleFullscreen: function(id) {
+    var panel = Panel.map[id],
+        dom = $(panel.DOM); 
+
+    dom.toggleClass('expanded');
+    Control.panTo(Panel.offset(id));
+  }
+};
+
+$(function(){
+
+  Panel.init();
+  
+  Panel.Add({
+    title: "Famous Authors" ,
+    url: "http://192.168.0.8:8800/home/chris/viz/www.jsplumb.org/jquery/perimeterAnchorsDemo.html"
+  });
+  Panel.Add({
+    title: "Famous Authors" ,
+    url: "http://192.168.0.8:8800/home/chris/viz/www.jsplumb.org/jquery/perimeterAnchorsDemo.html"
+  });
+  Panel.Add({
+    title: "Famous Authors" ,
+    url: "http://192.168.0.8:8800/home/chris/viz/www.jsplumb.org/jquery/perimeterAnchorsDemo.html"
+  });
+    
+    
+  $(".panel").each(function(){
+    var mthis = this;
+    $(".icon-backward", this).click(function(){
+      console.log("hi");
+      collapseToggle(mthis);
+    });
+    $(".icon-fullscreen", this).click(function(){
+      expandToggle(mthis);
+    });
+  });
+});
+</script>

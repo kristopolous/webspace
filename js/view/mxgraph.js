@@ -44,9 +44,6 @@ $(function(){
           // style
           'ROUNDED'
         ));
-      },
-      initialize: function(model) {
-        this.model = model;
       }
     });
   });
