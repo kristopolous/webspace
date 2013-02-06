@@ -1,4 +1,12 @@
-a{color:#ddf}
+a{
+  color:blue
+}
+#document {
+  white-space:nowrap;
+}
+#document * {
+  white-space: normal;
+}
 #header{
 padding:1em;
 font-size:0.75em;
@@ -8,7 +16,7 @@ border-bottom:2px solid #445;
 @font-face
 {
 font-family: 'ico';
-src: url('../../iconic_fill.ttf') format('truetype'), url('../../iconic_fill.wof') format('woff');
+src: url('iconic_fill.ttf') format('truetype'), url('iconic_fill.wof') format('woff');
 }
 .h1Plus,.h2Plus {
   cursor:pointer;
@@ -159,3 +167,4 @@ span,div {
 */
 
 
+.fix{line-height:2em;margin-top:3em;background:red;padding:3em}
