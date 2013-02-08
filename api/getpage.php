@@ -1,32 +1,6 @@
 <?
+require('lib.php');
 
-function _stripAttribs($node) {
-  $list = Array();
-  foreach($node->attributes as $attr) {
-    $list[] = $attr->name;
-  }
-  foreach($list as $attr) {
-    $node->removeAttribute($attr);
-  }
-  return $node;
-}
-
-function _remove($node) {
-  $parent = $node->parentNode;
-  $parent->removeChild($node);
-  return $parent;
-}
-
-function _changeTag($node, $name) {
-  $document = $node->ownerDocument; 
-  $newnode = $document->createElement($name);
-  foreach($node->childNodes as $child) {
-    $newnode->appendChild( $child->cloneNode(true) );
-  }
-  //$newnode->nodeValue = $node->nodeValue;
-  $node->parentNode->replaceChild($newnode, $node);
-  return $newnode;
-}
 
 function removeMeta($xpath) {
   foreach(Array( 
@@ -51,43 +25,57 @@ function removeMeta($xpath) {
   }
 }
 
-function unwrapReal($nodeList) {
-  foreach($nodeList as $node) {
-    $text = $node->nodeValue;
-    $parent = $node->parentNode;
-    $parent->removeChild($node);
-    $parent->nodeValue = $text; 
-  }
-}
 function unwrap($xpath) {
-  unwrapReal($xpath->query("//*[contains(@class, 'mw-headline')]"));
-  unwrapReal($xpath->query("//span[@dir='auto']")); // h1
+  _unwrapShallow($xpath->query("//*[contains(@class, 'mw-headline')]"));
+  _unwrapShallow($xpath->query("//span[@dir='auto']")); // h1
 }
+
 
 function makeSemantic($xpath) {
-  $map = Array(
-    'thumbcaption' => 'figcaption',
-    'thumbinner' => 'figure'
-  );
 
-  foreach($map as $class => $tag) {
+  $nodeList = $xpath->query("//*[@class='thumbcaption']");
+  foreach($nodeList as $node) {
+    $node = _changeTag($node, 'p'); 
+    $node->setAttribute('class', 'media-caption');
+  }
+  $nodeList = $xpath->query("//*[@class='image']");
+  foreach($nodeList as $node) {
+    $node->setAttribute('class', 'media-expansion');
+  }
+
+  foreach(Array('mediaContainer', 'thumbinner') as $class) {
     $nodeList = $xpath->query("//*[@class='${class}']");
     foreach($nodeList as $node) {
-      $node = _changeTag($node, $tag); 
-      $node->removeAttribute('class');
+      _unwrapDeep($node);
     }
+  }
+
+  $nodeList = $xpath->query("//*[contains(@class, 'thumb')]");
+  foreach($nodeList as $node) {
+    $node->setAttribute('class', 'media');
   }
 }
 
 function setupLinks($xpath) {
   global $base;
-  $nodes = $xpath->query('//a/@href');
-  foreach($nodes as $href) {
-    $link = parse_url($href->nodeValue);
-    $txt = $href->nodeValue;
+  $nodes = $xpath->query('//a');
+
+  foreach($nodes as $anchor) {
+    $txt = $anchor->getAttribute('href');
+    $link = parse_url($txt);
+
     if(empty($link['host']) && !empty($link['path'])) {
-      $href->nodeValue = 'http://' . $base . $txt;
+
+      // This wikipedia page doesn't exist yet, so we
+      // just give it a null term value.
+      if (strpos($txt, 'action=edit') > -1) {
+        $txt = '';
+      } else {
+        $txt = 'http://' . $base . $txt;
+      }
     }
+    _stripAttribs($anchor);
+    $anchor->setAttribute('href', $txt);
   }
 }
 
@@ -116,7 +104,7 @@ if(!empty($url['host'])) {
 }
 
 $doc = new DOMDocument();
-$doc->loadHTMLFile($_GET['url']);
+@$doc->loadHTMLFile($_GET['url']);
 
 $title = $doc->getElementById('firstHeading');
 
