@@ -1,0 +1,28 @@
+figure, 
+figcaption,
+section, main, ol, ul, 
+aside, .description, .definition-group, .intro, .meta {
+  border: 2px solid rgba(50, 122, 75, 0.5);
+  margin: 2px;
+}
+
+*:before {
+   display: inline-block;
+   font-family: Verdana;
+   background: rgba(80, 152, 100, 0.35);
+   font-size: 0.75em;
+   font-weight:bold;
+   padding: 0.25em;
+   text-align: left;
+   text-transform: uppercase;
+}
+section:before      { content: "section" }
+ul:before           { content: "path" }
+ol:before           { content: "procedure" }
+main:before         { content: "main" }
+aside:before        { content: "aside" }
+figure:before       { content: "figure" }
+figcaption:before   { content: "figcaption" }
+.description:before { content: "description" }
+.intro:before       { content: "intro" }
+.meta:before        { content: "meta" }

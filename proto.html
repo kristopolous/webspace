@@ -1,9 +1,11 @@
-<!doctype html>
+<!doctype html5>
 <html>
 	<head>
     <title>ProtoViewer</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />		
-		<link rel="stylesheet" href="css/proto.css">	
+		<link rel="stylesheet" href="css/display-format.css">	
+		<link rel="stylesheet" href="css/gloss.css">	
+    <!--    <link rel="stylesheet" href="css/lines-and-arrows.css"> -->
 	</head>
 	<body>
 
@@ -14,16 +16,25 @@
 </script>
 
 <script type="text/template" id="Intro">
-  <span class="intro">
+  <div class="intro">
     <%= content %>
-  </span>
+  </div>
+</script>
+
+<script type="text/template" id="T-DF-Section">
+  <section>
+    <h2><%= title %></h2>
+    <div class="description">
+      <%= content %>
+    </div>
+  </section>
 </script>
 
 <script type="text/template" id="Section">
   <span class="sectionContainer">
     <span class="section">
       <h2><%= title %></h2>
-      <div class="layer">
+      <div class="description">
         <%= content %>
       </div>
     </span>
@@ -59,6 +70,19 @@
   </div>
 </script>
 
+<script type="text/template" id="T-Help">
+<h2>How to use:</h2>
+<p>Specify a pipe delimited string after the url with the following format:</p>
+
+<pre>(engine)|(url)</pre>
+
+<p>Where engine is one of:</p>
+
+<ul>
+  <li>raw - retrieves the file raw</li>
+  <li>wikipedia - retrieves a wikipedia page and tries to convert it</li>
+</ul>
+</script>
 	    
 <script src="js/evda.min.js"></script>
 <script src='js/underscore.js'></script>

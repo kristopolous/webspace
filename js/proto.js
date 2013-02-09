@@ -53,6 +53,54 @@ var Over = {
   }
 };
 
+function setup(scope){
+  var tmpl = {
+    title: _.template($("#Title").html()),
+    description: _.template($("#Description").html()),
+    category: _.template($("#Category").html())
+  },
+  tagMap = {
+    h2: 'category',
+    h1: 'title',
+    p: 'description'
+  };
+
+  _.each(tagMap, function(template, tag) {
+    $(tag, scope).replaceWith(function(){
+      return tmpl[template]({
+        content: $(this).html()
+      });
+    });
+  });
+
+  $("h1,h2,h3,h4", scope).addClass("shape title");
+ 
+  var widthList, widest;
+
+
+  widthList = $('h2').map(function(){ return $(this).width() });
+  widest = widthList.sort()[widthList.length - 1];
+  $('h2').each(function(){
+    this.style.width = widest + "px";
+  });
+
+  widthList = $('.sectionContainer').map(function(){ return $(this).width() });
+  widest = widthList.sort()[widthList.length - 1];
+  console.log(widthList);
+  $('.sectionContainer').each(function(){
+    this.style.width = widest + "px";
+  });
+
+  $("a").each(function(){
+    var link = this.getAttribute('href');
+    this.removeAttribute('href');
+
+    $(this).click(function(){
+      Panel.add(link);
+    });
+  });
+}
+
 var Ends = {};
 var Edge = {};
 function categoryConnect(){
@@ -92,6 +140,7 @@ function repaint(){
 
 function scaffold() {
   var width = 4;
+  setup();
 
   $(window).resize(repaint);
   $(".h2Plus").click(toggle);
@@ -229,7 +278,7 @@ function scaffold() {
 window.jsPlumbDemo = {
     
   init : function() {
-    evda.isset('document', scaffold);
+    evda.isset('do-lines-and-arrows', scaffold);
   }    
 }
   
