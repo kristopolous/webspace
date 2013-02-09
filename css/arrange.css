@@ -1,17 +1,29 @@
+/*
+ * Typography
+ */
+
+h1 { font-size: 2em }
+h2 { font-size: 1.5em }
+
+/*
+ * Flow and alignment
+ */
 .intro {
   display: block;
 }
 
 .section-group {
+  text-align: center;
   display: block;
   white-space: nowrap;
   vertical-align: top;
 }
 
 section {
+  display: inline-block;
+  text-align: left;
   white-space: normal;
   vertical-align: top;
-  display: inline-block;
 }
 
 .category-group-super {
@@ -24,16 +36,34 @@ section {
   text-align: left;
 }
 
+/*
+ * Spacing
+ */
+.intro,
 .description,
 ul,
 ol {
   margin-left: 1em
 }
 
-/*
- * now we assign them widths.
- */
+section {
+  margin: 0 2em;
+}
 
+li,
+p {
+  margin: 0.5em 0;
+}
+
+h1,
+h2 {
+  padding: 0.5em 0;
+}
+
+/*
+ * Confinement
+ */
+.intro,
 .description {
   width: 17em; 
 }
