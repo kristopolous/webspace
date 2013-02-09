@@ -4,7 +4,8 @@ a {
 
 @font-face {
   font-family: 'ico';
-  src: url('iconic_fill.ttf') format('truetype'), url('iconic_fill.wof') format('woff');
+  src: url('iconic_fill.ttf') format('truetype'), 
+    url('iconic_fill.wof') format('woff');
 }
 
 #document {
@@ -79,10 +80,6 @@ a {
   margin:0 2.5em;
   min-width:20em;
   display:inline-block
-}
-
-#header{
-  display:none
 }
 
 

@@ -1,0 +1,39 @@
+.intro {
+  display: block;
+}
+
+.section-group {
+  display: block;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+section {
+  white-space: normal;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.category-group-super {
+  display: block;
+  text-align:center;
+}
+
+.category-group {
+  display: inline-block;
+  text-align: left;
+}
+
+.description,
+ul,
+ol {
+  margin-left: 1em
+}
+
+/*
+ * now we assign them widths.
+ */
+
+.description {
+  width: 17em; 
+}

@@ -5,7 +5,9 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />		
 		<link rel="stylesheet" href="css/display-format.css">	
 		<link rel="stylesheet" href="css/gloss.css">	
-    <!--    <link rel="stylesheet" href="css/lines-and-arrows.css"> -->
+		<link rel="stylesheet" href="css/reset.css">	
+		<link rel="stylesheet" href="css/arrange.css">	
+<!--    <link rel="stylesheet" href="css/lines-and-arrows.css"> -->
 	</head>
 	<body>
 
@@ -18,6 +20,20 @@
 <script type="text/template" id="Intro">
   <div class="intro">
     <%= content %>
+  </div>
+</script>
+
+<!-- Align the H* with their intros -->
+<script type="text/template" id="T-A-CategoryContainer">
+  <div class="category-container">
+    <%= category %>
+    <%= intro %>
+  </div>
+</script>
+
+<script type="text/template" id="T-A-Section"> 
+  <div class="section-group">
+    <%= sectionList %>
   </div>
 </script>
 
@@ -41,7 +57,7 @@
   </span>
 </script>
 
-<script type="text/template" id="Category">
+<script type="text/template" id="T-LA-Category">
   <div class="h2Container">
     <div>
       <div class="shape h2 lineHelper"></div><div></div>
@@ -54,7 +70,7 @@
 </script>
 
     
-<script type="text/template" id="Title">
+<script type="text/template" id="T-LA-Title">
   <div class='docTitle'>
     <h1 class="shape"><%= content %>
     </h1><br>
@@ -62,7 +78,7 @@
   </div>
 </script>
 
-<script type="text/template" id="Description">
+<script type="text/template" id="T-LA-Description">
   <div class='entry'>
     <div class="shape connector"></div>
     <div class="arrowHelper"></div>
@@ -86,11 +102,15 @@
 	    
 <script src="js/evda.min.js"></script>
 <script src='js/underscore.js'></script>
+
 <script src='js/jquery-1.7.1.js'></script>
 <script src='js/jquery-ui.min.js'></script>
 <script src='js/jquery.ui.touch-punch.min.js'></script>
 <script src='js/jquery.jsPlumb-1.3.16-all-min.js'></script>
-<script src="js/proto.js"></script>
+
+<script src="js/common.js"></script>
+<script src="js/arrange-on-screen.js"></script>
+<script src="js/lines-and-arrows.js"></script>
 <script src="js/parse.js"></script>
 <script src="js/demo-helper-jquery.js"></script>
 

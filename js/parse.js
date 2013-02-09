@@ -30,7 +30,6 @@
       // move adjacent
       var toMove = $('a[name="' + href.slice(1) + '"]').get(0).parentNode
 
-      console.log(toMove.innerHTML);
       // Remove it and then place it after the links'
       // parent node ... creating adjacency.
       $(toMove).remove().insertAfter(this.parentNode);
@@ -38,12 +37,14 @@
   }
 
   // This eventually needs to be server-side
-  self.displayFormat = function (scope) {
+  self.displayFormat = function (selector) {
     var 
       intro = _.template($("#Intro").html());
       section = _.template($("#T-DF-Section").html());
 
-    scope = swapTag(scope, "main").removeAttr('id');
+    swapTag(selector, "main");
+    var scope = $(selector);
+    //.removeAttr('id');
 
     swapTag(".aside", "aside");
     swapTag(".media", "figure");
@@ -96,46 +97,45 @@
 
     reorder(scope);
   }
+
+  // The format of the request url is
+  // engine|url
+  //
+  // Where engine is one of
+  //
+  // * raw
+  // * wikipedia
+  //
+  var Loader = {
+    raw: function(url, cb) {
+      $.get(url, cb);
+    },
+
+    wikipedia: function(url, cb) {
+      $.get('api/getpage.php?url=' + url, cb);
+    },
+
+    $done: function (data) {
+      var scope;
+      $("#document").replaceWith(data);
+
+      // This gets us to a glossing point.
+      displayFormat("#document");
+
+      evda.set('arrange-on-screen');
+    }
+  };
+
+  $(function(){
+    var 
+      toLoad = window.location.search.slice(1).split('|'),
+      engine = toLoad[0],
+      url = toLoad[1];
+
+    if(Loader[engine]) {
+      Loader[engine](url, Loader.$done);
+    } else {
+      $(document.body).html($("#T-Help").html());
+    }
+  });
 })();
-
-// The format of the request url is
-// engine|url
-//
-// Where engine is one of
-//
-// * raw
-// * wikipedia
-//
-var Loader = {
-  raw: function(url, cb) {
-    $.get(url, cb);
-  },
-
-  wikipedia: function(url, cb) {
-    $.get('api/getpage.php?url=' + url, cb);
-  },
-
-  $done: function (data) {
-    var scope;
-    $("#document").replaceWith(data);
-    scope = $("#document");
-
-    // This gets us to a glossing point.
-    displayFormat(scope);
-
-    //evda.set('do-lines-and-arrows');
-  }
-};
-
-$(function(){
-  var 
-    toLoad = window.location.search.slice(1).split('|'),
-    engine = toLoad[0],
-    url = toLoad[1];
-
-  if(Loader[engine]) {
-    Loader[engine](url, Loader.$done);
-  } else {
-    $(document.body).html($("#T-Help").html());
-  }
-});

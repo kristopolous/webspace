@@ -1,12 +1,24 @@
-figure, 
-figcaption,
-section, main, ol, ul, 
-aside, .description, .definition-group, .intro, .meta {
+/* 
+ * This is the display formatting semantic-glosser.
+ * In order to use it, add the "gloss" class to
+ * the HTML body
+ */
+.gloss figure, 
+.gloss figcaption,
+.gloss section, 
+.gloss main, 
+.gloss ol, 
+.gloss ul, 
+.gloss aside, 
+.gloss .description, 
+.gloss .definition-group, 
+.gloss .intro, 
+.gloss .meta {
   border: 2px solid rgba(50, 122, 75, 0.5);
   margin: 2px;
 }
 
-*:before {
+.gloss *:before {
    display: inline-block;
    font-family: Verdana;
    background: rgba(80, 152, 100, 0.35);
@@ -16,13 +28,14 @@ aside, .description, .definition-group, .intro, .meta {
    text-align: left;
    text-transform: uppercase;
 }
-section:before      { content: "section" }
-ul:before           { content: "path" }
-ol:before           { content: "procedure" }
-main:before         { content: "main" }
-aside:before        { content: "aside" }
-figure:before       { content: "figure" }
-figcaption:before   { content: "figcaption" }
-.description:before { content: "description" }
-.intro:before       { content: "intro" }
-.meta:before        { content: "meta" }
+
+.gloss .section:before     { content: "section" }
+.gloss ul:before           { content: "path" }
+.gloss ol:before           { content: "procedure" }
+.gloss main:before         { content: "main" }
+.gloss aside:before        { content: "aside" }
+.gloss figure:before       { content: "figure" }
+.gloss figcaption:before   { content: "figcaption" }
+.gloss .description:before { content: "description" }
+.gloss .intro:before       { content: "intro" }
+.gloss .meta:before        { content: "meta" }
