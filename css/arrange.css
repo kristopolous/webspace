@@ -2,12 +2,26 @@
  * Typography
  */
 
-h1 { font-size: 2em }
-h2 { font-size: 1.5em }
+@font-face {
+  font-family: 'dserif';
+  src: url('DroidSerif-Regular.ttf') format('truetype');
+}
+
+h1 { 
+  font-size: 2.25em 
+}
+h2 { 
+  font-size: 1.35em; 
+  letter-spacing: 0.0205em;
+}
+body {
+  font: 14px/19px 'dserif', Times;
+}
 
 /*
  * Flow and alignment
  */
+figure,
 .intro {
   display: block;
 }
@@ -31,10 +45,56 @@ section {
   text-align:center;
 }
 
+.category-group-super.h2 {
+  text-align: left
+}
+
 .category-group {
   display: inline-block;
   text-align: left;
 }
+
+ol { 
+  float: none
+}
+ol > li {
+  float: none;
+  display: inline-block;
+}
+/* 
+ * this is kept at height 0 to make the flow
+ * of the aside work.
+ */
+div.aside-container {
+  margin-top: -2em;
+  margin-left: 1em;
+  height:0;
+  float: right;
+}
+/* 
+ * While the aside itself still registers
+ * its normal height
+ */
+aside.aside{
+  float: right;
+}
+
+.intro,
+.intro p,
+ul,
+li,
+ol,
+figure,
+.description,
+.description p {
+  float: left;
+  clear: both;
+}
+h2 {
+  text-align: center;
+}
+
+
 
 /*
  * Spacing
@@ -46,24 +106,111 @@ ol {
   margin-left: 1em
 }
 
+.intro {
+  margin-top: 1em
+}
+.description .description {
+  margin-left: 3em;
+}
+
+.section-group {
+  margin-top: 2em;
+}
+
+.intro p,
+.description p,
+.description figure
+{
+  margin-left: 2.0em;
+}
+
 section {
   margin: 0 2em;
 }
 
 li,
 p {
-  margin: 0.5em 0;
+  margin-bottom:1.25em;
+}
+li {
+  padding: 0.5em
 }
 
-h1,
+h1{ padding: 0.5em 0; }
 h2 {
-  padding: 0.5em 0;
+  padding: 0.75em 0;
+}
+
+.intro,
+.description {
+  padding:0 0.25em;
+  margin-bottom:1.5em;
+}
+.description {
+  margin-top: 1.5em
 }
 
 /*
  * Confinement
  */
-.intro,
-.description {
-  width: 17em; 
+.intro p,
+figcaption, 
+.description p {
+  width: 19em; 
+}
+
+li {
+  max-width: 19em
+}
+
+h2 {
+  min-width:12em;
+  max-width:20em;
+}
+/*
+ * Coloring rules
+ * using http://www.studiopress.com/palettes/joy-to-the-world
+ */
+h2 {
+  color: #1C2D17;
+  background: #cedde1;
+  border-bottom: 4px solid #9ec5c0;
+}
+
+.circle:hover {
+  border-color: #647D7A;
+  box-shadow:0 0 2px 0.15em #647D7A;
+}
+.circle{
+  color: #1C2D17;
+  text-decoration: none;
+  border-radius:5px;
+  border:0.15em solid #9ec5c0;
+  background: #cedde1;
+  margin:0.1em -0.25em;
+  padding:0 0.10em;
+  whitespace:pre;
+  display:inline-block;
+}
+/*
+ * misc 
+ */
+.definition-group {
+  display: none
+}
+
+.debug figure, 
+.debug figcaption,
+.debug section, 
+.debug main, 
+.debug ol, 
+.debug li, 
+.debug ul, 
+.debug aside, 
+.debug .description, 
+.debug .definition-group, 
+.debug .intro, 
+.debug p,
+.debug .meta {
+  box-shadow: 0 0 0px 1px rgba(50, 122, 75, 0.25);
 }

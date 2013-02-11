@@ -122,8 +122,7 @@
       // This gets us to a glossing point.
       displayFormat("#document");
 
-      $(document.body).addClass("gloss");
-     // evda.set('arrange-on-screen');
+      evda.set('arrange-on-screen');
     }
   };
 
