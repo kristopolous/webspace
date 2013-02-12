@@ -3,12 +3,29 @@
 
   // This makes sure that the tree remains balanced
   // it works off tags
-  function balance(tag) {
-    var widthList = $(tag).map(function(){ return $(this).width() }),
-        docWidth = $(document).width() / 2,
-        widest = widthList.sort()[widthList.length - 1];
+  function balance(tag, scope) {
+    var nodeList = $(tag, scope), 
+        widthList,
+        docWidth,
+        widest,
+        siblings;
+
+    if(!nodeList.length > 0) {
+      return;
+    }
+
+    // Recursively do the children then their respective parents.
+    nodeList.each(function(what, that) {
+      balance(tag, that);
+    });
+
+    siblings = $(nodeList.get(0)).siblings().filter("section");
+
+    widthList = $(siblings).map(function(){ return $(this).width() }),
+    docWidth = $(document).width() / 2,
+    widest = widthList.sort()[widthList.length - 1];
     
-    $(tag).each(function(){
+    $(siblings).each(function(){
       // First calculate how much we need to go over.
       var offset = widest - $(this).width();
 
@@ -23,7 +40,7 @@
   }
 
   function hooks() {
-    balance('section');
+    balance('section', document.body);
   }
 
   function stagnatePaths() {
@@ -91,6 +108,25 @@
     });
   }
 
+  // Make the title fixed AND the first section below have the right margin-top 
+  // to accomodate for it
+  function makeFixed() {
+    var 
+      node = $(".category-group-super.h1"),
+      necessaryMargin = $(node).height();
+
+    // Set the node to be fixed and in the middle
+    node.css({
+      top: 0,
+      position: 'fixed',
+      width: "100%"
+    });
+
+    // Move the section group up.
+    node.next().css('margin-top', necessaryMargin);
+
+  }
+
   // by now we know that there is a main of id document
   function arrange() {
 
@@ -121,7 +157,12 @@
     drawCircles();
     hooks();
     stagnatePaths();
-//    $(document.body).addClass("debug");
+    //makeFixed();
+    if(Step > 2) {
+      evda.set('do-lines-and-arrows');
+    } else {
+      //$(document.body).addClass("debug");
+    }
   }
 
   $(function(){

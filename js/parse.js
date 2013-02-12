@@ -26,13 +26,18 @@
     $('a[href^="#"]').each(function(){
 
       var href = this.getAttribute('href');
-      // This is the parent container of the node to 
-      // move adjacent
-      var toMove = $('a[name="' + href.slice(1) + '"]').get(0).parentNode
 
-      // Remove it and then place it after the links'
-      // parent node ... creating adjacency.
-      $(toMove).remove().insertAfter(this.parentNode);
+      // This is the parent container of the node to 
+      // move adjacent. It may or may not exist.
+      var matchSet = $('a[name="' + href.slice(1) + '"]');
+
+      if(matchSet.length) {
+        var toMove = matchSet.get(0).parentNode;
+
+        // Remove it and then place it after the links'
+        // parent node ... creating adjacency.
+        $(toMove).remove().insertAfter(this.parentNode);
+      }
     });
   }
 
@@ -87,6 +92,7 @@
         }
 
         var html = section({
+          tag: tag,
           title: $(this).remove().html(),
           content: temp.html()
         });
@@ -119,10 +125,18 @@
       var scope;
       $("#document").replaceWith(data);
 
-      // This gets us to a glossing point.
-      displayFormat("#document");
+      if(Step > 0) {
+        // This gets us to a glossing point.
+        displayFormat("#document");
+      } else {
+        return;
+      }
 
-      evda.set('arrange-on-screen');
+      if(Step > 1) {
+        evda.set('arrange-on-screen');
+      } else {
+        $(document.body).addClass('gloss');
+      }
     }
   };
 
@@ -131,6 +145,8 @@
       toLoad = window.location.search.slice(1).split('|'),
       engine = toLoad[0],
       url = toLoad[1];
+
+    Step = parseInt(toLoad[2]);
 
     if(Loader[engine]) {
       Loader[engine](url, Loader.$done);

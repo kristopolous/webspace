@@ -8,12 +8,17 @@
 }
 
 h1 { 
-  font-size: 2.25em 
+  font-size: 2.5em;
 }
 h2 { 
   font-size: 1.35em; 
   letter-spacing: 0.0205em;
 }
+h4, h3 {
+  font-size: 1.35em;
+  letter-spacing: -0.0205em;
+}
+
 body {
   font: 14px/19px 'dserif', Times;
 }
@@ -45,6 +50,7 @@ section {
   text-align:center;
 }
 
+.category-group-super.h4,
 .category-group-super.h2 {
   text-align: left
 }
@@ -109,6 +115,8 @@ ol {
 .intro {
   margin-top: 1em
 }
+
+.intro .description,
 .description .description {
   margin-left: 3em;
 }
@@ -132,13 +140,17 @@ li,
 p {
   margin-bottom:1.25em;
 }
+
 li {
   padding: 0.5em
 }
 
-h1{ padding: 0.5em 0; }
+h1 { 
+  padding: 0.5em 0; 
+}
+
 h2 {
-  padding: 0.75em 0;
+  padding: 0.75em 1em;
 }
 
 .intro,
@@ -146,8 +158,13 @@ h2 {
   padding:0 0.25em;
   margin-bottom:1.5em;
 }
+
 .description {
   margin-top: 1.5em
+}
+
+p + .description {
+  margin-top: 0
 }
 
 /*
@@ -167,6 +184,7 @@ h2 {
   min-width:12em;
   max-width:20em;
 }
+
 /*
  * Coloring rules
  * using http://www.studiopress.com/palettes/joy-to-the-world
@@ -175,6 +193,10 @@ h2 {
   color: #1C2D17;
   background: #cedde1;
   border-bottom: 4px solid #9ec5c0;
+}
+
+h1,h3 {
+  color: #273F20;
 }
 
 .circle:hover {
@@ -192,8 +214,9 @@ h2 {
   whitespace:pre;
   display:inline-block;
 }
+
 /*
- * misc 
+ * Misc 
  */
 .definition-group {
   display: none
