@@ -100,9 +100,18 @@
   // These are needed to make the flow of the LHS proper while also keeping
   // the $().height() returning a valid number.
   function wrapAsides() {
-    $("aside").each(function(){
-      $(this).replaceWith(templateMap.aside({
-        content: this.innerHTML
+    $("aside a.link-destination").each(function(){
+      var name = this.getAttribute('name');
+      
+      // TODO: put in model {{
+      var 
+        source = $(AnchorMap[name].source[0]),
+        content = $(AnchorMap[name].destination[0]);
+      // }} Put in model.
+      
+      $(source).replaceWith(templateMap.aside({
+        content: content.remove().html(),
+        source: source.html()
       }));
     });
   }
@@ -123,6 +132,10 @@
 
     // Move the section group up.
     node.next().css('margin-top', necessaryMargin);
+
+    $(window).scroll(function(){
+      $(".category-group-super.h1").css('top', - $(this).scrollTop());
+    }); 
 
   }
 
@@ -156,7 +169,7 @@
     drawCircles();
     hooks();
     stagnatePaths();
-    //makeFixed();
+    makeFixed();
     if(Step > 2) {
       evda.set('do-lines-and-arrows');
     } else {

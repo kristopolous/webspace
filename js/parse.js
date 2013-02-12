@@ -25,14 +25,35 @@
     // These are all the inline links
     $('a[href^="#"]').each(function(){
 
-      var href = this.getAttribute('href');
+      var 
+        href = this.getAttribute('href'),
+        name = href.slice(1);
+
+      $(this).addClass("link-source");
 
       // This is the parent container of the node to 
       // move adjacent. It may or may not exist.
-      var matchSet = $('a[name="' + href.slice(1) + '"]');
+      var matchSet = $('a[name="' + name + '"]');
 
       if(matchSet.length) {
+
+        matchSet.addClass("link-destination");
+
         var toMove = matchSet.get(0).parentNode;
+
+        // TODO: put in model {{
+        if(!AnchorMap[name]) {
+          AnchorMap[name] = { 
+            link: [],
+            source: [],
+            destination: []
+          };
+        }
+
+        AnchorMap[name].link.push(this);
+        AnchorMap[name].destination.push(toMove);
+        AnchorMap[name].source.push(this.parentNode);
+        // }} Put in model.
 
         // Remove it and then place it after the links'
         // parent node ... creating adjacency.

@@ -57,6 +57,7 @@ function unwrap($xpath) {
   _unwrapShallow($xpath->query("//*[contains(@class, 'mw-headline')]"));
   _unwrapShallow($xpath->query("//span[@dir='auto']")); // h1
   _unwrapShallow($xpath->query("//div[@class='Bug6200']")); // blockquote
+//  _unwrapDeep($xpath->query("//dd"));
 }
 
 

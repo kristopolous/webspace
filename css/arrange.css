@@ -72,10 +72,12 @@ ol > li {
  * of the aside work.
  */
 div.aside-container {
+  /*
   margin-top: -2em;
   margin-left: 1em;
   height:0;
   float: right;
+  */
 }
 /* 
  * While the aside itself still registers
@@ -83,6 +85,7 @@ div.aside-container {
  */
 aside.aside{
   float: right;
+  margin: -2em 0 3em 1em;
 }
 
 .intro,
@@ -203,13 +206,16 @@ h1,h3 {
   border-color: #647D7A;
   box-shadow:0 0 2px 0.15em #647D7A;
 }
+.circle.expanded{
+  margin-bottom:1em;
+}
 .circle{
   color: #1C2D17;
   text-decoration: none;
   border-radius:5px;
   border:0.15em solid #9ec5c0;
   background: #cedde1;
-  margin:0.1em -0.25em;
+  margin:0.1em -0.25em 0;
   padding:0 0.10em;
   whitespace:pre;
   display:inline-block;

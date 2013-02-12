@@ -1,5 +1,6 @@
 var evda = EvDa(),
   Step = 0,
+  AnchorMap = {},
   ColorList = [
     "rgb(31, 73, 125)"
   ],

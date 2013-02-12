@@ -1,5 +1,6 @@
 a {
-  color:blue
+  color:blue;
+  cursor: pointer;
 }
 
 @font-face {

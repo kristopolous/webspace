@@ -27,7 +27,7 @@
   }	
 
   function toggle(){
-    var node = $(this).parent().parent().next();
+    var node = $(this).parent().parent().parent().next();
     if(this.hide) {
       this.innerHTML = '&#xe009;';
       $(node).show().animate({
@@ -42,11 +42,12 @@
       $(node).animate({
         opacity: 0,
         fontSize: "0px"
-      }, {
+      }, 
+      {
         duration: 600,
         step:repaint
       }, function(){
-        $(this).hide();
+        node.css('display', 'none');
       });
     }
     this.hide = !this.hide;
@@ -133,10 +134,34 @@
   }
 
   function scaffold() {
-    setup("#document");
+    //setup("#document");
 
     $(window).resize(repaint);
-    $(".h2-Plus, .h1-Plus").click(toggle);
+    $(".Plus").click(toggle);
+    
+    $("a.link-source").each(function(){
+      var name = this.getAttribute('href').slice(1);
+
+      // Undecorate so that the page doesn't scroll
+      // when you click.
+      this.removeAttribute('href');
+      var destination = $("a[name='" + name + "']").parent();
+
+      destination.hide();
+      // Replace it with a click handler that
+      // collapses and expands the node
+      // TODO: put in model {{
+      $(this).click(function(){
+        if(destination.hide) {
+          destination.slideDown();
+        } else {
+          destination.slideUp();
+        }
+        $(this).toggleClass('expanded');
+        destination.hide = !destination.hide;
+      });
+    });
+   
 
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
