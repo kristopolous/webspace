@@ -1,7 +1,7 @@
 (function(){
 
   var 
-    visible = true,
+    width = 4,
     Ends = {},
     Edge = {},
     Over = {
@@ -13,6 +13,18 @@
         });				
       }
     };
+
+  function Depth(descendant) {
+    var 
+      depth = 0,
+      el = $(descendant);
+
+    while (el[0] != document.body) {
+      depth++;
+      el = el.parent();
+    }
+    return depth;
+  }	
 
   function toggle(){
     var node = $(this).parent().parent().next();
@@ -44,6 +56,15 @@
     return (50 / $(el).width());
   }
 
+  function makeBrush(width, color){
+    return jsPlumb.getInstance({
+      Connector: "Straight",
+      PaintStyle: { lineWidth: width, strokeStyle: color },
+      Endpoint: [ "Blank" ],
+      EndpointStyle: { fillStyle: color }
+    });
+  }
+
   function setup(scope){
     var tmpl = {
       title: _.template($("#T-LA-Title").html()),
@@ -64,25 +85,9 @@
       });
     });
 
-    $("h1,h2,h3,h4", scope).addClass("shape title");
+    $(".category-group", scope).addClass("shape title");
    
-    var widthList, widest;
-
-
-    widthList = $('h2').map(function(){ return $(this).width() });
-    widest = widthList.sort()[widthList.length - 1];
-    $('h2').each(function(){
-      this.style.width = widest + "px";
-    });
-
-    widthList = $('.sectionContainer').map(function(){ return $(this).width() });
-    widest = widthList.sort()[widthList.length - 1];
-    console.log(widthList);
-    $('.sectionContainer').each(function(){
-      this.style.width = widest + "px";
-    });
-
-    $("a").each(function(){
+    $("a[href^=#]").each(function(){
       var link = this.getAttribute('href');
       this.removeAttribute('href');
 
@@ -128,87 +133,35 @@
   }
 
   function scaffold() {
-    var width = 4;
-    setup();
+    setup("#document");
 
     $(window).resize(repaint);
-    $(".h2Plus").click(toggle);
-    $(".h1Plus").click(toggle);
+    $(".h2-Plus, .h1-Plus").click(toggle);
+
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
     };
 
     jsPlumb.importDefaults({
-      Connector:"Straight",
-      PaintStyle:{ lineWidth:width, strokeStyle:"rgb(31, 73, 125)" },
-      Endpoint:[ "Blank" ],
-      EndpointStyle:{ fillStyle: "rgb(31, 73, 125)" }
+      Connector: "Straight",
+      PaintStyle: { lineWidth: width, strokeStyle: ColorList[0] },
+      Endpoint: [ "Blank" ],
+      EndpointStyle: { fillStyle: ColorList[0] }
     });
-    Edge.default = jsPlumb.getInstance({
-      Connector:"Straight",
-      PaintStyle:{ lineWidth:width, strokeStyle:"rgb(31, 73, 125)" },
-      Endpoint:[ "Blank" ],
-      EndpointStyle:{ fillStyle: "rgb(31, 73, 125)" }
-    });
-
-    Edge.arrow = jsPlumb.getInstance({
-      Connector:"Straight",
-      PaintStyle:{ lineWidth:0, strokeStyle:"rgb(31, 73, 125)" },
-      Endpoint:[ "Blank" ]
-    })
-
-    var layout = [];
       
-    Edge.h1 = jsPlumb.getInstance({
-      Connector:"Straight",
-      PaintStyle:{ lineWidth:width * 2, strokeStyle:"rgb(31, 73, 125)" },
-      Endpoint:[ "Blank" ],
-      EndpointStyle:{ fillStyle: "rgb(31, 73, 125)" }
-    });
-
-    Edge.h2 = jsPlumb.getInstance({
-      Connector:"Straight",
-      PaintStyle:{ lineWidth:width * 0.65, strokeStyle:"rgb(31, 73, 125)" },
-      Endpoint:[ "Blank" ],
-      EndpointStyle:{ fillStyle: "rgb(31, 73, 125)" }
-    });
-
+    Edge = {
+      arrow: makeBrush(0, ColorList[0]),
+      h1: makeBrush(width * 2, ColorList[0]),
+      h2: makeBrush(width * 0.65, ColorList[0]),
+      default: makeBrush(width, ColorList[0])
+    };
       
-    $(".shape, .arrowHelper").each(function(){
-      layout.push([this, $(this).offset()]);
-    });
-    
-  /*
-    $.each(layout, function(ix, which) {
-      $(which[0])
-        .css('position','absolute')
-        .css(which[1]);
-    });
-
-  */
-    var PARENT = $(document.body)[0];
-    function Depth(descendant) {
-      var depth = 0;
-      var el = $(descendant);
-      while (el[0] != PARENT) {
-        depth++;
-        el = el.parent();
-      }
-      return depth;
-    }	
-
     var lastContent = $(".shape").get(0), 
         lastConnector = {},
         doBend = false;
 
     $("#document").draggable();
-
-    $("p").click(function(){
-      var intro = _.template($("#Speech").html());
-      var html = intro({phrase: $(this).text()});
-      $("#sound").html(html);
-    });
           
     $(".shape, .layer").each(function(){
       if($(this).hasClass('layer')) {
@@ -267,7 +220,6 @@
   // Only after the importer, parser and arranger are done do we get
   // to do our line and arrows.
   window.jsPlumbDemo = {
-      
     init : function() {
       evda.isset('do-lines-and-arrows', scaffold);
     }    

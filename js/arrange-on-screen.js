@@ -73,7 +73,7 @@
         first = $("<div />").insertBefore(this);
 
         // Then we initialize the node list to just be it
-        nodeList = [this];
+        nodeList = [];
 
         // and an intro container if it does exist.
         var next = $(this).next();
@@ -82,18 +82,17 @@
         }
       
         // now we map everything to the replacer 
-        replacer = $("<div />").addClass('category-group');
+        replacer = $("<div />");
         _.each(nodeList, function(node) {
           replacer.append($(node).remove());
         });
 
         // and finally replace our dummy
-        first.replaceWith(
-          $("<div />")
-            .addClass("h" + i)
-            .addClass("category-group-super")
-            .append(replacer)
-        );
+        first.replaceWith(templateMap.category({
+          tag: "h" + i,
+          content: $(this).remove().html(),
+          intro: replacer.html()
+        }));
       });
     }
   }
@@ -168,7 +167,7 @@
   $(function(){
     templateMap = {
       section: _.template($("#T-A-Section").html()),
-      category: _.template($("#T-A-CategoryContainer").html()),
+      category: _.template($("#T-A-Category").html()),
       aside: _.template($("#T-A-AsideContainer").html())
     };
 

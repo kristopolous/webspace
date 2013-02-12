@@ -44,7 +44,7 @@
   // This eventually needs to be server-side
   self.displayFormat = function (selector) {
     var 
-      intro = _.template($("#Intro").html());
+      intro = _.template($("#T-DF-Intro").html());
       section = _.template($("#T-DF-Section").html());
 
     swapTag(selector, "main");

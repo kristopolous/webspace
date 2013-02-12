@@ -8,37 +8,18 @@ a {
     url('iconic_fill.wof') format('woff');
 }
 
-#document {
-  text-align: center;
-  font-family: Verdana;
-  white-space: nowrap;
-}
-
-#document * {
-  white-space: normal;
-}
-
-#header{
-  padding:1em;
-  font-size:0.75em;
-  background:#eee;
-  border-bottom:2px solid #445;
-}
-
-.h1Plus,.h2Plus {
+h1,h2,h3,h4{position:relative}
+.Plus {
   cursor:pointer;
   color:#8Fc1fD;
   position:absolute;
   bottom:-0.65em;
-  width:80px;
   text-align:center; 
+  border-radius:20px;
   font-family: 'ico';
-  font-size:1.25em;
-  text-shadow:
-    -0.15em 0 black,
-    0 -0.15em black,
-    0.15em 0 black,
-    0 0.15em black;
+  line-height:16px;
+  font-size:18px;
+  background:black;
 }
 
 .more{
@@ -49,7 +30,7 @@ a {
     z-index:1;
 }
 
-#document p{
+#document pa{
   background:rgba(255,255,255,0.75);
   font-weight:bold;
   color: rgb(15, 36, 62); 
@@ -58,15 +39,6 @@ a {
   margin: 0 0 1.4em -0.1em;
   position:relative;
   padding:0 0.3em;
-}
-
-#document > p button{
-  background:white;
-  border:0;
-  color:blue;
-  text-decoration:underline;
-  font-weight:bold;
-  position:absolute;bottom:0px;right:0px;padding:0 5px;
 }
 
 .section{
@@ -80,15 +52,6 @@ a {
   margin:0 2.5em;
   min-width:20em;
   display:inline-block
-}
-
-
-.layer .layer{
-  margin-left:3em;
-  font-size:0.8em;
-}
-.layer .layer .layer {
-  font-size: 1
 }
 
 .layer{
@@ -114,6 +77,7 @@ a {
   display:inline-block;
   width:0;
 }
+
 .connector {
   display:inline-block;
   width:2.05em;
@@ -145,16 +109,6 @@ h2.twoLines {
   margin-bottom:-0.25em;
 }
 
-.circle{
-  border-radius:9px;
-  box-shadow:0 0 3px 0.15em rgb(31,73,125);
-  border:0.15em solid rgb(31,73,125);
-  margin:0.1em -0.25em;
-  padding:0.05em 0.25em;
-  background:#8Fc1fD;
-  whitespace:pre;
-  display:inline-block;
-}
 
 .arrowDown {
   margin-top:0;
@@ -174,7 +128,6 @@ h1.title{
   display:inline-block
 }
 
-
 .fix{
   line-height:2em;
   margin-top:3em;
@@ -182,11 +135,3 @@ h1.title{
   padding:3em
 }
 
-/*
-span,div {
-  background:rgba(200,200,200,0.1);
-  box-shadow: 0 0 1px 1px #ccc;
-}
-*/
-
-h1 + p { background:blue}
