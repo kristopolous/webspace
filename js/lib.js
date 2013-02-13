@@ -1,8 +1,40 @@
+var evda = EvDa(),
+  Step = 0,
+  slice = Array.prototype.slice,
+  NodeType = [ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ],
+  AnchorMap = {},
+  ColorList = [
+    "rgb(31, 73, 125)"
+  ],
+  Panel = {
+    add: function(url){ 
+      if(parent != self) {
+        parent.Panel.Add({
+          title: "unknown",
+          url: 'proto.html?' + url
+        });
+      }
+    }
+  };
 
-var NodeType = [ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ];
+_.attr = function(node, obj) {
+  _.each(obj, function(value, key) {
+    node.setAttribute(key, value);
+  });
+  return node;
+}
 
-var slice = Array.prototype.slice,
-  ev = EvDa();
+function addCss(file) {
+  var css = document.createElement("link");
+
+  document.getElementsByTagName("head")[0].appendChild(
+    _.attr(css, {
+      rel: 'stylesheet',
+      type: 'text/css',
+      href: 'css/' + file + '.css'
+    })
+  );
+}
 
 function enum(array) {
   var ret = {};
@@ -73,4 +105,3 @@ function setView(engine) {
   ev.set('view');
 }
 
-var v = {};

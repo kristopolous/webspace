@@ -134,6 +134,7 @@
   }
 
   function scaffold() {
+    addCss('lines-and-arrows')
     //setup("#document");
 
     $(window).resize(repaint);
@@ -241,12 +242,12 @@
     });
     categoryConnect();
   }
+
+  evda.isset('lines-and-arrows', scaffold);
     
   // Only after the importer, parser and arranger are done do we get
   // to do our line and arrows.
   window.jsPlumbDemo = {
-    init : function() {
-      evda.isset('do-lines-and-arrows', scaffold);
-    }    
+    init : function() { }    
   }
 })();  

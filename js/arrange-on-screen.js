@@ -139,14 +139,15 @@
 
   }
 
-  // by now we know that there is a main of id document
-  function arrange() {
-
+  function reflow() {
     // This is where we make sure that our document hierarchy is strict.
     // Our sections of the same height should be in a section container,
     // which has the proper overflow rules.
     
-    var first, nodeList = [], replacer;
+    var first, 
+        nodeList = [], 
+        replacer;
+
     // There is only one hr per article
     // TODO: inline-subdocumenting.
     $("h1 ~ section").each(function(){
@@ -162,28 +163,30 @@
     });
 
     replacer.insertAfter(first);
-
-    // You do this last because you need the hierarchy.
-    wrapCategories();
-    wrapAsides();
-    drawCircles();
-    hooks();
-    stagnatePaths();
-    makeFixed();
-    if(Step > 2) {
-      evda.set('do-lines-and-arrows');
-    } else {
-      //$(document.body).addClass("debug");
-    }
   }
 
-  $(function(){
+  // by now we know that there is a main of id document
+  function arrange() {
+    addCss('arrange-on-screen');
+
     templateMap = {
       section: _.template($("#T-A-Section").html()),
       category: _.template($("#T-A-Category").html()),
       aside: _.template($("#T-A-AsideContainer").html())
     };
 
-    evda.isset('arrange-on-screen', arrange);
-  });
+    reflow();
+    wrapCategories();
+    wrapAsides();
+    drawCircles();
+    hooks();
+    stagnatePaths();
+    makeFixed();
+
+    if(Step > 2) {
+      evda.set('lines-and-arrows');
+    }
+  }
+
+  evda.isset('arrange-on-screen', arrange);
 })();

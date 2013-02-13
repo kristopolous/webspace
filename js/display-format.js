@@ -125,54 +125,12 @@
     reorder(scope);
   }
 
-  // The format of the request url is
-  // engine|url
-  //
-  // Where engine is one of
-  //
-  // * raw
-  // * wikipedia
-  //
-  var Loader = {
-    raw: function(url, cb) {
-      $.get(url, cb);
-    },
-
-    wikipedia: function(url, cb) {
-      $.get('api/getpage.php?url=' + url, cb);
-    },
-
-    $done: function (data) {
-      var scope;
-      $("#document").replaceWith(data);
-
-      if(Step > 0) {
-        // This gets us to a glossing point.
-        displayFormat("#document");
-      } else {
-        return;
-      }
-
-      if(Step > 1) {
-        evda.set('arrange-on-screen');
-      } else {
-        $(document.body).addClass('gloss');
-      }
-    }
-  };
-
-  $(function(){
-    var 
-      toLoad = window.location.search.slice(1).split('|'),
-      engine = toLoad[0],
-      url = toLoad[1];
-
-    Step = parseInt(toLoad[2]);
-
-    if(Loader[engine]) {
-      Loader[engine](url, Loader.$done);
+  evda.isset('display-format', function() {
+    displayFormat("#document");
+    if(Step > 1) {
+      evda.set('arrange-on-screen');
     } else {
-      $(document.body).html($("#T-Help").html());
+      addCss('gloss');
     }
   });
 })();
