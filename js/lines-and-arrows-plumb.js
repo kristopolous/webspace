@@ -58,14 +58,14 @@
   }
 
   function categoryConnect(){
-    $(".category.lineHelper").each(function(){
+    $(".category.line-helper").each(function(){
       var h1 = this;
      
       Over.vertical(Edge.h1, this);
 
       $(h1.parentNode)
         .siblings()
-        .find(".h2.lineHelper")
+        .find(".h2.line-helper")
         .each( function(){
           Edge.h1.connect({
             source: h1,

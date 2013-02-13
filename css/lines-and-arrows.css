@@ -5,8 +5,8 @@ a {
 
 @font-face {
   font-family: 'ico';
-  src: url('iconic_fill.ttf') format('truetype'), 
-    url('iconic_fill.wof') format('woff');
+  src: url('vendor/iconic_fill.ttf') format('truetype'), 
+    url('vendor/iconic_fill.wof') format('woff');
 }
 
 h1,h2,h3,h4{position:relative}
@@ -69,12 +69,12 @@ h1,h2,h3,h4{position:relative}
   display:inline-block;
 }
 
-.connector , .arrowHelper {
+.connector , .arrow-helper {
   margin-top:.7em;
   height:0;
   vertical-align:top;
 }
-.arrowHelper {
+.arrow-helper {
   display:inline-block;
   width:0;
 }
@@ -85,7 +85,8 @@ h1,h2,h3,h4{position:relative}
 }
 
 h2.title {
-  font-size:1em;font-weight:normal;display:block;
+  font-size:1em;
+  display:block;
   min-width:12em;
   max-width:20em;
   font-weight:bold;
@@ -104,14 +105,14 @@ h2.twoLines {
   padding: 0.45em 0.65em;
 }
 
-.lineHelper {
+.line-helper {
   height:2em;
   width:2em;
   margin-bottom:-0.25em;
 }
 
 
-.arrowDown {
+.arrow-down {
   margin-top:0;
   margin-bottom:.5em;
 }

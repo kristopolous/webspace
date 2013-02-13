@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'dserif';
-  src: url('DroidSerif-Regular.ttf') format('truetype');
+  src: url('vendor/DroidSerif-Regular.ttf') format('truetype');
 }
 
 h1 { 

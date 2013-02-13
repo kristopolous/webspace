@@ -11,3 +11,13 @@ The html file, viewer.html has documentation on its usage. Just load to see how 
 All JS files are loaded at start time. An event system called EvDa controls the flow (https://github.com/kristopolous/EvDa). It's used in its most basic form.
 
 CSS files are loaded as needed during the loading of the other files.
+
+
+Here's a drawing of how our MV* thing first in:
+
+File Importer -> Display Formatter -> Backbone Model
+
+Then from the Model we do
+
+  [Arranger -> Lines -> Events]
+
