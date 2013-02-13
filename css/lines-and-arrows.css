@@ -9,17 +9,28 @@ a {
     url('vendor/iconic_fill.wof') format('woff');
 }
 
-h1,h2,h3,h4{position:relative}
+h1,
+h2,
+h3,
+h4 {
+  position:relative;
+}
+
+svg {
+  position: absolute;
+  z-index: -1;
+}
+
 .Plus {
   cursor:pointer;
-  color:#8Fc1fD;
+  color: #cedde1;
   position:absolute;
-  bottom:-0.65em;
+  bottom:-0.55em;
   text-align:center; 
   border-radius:20px;
   font-family: 'ico';
-  line-height:16px;
-  font-size:18px;
+  line-height: 16px;
+  font-size: 18px;
   background:black;
 }
 
@@ -31,33 +42,17 @@ h1,h2,h3,h4{position:relative}
     z-index:1;
 }
 
-#document pa{
-  background:rgba(255,255,255,0.75);
-  font-weight:bold;
-  color: rgb(15, 36, 62); 
-  width: 17em; 
-  text-indent:0;
-  margin: 0 0 1.4em -0.1em;
-  position:relative;
-  padding:0 0.3em;
-}
-
 .section{
   display:inline-block;
   text-align:left;
 }
 
-.sectionContainer{
+.section-container{
   text-align:right;
   vertical-align:top;
   margin:0 2.5em;
   min-width:20em;
   display:inline-block
-}
-
-.layer{
-  margin-top:1.3em;
-  margin-left:0.75em
 }
 
 .entry{
@@ -74,6 +69,7 @@ h1,h2,h3,h4{position:relative}
   height:0;
   vertical-align:top;
 }
+
 .arrow-helper {
   display:inline-block;
   width:0;
@@ -84,17 +80,12 @@ h1,h2,h3,h4{position:relative}
   width:2.05em;
 }
 
+
 h2.title {
-  font-size:1em;
-  display:block;
-  min-width:12em;
-  max-width:20em;
-  font-weight:bold;
-  border-bottom:4px solid rgb(31, 73, 125); 
   background: rgb(79, 129, 189); 
   position:relative;
   z-index:10;
-  color:#fff;
+  color: #fff;
   margin-top:-0.5em;
   margin-bottom:0;
   padding: 0.95em 0.65em;
@@ -110,7 +101,6 @@ h2.twoLines {
   width:2em;
   margin-bottom:-0.25em;
 }
-
 
 .arrow-down {
   margin-top:0;

@@ -9,13 +9,14 @@
       <link rel="stylesheet" href="css/display-format.css">	
       <link rel="stylesheet" href="css/gloss.css">	
       <link rel="stylesheet" href="css/arrange-on-screen.css">	
-      <link rel="stylesheet" href="css/lines-and-arrows.css"> 
     -->
+      <link rel="stylesheet" href="css/lines-and-arrows.css"> 
+
 
 	</head>
 	<body>
 
-    <div id="document"> </div>
+    <div id="document"></div>
     <div id="sound"></div> 
 
   </body>
@@ -120,7 +121,7 @@
 
 <p>And step is 0 - 4</p>
 
-<ol start=0>
+<ol start="0">
   <li> Just loads the file and display it in the input format (file-importer.js)
   <li> Convert it to display format (display-format.js)
   <li> Arrange it on the screen (arrange-on-screen.js)
@@ -131,26 +132,26 @@
 	    
 <script src="js/min/evda.js"></script>
 <script src="js/min/underscore.js"></script>
+<script src="js/min/backbone.js"></script>
 <script src="js/lib.js"></script>
 
-<script src='js/min/jquery-1.7.1.js'></script>
-<script src='js/min/jquery-ui.js'></script>
+<script src="js/min/jquery-1.7.1.js"></script>
+<script src="js/min/jquery-ui.js"></script>
 
-<!-- JSPlumb wants this -->
-  <script src='js/min/jquery.ui.touch-punch.js'></script>
-  <script src='js/min/jquery.jsPlumb-1.3.16-all.js'></script>
+<!-- 
+  <script src="js/min/jquery.ui.touch-punch.js"></script>
+  <script src="js/min/jquery.jsPlumb-1.3.16-all.js"></script>
+  3  <script src="js/lines-and-arrows-plumb.js"></script>
+JSPlumb wants this -->
 
-<!-- raphael wants this
-  <script src='js/min/raphael.js'></script>
+<!-- raphael wants this -->
+  <script src="js/min/raphael.js"></script>
   <script src="js/lines-and-arrows-raphael.js"></script>
--->
 
 <!-- Step # -->
 <!--  0 --> <script src="js/file-importer.js"></script>
 <!--  1 --> <script src="js/display-format.js"></script>
 <!--  2 --> <script src="js/arrange-on-screen.js"></script>
-<!--  3 --> <script src="js/lines-and-arrows-plumb.js"></script>
 <!--  4 --> <script src="js/hook-events.js"></script>
 
-</body>
 </html>

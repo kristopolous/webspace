@@ -17,7 +17,7 @@
       this.innerHTML = '&#xe009;';
       $(node).show().animate({
         opacity: 1,
-        fontSize: "16px"
+        fontSize: "14px"
       }, {
         duration: 600,
         step:Repaint
@@ -72,12 +72,36 @@
     });
   }
 
+  // Make the title fixed AND the first section below have the right margin-top 
+  // to accomodate for it
+  function makeFixed() {
+    var 
+      node = $(".category-group-super.h1"),
+      necessaryMargin = $(node).height();
+
+    // Set the node to be fixed and in the middle
+    node.css({
+      top: 0,
+      position: 'fixed',
+      width: "100%"
+    });
+
+    // Move the section group up.
+    node.next().css('margin-top', necessaryMargin);
+
+    $(window).scroll(function(){
+      $(".category-group-super.h1").css('top', - $(this).scrollTop());
+    }); 
+
+  }
+
   function hook() {
     $("#document").draggable();
     wireLinks();
     connectToPanel();
     $(".Plus").click(toggle);
     $(window).resize(Repaint);
+    makeFixed();
   }
 
   evda.isset('hook-events', hook);

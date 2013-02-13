@@ -86,9 +86,7 @@
   }
 
   function scaffold() {
-    addCss('lines-and-arrows')
-    setup();
-    
+    //addCss('lines-and-arrows')
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
@@ -108,13 +106,19 @@
       default: makeBrush(width, ColorList[0])
     };
       
+    //setup();
+    
     var lastContent = $(".shape").get(0), 
         lastConnector = {},
         doBend = false;
           
-    $(".shape, .layer").each(function(){
-      if($(this).hasClass('layer')) {
+    $(".Plus").each(function(){
+      console.log($(this).offset());
+      if($(this).hasClass('Plus')) {
         doBend = true;
+      }
+      if(!lastContent) {
+        lastContent = this;
         return;
       }
       var 
@@ -123,8 +127,17 @@
           Edge.h2 : Edge.default;
 
       this.setAttribute('depth', depth);
+          brush.connect({
+            source: lastContent,
+            target: this,
+            endpoints: [ [ "Blank" ], Ends.rec ],
+            anchors:[
+              [ "TopLeft" ],
+              [ "TopLeft" ]
+            ],
+          });				
 
-      if($(this).hasClass("connector")) {
+          /*
         console.log(lastContent, this);
         if(doBend) {
           doBend = false;
@@ -140,7 +153,8 @@
         } else {
           if(lastConnector[depth]) {
             brush.connect({
-              source: lastConnector[depth],
+              source: lastContent,
+             // source: lastConnector[depth],
               target: this,
               endpoints: [ [ "Blank" ], Ends.rec ],
               anchors:[ [ "BottomLeft" ], [ "TopLeft" ] ],
@@ -164,15 +178,16 @@
         });				
         lastContent = this; 
       } else {
-        lastContent = this;
       }
+      */
+        lastContent = this;
     });
-    return;
     categoryConnect();
-
     if(Step > 3) {
       evda.set('hook-events');
     }
+    return;
+
   }
 
   // Only after the importer, parser and arranger are done do we get

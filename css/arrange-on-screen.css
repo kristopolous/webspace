@@ -10,10 +10,12 @@
 h1 { 
   font-size: 2.5em;
 }
+
 h2 { 
   font-size: 1.35em; 
   letter-spacing: 0.0205em;
 }
+
 h4, h3 {
   font-size: 1.35em;
   letter-spacing: -0.0205em;
@@ -99,6 +101,7 @@ figure,
   float: left;
   clear: both;
 }
+
 h2 {
   text-align: center;
 }
@@ -132,7 +135,8 @@ ol {
 .description p,
 .description figure
 {
-  margin-left: 2.0em;
+  margin-left: 0;
+  padding-left: 2em;
 }
 
 section {
@@ -154,6 +158,12 @@ h1 {
 
 h2 {
   padding: 0.75em 1em;
+}
+
+h3,
+h4
+{
+  padding: 0.5em;
 }
 
 .intro,
@@ -183,9 +193,10 @@ li {
   max-width: 19em
 }
 
+h3,
 h2 {
-  min-width:12em;
-  max-width:20em;
+  min-width: 12em;
+  max-width: 20em;
 }
 
 /*
@@ -198,7 +209,11 @@ h2 {
   border-bottom: 4px solid #9ec5c0;
 }
 
-h1,h3 {
+h3 { 
+  border-bottom: 3px solid rgba(39, 63, 32, 0.35);
+}
+
+h1, h3 {
   color: #273F20;
 }
 
@@ -206,6 +221,7 @@ h1,h3 {
   border-color: #647D7A;
   box-shadow:0 0 2px 0.15em #647D7A;
 }
+
 .circle.expanded{
   margin-bottom:1em;
 }

@@ -20,9 +20,12 @@
       $(document).height());
 
     createBus();
+    if(Step > 3) {
+      evda.set('hook-events');
+    }
   }
 
-  $(function(){
-    evda.isset('do-lines-and-arrows', scaffold);
-  });
+  setTimeout(function(){
+    evda.isset('lines-and-arrows', scaffold);
+  }, 400);
 })();

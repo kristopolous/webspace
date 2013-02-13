@@ -116,29 +116,6 @@
     });
   }
 
-  // Make the title fixed AND the first section below have the right margin-top 
-  // to accomodate for it
-  function makeFixed() {
-    var 
-      node = $(".category-group-super.h1"),
-      necessaryMargin = $(node).height();
-
-    // Set the node to be fixed and in the middle
-    node.css({
-      top: 0,
-      position: 'fixed',
-      width: "100%"
-    });
-
-    // Move the section group up.
-    node.next().css('margin-top', necessaryMargin);
-
-    $(window).scroll(function(){
-      $(".category-group-super.h1").css('top', - $(this).scrollTop());
-    }); 
-
-  }
-
   function reflow() {
     // This is where we make sure that our document hierarchy is strict.
     // Our sections of the same height should be in a section container,
@@ -182,7 +159,6 @@
     drawCircles();
     hooks();
     stagnatePaths();
-    makeFixed();
 
     if(Step > 2) {
       evda.set('lines-and-arrows');
