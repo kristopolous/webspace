@@ -3,19 +3,11 @@ var evda = EvDa(),
   slice = Array.prototype.slice,
   NodeType = [ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ],
   AnchorMap = {},
+  // defined in lines and arrows
+  Repaint = function(){},
   ColorList = [
-    "rgb(31, 73, 125)"
-  ],
-  Panel = {
-    add: function(url){ 
-      if(parent != self) {
-        parent.Panel.Add({
-          title: "unknown",
-          url: 'proto.html?' + url
-        });
-      }
-    }
-  };
+    "#647D7A"
+  ];
 
 _.attr = function(node, obj) {
   _.each(obj, function(value, key) {
@@ -53,6 +45,20 @@ function inheritAndAdd(type, obj) {
     obj
   );
 }
+
+// Find the depth of a node in a document
+function Depth(dom) {
+  var 
+    depth = 0,
+    el = dom;
+
+  while (el != document.body) {
+    depth++;
+    el = el.parentNode;
+  }
+  return depth;
+}	
+
 // see http://en.wikipedia.org/wiki/Decorator_pattern
 function decorate(initial, decorator) {
   return function() {

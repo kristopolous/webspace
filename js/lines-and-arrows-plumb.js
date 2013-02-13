@@ -14,43 +14,11 @@
       }
     };
 
-  function Depth(descendant) {
-    var 
-      depth = 0,
-      el = $(descendant);
-
-    while (el[0] != document.body) {
-      depth++;
-      el = el.parent();
+  Repaint = function() {
+    for(section in Edge) {
+      Edge[section].selectEndpoints().repaint();
+      Edge[section].select().repaint();
     }
-    return depth;
-  }	
-
-  function toggle(){
-    var node = $(this).parent().parent().parent().next();
-    if(this.hide) {
-      this.innerHTML = '&#xe009;';
-      $(node).show().animate({
-        opacity: 1,
-        fontSize: "16px"
-      }, {
-        duration: 600,
-        step:repaint
-      });
-    } else {
-      this.innerHTML = '&#xe008;';
-      $(node).animate({
-        opacity: 0,
-        fontSize: "0px"
-      }, 
-      {
-        duration: 600,
-        step:repaint
-      }, function(){
-        node.css('display', 'none');
-      });
-    }
-    this.hide = !this.hide;
   }
 
   function bend(el) {
@@ -66,7 +34,7 @@
     });
   }
 
-  function setup(scope){
+  function setup(){
     var tmpl = {
       title: _.template($("#T-LA-Title").html()),
       description: _.template($("#T-LA-Description").html()),
@@ -79,23 +47,14 @@
     };
 
     _.each(tagMap, function(template, tag) {
-      $(tag, scope).replaceWith(function(){
+      $(tag).replaceWith(function(){
         return tmpl[template]({
           content: $(this).html()
         });
       });
     });
 
-    $(".category-group", scope).addClass("shape title");
-   
-    $("a[href^=#]").each(function(){
-      var link = this.getAttribute('href');
-      this.removeAttribute('href');
-
-      $(this).click(function(){
-        Panel.add(link);
-      });
-    });
+    $(".category-group").addClass("shape title");
   }
 
   function categoryConnect(){
@@ -126,44 +85,10 @@
     });
   }
 
-  function repaint(){
-    for(section in Edge) {
-      Edge[section].selectEndpoints().repaint();
-      Edge[section].select().repaint();
-    }
-  }
-
   function scaffold() {
     addCss('lines-and-arrows')
-    //setup("#document");
-
-    $(window).resize(repaint);
-    $(".Plus").click(toggle);
+    setup();
     
-    $("a.link-source").each(function(){
-      var name = this.getAttribute('href').slice(1);
-
-      // Undecorate so that the page doesn't scroll
-      // when you click.
-      this.removeAttribute('href');
-      var destination = $("a[name='" + name + "']").parent();
-
-      destination.hide();
-      // Replace it with a click handler that
-      // collapses and expands the node
-      // TODO: put in model {{
-      $(this).click(function(){
-        if(destination.hide) {
-          destination.slideDown();
-        } else {
-          destination.slideUp();
-        }
-        $(this).toggleClass('expanded');
-        destination.hide = !destination.hide;
-      });
-    });
-   
-
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
@@ -186,20 +111,21 @@
     var lastContent = $(".shape").get(0), 
         lastConnector = {},
         doBend = false;
-
-    $("#document").draggable();
           
     $(".shape, .layer").each(function(){
       if($(this).hasClass('layer')) {
         doBend = true;
         return;
       }
-      var depth = Depth(this),
-       brush = (depth > 6) ? 
+      var 
+        depth = Depth(this),
+        brush = (depth > 6) ? 
           Edge.h2 : Edge.default;
 
       this.setAttribute('depth', depth);
+
       if($(this).hasClass("connector")) {
+        console.log(lastContent, this);
         if(doBend) {
           doBend = false;
           brush.connect({
@@ -212,14 +138,15 @@
             ],
           });				
         } else {
-          brush.connect({
-            source: lastConnector[depth],
-            target: this,
-            endpoints: [ [ "Blank" ], Ends.rec ],
-            anchors:[ [ "BottomLeft" ], [ "TopLeft" ] ],
-          });	
+          if(lastConnector[depth]) {
+            brush.connect({
+              source: lastConnector[depth],
+              target: this,
+              endpoints: [ [ "Blank" ], Ends.rec ],
+              anchors:[ [ "BottomLeft" ], [ "TopLeft" ] ],
+            });	
+          }
         } 
-
         lastConnector[depth] = this;
       } else if($(this).hasClass('description')) {
         brush.connect({
@@ -240,14 +167,18 @@
         lastContent = this;
       }
     });
+    return;
     categoryConnect();
+
+    if(Step > 3) {
+      evda.set('hook-events');
+    }
   }
 
-  evda.isset('lines-and-arrows', scaffold);
-    
   // Only after the importer, parser and arranger are done do we get
   // to do our line and arrows.
-  window.jsPlumbDemo = {
-    init : function() { }    
-  }
+  setTimeout(function(){
+    evda.isset('lines-and-arrows', scaffold);
+  }, 400);
+    
 })();  

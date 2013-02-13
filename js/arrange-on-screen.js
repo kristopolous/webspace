@@ -167,6 +167,7 @@
 
   // by now we know that there is a main of id document
   function arrange() {
+    addCss('reset');
     addCss('arrange-on-screen');
 
     templateMap = {
