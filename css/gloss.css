@@ -18,10 +18,9 @@ aside,
 
 *:before {
    display: inline-block;
-   font-family: Verdana;
    background: rgba(80, 152, 100, 0.35);
-   font-size: 0.75em;
-   font-weight:bold;
+   font: 0.75em Verdana;
+   font-weight: bold;
    padding: 0.25em;
    text-align: left;
    text-transform: uppercase;

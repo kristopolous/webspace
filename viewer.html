@@ -1,4 +1,5 @@
-<!doctype html5>
+<!doctype html>
+
 <html>
 	<head>
     <title>VizViewer</title>
@@ -30,32 +31,7 @@
   ></embed>
 </script>
 
-<script type="text/template" id="T-A-AsideContainer">
-  <div class="aside-container">
-    <p><%= source %></p>
-    <aside class='aside'>
-      <%= content %>
-    </aside>
-  </div>
-</script>
-
-<script type="text/template" id="T-A-Section"> 
-  <div class="section-group">
-    <%= sectionList %>
-  </div>
-</script>
-
-<script type="text/template" id="T-A-Category">
-  <div class="category-group-super <%=tag%>">
-    <div class="category-group">
-      <<%=tag%>><%= content %>
-        <div class="<%=tag%> Plus">&#xe009;</div>
-      </<%=tag%>>
-      <%= intro %>
-    </div>
-  </div>
-</script>
-
+<!-- These are the display-format templatess T-DF-* -->
 <script type="text/template" id="T-DF-Intro">
   <div class="intro">
     <%= content %>
@@ -71,6 +47,35 @@
   </section>
 </script>
 
+<!-- These are the arrange-on-screen Templates ... T-A-* -->
+<script type="text/template" id="T-A-Category">
+  <div class="category-group-super <%=tag%>">
+    <div class="category-group">
+      <<%=tag%>><%= content %>
+        <div class="<%=tag%> Plus">&#xe009;</div>
+      </<%=tag%>>
+      <%= intro %>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="T-A-Aside">
+  <div class="aside-container">
+    <p><%= source %></p>
+    <aside class="aside">
+      <%= content %>
+    </aside>
+  </div>
+</script>
+
+<script type="text/template" id="T-A-Section"> 
+  <div class="section-group">
+    <%= sectionList %>
+  </div>
+</script>
+
+
+<!-- And finally, these are the lines-and-arrows templates, T-LA-* -->
 <script type="text/template" id="T-LA-Category">
   <div>
     <div class="shape h2 line-helper"></div><div></div>
@@ -78,10 +83,10 @@
   </div>
   <h2><%= content %></h2>
 </script>
-
     
+<!-- A distinction is made between the document title (h1) category and the rest -->
 <script type="text/template" id="T-LA-Title">
-  <div class='docTitle'>
+  <div class="document-title">
     <h1 class="shape"><%= content %>
     </h1><br>
     <div class="shape category line-helper"></div>
@@ -89,13 +94,17 @@
 </script>
 
 <script type="text/template" id="T-LA-Description">
-  <div class='entry'>
+  <div class="entry">
     <div class="shape connector"></div>
     <div class="arrow-helper"></div>
     <p class="shape description"><%= content %></p>
   </div>
 </script>
 
+<!-- 
+  If no file was specified or we couldn't understand the input, then
+  we display a help screen ... just like a CLI application
+-->
 <script type="text/template" id="T-Help">
 <h2>How to use:</h2>
 <p>Specify a pipe delimited string after the url with the following format:</p>
@@ -136,11 +145,12 @@
   <script src="js/lines-and-arrows-raphael.js"></script>
 -->
 
-<!-- 0 --> <script src="js/file-importer.js"></script>
-<!-- 1 --> <script src="js/display-format.js"></script>
-<!-- 2 --> <script src="js/arrange-on-screen.js"></script>
-<!-- 3 --> <script src="js/lines-and-arrows-plumb.js"></script>
-<!-- 4 --> <script src="js/hook-events.js"></script>
+<!-- Step # -->
+<!--  0 --> <script src="js/file-importer.js"></script>
+<!--  1 --> <script src="js/display-format.js"></script>
+<!--  2 --> <script src="js/arrange-on-screen.js"></script>
+<!--  3 --> <script src="js/lines-and-arrows-plumb.js"></script>
+<!--  4 --> <script src="js/hook-events.js"></script>
 
 </body>
 </html>

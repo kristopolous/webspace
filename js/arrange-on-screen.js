@@ -173,7 +173,7 @@
     templateMap = {
       section: _.template($("#T-A-Section").html()),
       category: _.template($("#T-A-Category").html()),
-      aside: _.template($("#T-A-AsideContainer").html())
+      aside: _.template($("#T-A-Aside").html())
     };
 
     reflow();
