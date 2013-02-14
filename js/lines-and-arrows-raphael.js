@@ -21,11 +21,11 @@
 
     createBus();
     if(Step > 3) {
-      evda.set('hook-events');
+      event.set('hook-events');
     }
   }
 
   setTimeout(function(){
-    evda.isset('lines-and-arrows', scaffold);
+    event.isset('lines-and-arrows', scaffold);
   }, 400);
 })();

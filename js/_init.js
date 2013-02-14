@@ -7,7 +7,7 @@
 var 
   // The IoC wiring system to progress the rendering
   // See https://github.com/kristopolous/EvDa for documentation
-  evda = EvDa({
+  Event = EvDa({
     Stage: 0,
     StageName: ""
   }),
@@ -36,8 +36,8 @@ var
 //
 // See the README.js.md for more
 // information on this.
-evda("Stage", function(what) {
-  evda("StageName", [
+Event.on("Stage", function(what) {
+  Event.set("StageName", [
     "file-importer",
     "display-format",
     "arrange-on-screen",
@@ -46,7 +46,14 @@ evda("Stage", function(what) {
   ] [what] );
 });
 
-evda("StageName", function(what) {
+// Make sure that we stop at the appropriate point.
+Event.whenSet("StageMax", function(maxStage) {
+  Event.test('Stage', function(value, test) {
+    test.result(maxStage >= value);
+  });
+})
+
+Event.on("StageName", function(what) {
   console.log(what);
 });
 

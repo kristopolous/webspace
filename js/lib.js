@@ -136,8 +136,8 @@ function permute(array) {
 //
 function nextStage() {
   var 
-    current = evda("Stage"),
-    attempt = evda.incr("Stage");
+    current = Event.get("Stage"),
+    attempt = Event.incr("Stage");
 
   return attempt > current;
 }

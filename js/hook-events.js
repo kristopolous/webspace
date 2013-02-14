@@ -10,13 +10,27 @@
 // 
 //  * Wire click and drag events through the 
 //    model in order to show or hide various
-//    Shapes and their descendents, children
+//    Shapes and their descendents.
+//
+//  * Hook viewport (browser) resize and scrolling
+//    and various types of centering and 
+//    fixed positioning associated with that.
 //
 //  * Introduce the notion of a Panel; that is
 //    a parent container, that can request us
-//    to do various things
+//    to do various things.
 //
 (function(){
+
+  Event.when("StageName", "hook-events", function() {
+
+    wireClickEvents();
+
+    hookResize();
+
+    connectToPanel();
+
+  })
 
   var Panel = {
     add: function(url){ 
@@ -55,7 +69,7 @@
     this.hide = !this.hide;
   }
 
-  function wireLinks() {
+  function wireClickEvents() {
     $("a.link-source").each(function(){
       var name = this.getAttribute('href').slice(1);
 
@@ -78,6 +92,7 @@
         destination.hide = !destination.hide;
       });
     });
+    $(".Plus").click(toggle);
   }
    
   function connectToPanel() {
@@ -114,14 +129,10 @@
 
   }
 
-  function hook() {
+  function hookResize() {
     $("#document").draggable();
-    wireLinks();
-    connectToPanel();
-    $(".Plus").click(toggle);
     $(window).resize(Repaint);
     makeFixed();
   }
 
-  evda.when("StageName", "hook-events", hook);
 })();

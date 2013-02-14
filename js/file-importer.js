@@ -8,7 +8,7 @@
 //
 // This file is intended to 
 //
-//  * import a file, either from disk or from 
+//  * Import a file, either from disk or from 
 //    a server-side converting script
 //
 //  * Put it in the input format.
@@ -46,12 +46,7 @@
       engine = toLoad[0],
       url = toLoad[1];
 
-    var Step = parseInt(toLoad[2]);
-
-    // Make sure that we stop at the appropriate point.
-    evda.test('Stage', function(value, meta) {
-      meta.done(Step >= value);
-    });
+    Event.set('StageMax', parseInt(toLoad[2]));
 
     if(Loader[engine]) {
       Loader[engine](url, Loader.$done);

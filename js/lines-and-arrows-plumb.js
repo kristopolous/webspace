@@ -20,6 +20,10 @@
 // to get the arrows and lines to play nicely.
 //
 (function(){
+  setTimeout(function(){
+    Event.when("StageName", 'lines-and-arrows', run);
+  }, 400);
+    
   var 
     width = 4,
     Ends = {},
@@ -107,7 +111,7 @@
     });
   }
 
-  function scaffold() {
+  function run() {
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
@@ -209,10 +213,4 @@
 
   }
 
-  // Only after the importer, parser and arranger are done do we get
-  // to do our line and arrows.
-  setTimeout(function(){
-    evda.when("StageName", 'lines-and-arrows', scaffold);
-  }, 400);
-    
 })();  

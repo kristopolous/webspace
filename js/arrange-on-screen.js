@@ -8,13 +8,35 @@
 //
 // This file is intended to 
 // 
-//  * take the models created by the display format 
+//  * Take the models created by the display format 
 //
-//  * add the necessary CSS and HTML layout
+//  * Add the necessary CSS and HTML layout
 //    tricks needed to arrange them on the 
 //    screen in the necessary document flow.
 //
 (function(){
+  Event.when("StageName", "arrange-on-screen", function(stage) {
+
+    addCss('reset');
+    addCss('arrange-on-screen');
+
+    _.each(ShapeType, function(shape) {
+      templateMap[shape] = getTemplate(stage, shape);
+    });
+
+    reflow();
+
+    wrapCategories();
+    wrapAsides();
+
+    drawCircles();
+
+    balanceTree();
+    stagnatePaths();
+
+    nextStage();
+  });
+
   var templateMap = {};
 
   // This makes sure that the tree remains balanced
@@ -55,7 +77,7 @@
     });
   }
 
-  function hooks() {
+  function balanceTree() {
     balance('section', document.body);
   }
 
@@ -158,23 +180,5 @@
     replacer.insertAfter(first);
   }
 
-  // by now we know that there is a main of id document
-  function arrange(stage) {
-    addCss('reset');
-    addCss('arrange-on-screen');
 
-    _.each(ShapeType, function(shape) {
-      templateMap[shape] = getTemplate(stage, shape);
-    });
-
-    reflow();
-    wrapCategories();
-    wrapAsides();
-    drawCircles();
-    hooks();
-    stagnatePaths();
-    nextStage();
-  }
-
-  evda.when("StageName", "arrange-on-screen", arrange);
 })();

@@ -20,6 +20,10 @@
 //
 (function(){
 
+  Event.when("StageName", "display-format", function() {
+    displayFormat("#document");
+  });
+
   function swapTag(nodeList, newTag) {
     return $(nodeList).map(function(what, node) {
       var 
@@ -85,7 +89,7 @@
   // This eventually needs to be server-side
   self.displayFormat = function (selector) {
     var 
-      stage = evda('StageName'),
+      stage = Event.get('StageName'),
       intro = getTemplate(stage, "Intro"),
       section = getTemplate(stage, "Section");
 
@@ -141,7 +145,6 @@
           dom2Params(this)
         ));
 
-        
         var html = section({
           tag: tag,
           title: $(this).remove().html(),
@@ -169,9 +172,4 @@
       addCssfile('gloss');
     }
   }
-
-  evda.when("StageName", "display-format", function() {
-    displayFormat("#document");
-  });
-
 })();

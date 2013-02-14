@@ -273,6 +273,7 @@ function EvDa (imported) {
     db: data,
     events: eventMap,
     del: del,
+    whenSet: isset,
     isset: isset,
 
     // Unlike much of the reset of the code,
@@ -375,6 +376,8 @@ function EvDa (imported) {
           }
         };
 
+      meta.result = meta.done;
+
       each ( pub.traceList, function ( callback ) {
         callback ( args );
       });
@@ -430,6 +433,7 @@ function EvDa (imported) {
           delete callback.S;
         }
       });
+      return pub.list[listName];
     },
 
     setadd: function ( key, value ) {
@@ -444,12 +448,16 @@ function EvDa (imported) {
       each(pub.list[listName], function(callback) {
         ( callback.S || (callback.S = {}) ) [ listName ] = true;
       });
+      return pub.list[listName];
     },
 
     unset: function () { 
+      var bool = true;
       each(arguments, function(which) {
+        bool &= (which in data);
         delete data[which];
       });
+      return bool;
     },
 
     find: function ( regex ) {
@@ -458,13 +466,13 @@ function EvDa (imported) {
       });
     },
 
-    added: function(key, callback) {
+    changed: function(key, callback) {
       if( !callback ) {
         callback = key;
         key = BASE;
       }
 
-      pub.on(key, function(value, meta) {
+      return pub.on(key, function(value, meta) {
         var 
           newlen = size(value),
           oldlen = size(meta.old);
@@ -500,7 +508,10 @@ function EvDa (imported) {
     }
   });
 
-  // alias get
+  pub.setAdd = pub.setadd;
+  pub.setDel = pub.setdel;
+  pub.isSet = pub.isset;
+
   pub.get = pub;
   pub.change = pub.on;
   pub.add = pub.push;
