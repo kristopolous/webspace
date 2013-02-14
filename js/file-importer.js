@@ -1,8 +1,20 @@
-// file-importer's job is to import a file, either
-// from disk or from a converter and put it into
-// the input-format.
+// file-importer
 //
-// After it is done it calls the display-format.
+//  * 1. File importer
+//    2. Display format
+//    3. Arrange on screen
+//    4. Lines and arrows
+//    5. Event Hooker
+//
+// This file is intended to 
+//
+//  * import a file, either from disk or from 
+//    a server-side converting script
+//
+//  * Put it in the input format.
+//
+//  * Pass it off to the display-format
+//
 (function(){
   // The format of the request url is
   // engine|url
@@ -24,9 +36,7 @@
     $done: function (data) {
       $("#document").replaceWith(data);
 
-      if(Step > 0) {
-        evda.set('display-format');
-      }
+      nextStage();
     }
   };
 
@@ -36,7 +46,12 @@
       engine = toLoad[0],
       url = toLoad[1];
 
-    Step = parseInt(toLoad[2]);
+    var Step = parseInt(toLoad[2]);
+
+    // Make sure that we stop at the appropriate point.
+    evda.test('Stage', function(value, meta) {
+      meta.done(Step >= value);
+    });
 
     if(Loader[engine]) {
       Loader[engine](url, Loader.$done);

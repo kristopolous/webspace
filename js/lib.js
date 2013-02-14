@@ -1,14 +1,13 @@
-var evda = EvDa(),
-  Step = 0,
-  slice = Array.prototype.slice,
-  NodeType = [ "Category", "Aside", "Description", "Intro", "Path", "Procedure" ],
-  AnchorMap = {},
-  // defined in lines and arrows
-  Repaint = function(){},
-  ColorList = [
-    "#647D7A"
-  ];
+// lib.js
+//
+// Global function helpers that aren't in a specific closure.
 
+
+// _.attr
+//
+// A helper hooked on underscore that will
+// explicitly call setAttribute on a node in
+// pure DOM, to make things work
 _.attr = function(node, obj) {
   _.each(obj, function(value, key) {
     node.setAttribute(key, value);
@@ -16,6 +15,12 @@ _.attr = function(node, obj) {
   return node;
 }
 
+
+// addCss
+//
+// Inject a css file into the dom by filename
+// This is used so that different stages can
+// have different markup.
 function addCss(file) {
   var css = document.createElement("link");
 
@@ -28,13 +33,13 @@ function addCss(file) {
   );
 }
 
-function enum(array) {
-  var ret = {};
-  _.each(array, function(which) {
-    ret[which] = which;
-  });
-}
 
+// inheritAndAdd
+// 
+// This is for Backbone's defaults so that you
+// can inherit from a parent class and then add
+// a specific set of key/values for your own
+// purposes.
 function inheritAndAdd(type, obj) {
   return _.extend(
     {}, (
@@ -46,8 +51,11 @@ function inheritAndAdd(type, obj) {
   );
 }
 
+
+// domDepth
+//
 // Find the depth of a node in a document
-function Depth(dom) {
+function domDepth(dom) {
   var 
     depth = 0,
     el = dom;
@@ -59,19 +67,34 @@ function Depth(dom) {
   return depth;
 }	
 
+
+// decorate
+//
+// This is a pythonic decorator pattern that is intended
+// to be used for class inheritance in the model
+//
 // see http://en.wikipedia.org/wiki/Decorator_pattern
 function decorate(initial, decorator) {
   return function() {
-    return decorator.call(this, initial.apply(this, slice.call(arguments)));
+    return decorator.call(
+      this, initial.apply(
+        this, slice.call(arguments)
+      )
+    );
   }
 }
 
-// The Steinhaus-Johnson-Trotter algorithm
+
+// permute
+//
+// The Steinhaus-Johnson-Trotter permutation algorithm, intended to
+// do two way wiring and event hooking in the models.
 function permute(array) {
   // Identity
   if(array.length == 0) {
     return [];
   }
+
   var ret = [array],
       len = array.length,
       modlen = len - 1,
@@ -103,11 +126,75 @@ function permute(array) {
   return ret;
 }
 
-function setView(engine) {
-  v.use = v[engine];
-  if(v.use.$init) {
-    v.use.$init();
+
+// nextStage
+//
+// Attempts to go to the next stage in the course of events.
+// This is dependent on the third argument in the pipe-bar.
+// 
+// Look in file-importer for the hook.
+//
+function nextStage() {
+  var 
+    current = evda("Stage"),
+    attempt = evda.incr("Stage");
+
+  return attempt > current;
+}
+
+
+// getTemplate
+//
+// Gets the template based on the stage name
+// and the shape
+function getTemplate(stage, shape) {
+  return _.template(
+    $([ 
+      "#templateList-" + stage,
+      ".template-" + shape
+    ].join(' ')).html()
+  );
+}
+
+
+// dom2Params
+//
+// Take a dom node in the input format and then
+// determine what part of the markup maps over
+// to our model. 
+//
+// Create a Javascript object for that, but not 
+// an instance of any specific model.
+//
+// Return that object, which is a value argument
+// for creating a model instance.
+function dom2Params(dom) {
+  var options = {};
+
+  // Extract the label ... if any
+  if(dom.hasAttribute('title')) {
+    options.label = dom.getAttribute('title');
   }
-  ev.set('view');
+
+  options.content = dom.innerHTML;
+
+  return options;
+}
+
+
+// dom2Members
+//
+// 1. Take a DOM node's children, 
+// 2. Create base level Description nodes from them
+// 3. Encapsulate this in a ShapeGroup
+//
+// The ShapeGroup can then be used as the member option
+// in another Shape declaration.
+function dom2Members(dom) {
+  return new ShapeGroup(
+    $("p, li", dom).map(function(){ 
+      return new Description(dom2Params(this));
+    })
+  );
 }
 

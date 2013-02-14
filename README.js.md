@@ -1,8 +1,19 @@
+# File Layout
+
+There is
+
+  api/ - Converters
+  css/ - CSS with the stages (see below)
+  docs/ - Manually authored documents
+  import/ - David Glick documentes
+  viewer.html - the MVP viewer
+  panel.html - The panel system for the views.
+
 The Viewer is broken down into 5 stages:
 
 1. File importer
-2. Display formater
-3. Arranger on screen
+2. Display format
+3. Arrange on screen
 4. Lines and arrows
 5. Event Hooker
 

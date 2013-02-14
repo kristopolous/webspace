@@ -32,75 +32,81 @@
   ></embed>
 </script>
 
-<!-- These are the display-format templatess T-DF-* -->
-<script type="text/template" id="T-DF-Intro">
-  <div class="intro">
-    <%= content %>
-  </div>
-</script>
-
-<script type="text/template" id="T-DF-Section">
-  <section>
-    <<%=tag %>><%= title %></<%= tag %>>
-    <div class="description">
+<div id="templateList-display-format"> 
+  <script type="text/template" class="template-Intro">
+    <div class="intro">
       <%= content %>
     </div>
-  </section>
-</script>
+  </script>
 
-<!-- These are the arrange-on-screen Templates ... T-A-* -->
-<script type="text/template" id="T-A-Category">
-  <div class="category-group-super <%=tag%>">
-    <div class="category-group">
-      <<%=tag%>><%= content %>
-        <div class="<%=tag%> Plus">&#xe009;</div>
-      </<%=tag%>>
-      <%= intro %>
+  <script type="text/template" class="template-Section">
+    <section>
+      <<%=tag %>><%= title %></<%= tag %>>
+      <div class="description">
+        <%= content %>
+      </div>
+    </section>
+  </script>
+
+  <script type="text/template" class="template-Description">
+    <p><%= content %></p>
+  </script>
+</div>
+
+<div id="templateList-arrange-on-screen">
+  <script type="text/template" class="template-Category">
+    <div class="category-group-super <%=tag%>">
+      <div class="category-group">
+        <<%=tag%>><%= content %>
+          <div class="<%=tag%> Plus">&#xe009;</div>
+        </<%=tag%>>
+        <%= intro %>
+      </div>
     </div>
-  </div>
-</script>
+  </script>
 
-<script type="text/template" id="T-A-Aside">
-  <div class="aside-container">
-    <p><%= source %></p>
-    <aside class="aside">
-      <%= content %>
-    </aside>
-  </div>
-</script>
+  <script type="text/template" class="template-Aside">
+    <div class="aside-container">
+      <p><%= source %></p>
+      <aside class="aside">
+        <%= content %>
+      </aside>
+    </div>
+  </script>
 
-<script type="text/template" id="T-A-Section"> 
-  <div class="section-group">
-    <%= sectionList %>
-  </div>
-</script>
+  <script type="text/template" class="template-Section"> 
+    <div class="section-group">
+      <%= sectionList %>
+    </div>
+  </script>
+</div>
 
-
-<!-- And finally, these are the lines-and-arrows templates, T-LA-* -->
-<script type="text/template" id="T-LA-Category">
-  <div>
-    <div class="shape h2 line-helper"></div><div></div>
-    <div class="shape arrow-down"></div>
-  </div>
-  <h2><%= content %></h2>
-</script>
+<div id="templateList-lines-and-arrows">
+  <script type="text/template" class="template-Category">
+    <div>
+      <div class="shape h2 line-helper"></div><div></div>
+      <div class="shape arrow-down"></div>
+    </div>
+    <h2><%= content %></h2>
+  </script>
     
-<!-- A distinction is made between the document title (h1) category and the rest -->
-<script type="text/template" id="T-LA-Title">
-  <div class="document-title">
-    <h1 class="shape"><%= content %>
-    </h1><br>
-    <div class="shape category line-helper"></div>
-  </div>
-</script>
+  <!-- A distinction is made between the document title (h1) category and the rest -->
+  <script type="text/template" class="template-Title">
+    <div class="document-title">
+      <h1 class="shape"><%= content %>
+      </h1><br>
+      <div class="shape category line-helper"></div>
+    </div>
+  </script>
 
-<script type="text/template" id="T-LA-Description">
-  <div class="entry">
-    <div class="shape connector"></div>
-    <div class="arrow-helper"></div>
-    <p class="shape description"><%= content %></p>
-  </div>
-</script>
+  <script type="text/template" class="template-Description">
+    <div class="entry">
+      <div class="shape connector"></div>
+      <div class="arrow-helper"></div>
+      <p class="shape description"><%= content %></p>
+    </div>
+  </script>
+</div>
 
 <!-- 
   If no file was specified or we couldn't understand the input, then
@@ -130,28 +136,34 @@
 </ol>
 </script>
 	    
-<script src="js/min/evda.js"></script>
-<script src="js/min/underscore.js"></script>
-<script src="js/min/backbone.js"></script>
+<script src="js/raw/evda.js"></script>
+<script src="js/min/_inject.js"></script>
+<script src="js/raw/underscore.js"></script>
+<script src="js/raw/backbone.js"></script>
+<script src="js/_init.js"></script>
 <script src="js/lib.js"></script>
 
-<script src="js/min/jquery-1.7.1.js"></script>
+<script src="js/raw/jquery-1.7.1.js"></script>
 <script src="js/min/jquery-ui.js"></script>
 
-<!-- 
+<!-- JSPlumb wants this -->
   <script src="js/min/jquery.ui.touch-punch.js"></script>
   <script src="js/min/jquery.jsPlumb-1.3.16-all.js"></script>
-  3  <script src="js/lines-and-arrows-plumb.js"></script>
-JSPlumb wants this -->
+  <script src="js/lines-and-arrows-plumb.js"></script>
 
-<!-- raphael wants this -->
+  <!-- raphael wants this 
   <script src="js/min/raphael.js"></script>
   <script src="js/lines-and-arrows-raphael.js"></script>
+  -->
 
 <!-- Step # -->
 <!--  0 --> <script src="js/file-importer.js"></script>
 <!--  1 --> <script src="js/display-format.js"></script>
 <!--  2 --> <script src="js/arrange-on-screen.js"></script>
 <!--  4 --> <script src="js/hook-events.js"></script>
+
+<script src="js/view/_prototype_.js"></script>
+<script src="js/view/base.js"></script>
+<script src="js/model.js"></script>
 
 </html>

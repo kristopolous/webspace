@@ -1,5 +1,25 @@
+// lines-and-arrows (jsPlumb)
+//
+//    1. File importer
+//    2. Display format
+//    3. Arrange on screen
+//  * 4. Lines and arrows
+//    5. Event Hooker
+//
+// This file is intended to 
+// 
+//  * Draw lines and arrows on the screen
+//    between the different shapes
+//
+//  * Associate those lines and arrows with 
+//    model/view so that they can change color
+//    or get repainted via a call to the model
+//
+// There may be additional CSS/DOM work beyond
+// what was specified in the arranger in order 
+// to get the arrows and lines to play nicely.
+//
 (function(){
-
   var 
     width = 4,
     Ends = {},
@@ -14,7 +34,9 @@
       }
     };
 
-  Repaint = function() {
+  // This is the Global Repaint defined in the 
+  // _init.js file.
+  self.Repaint = function() {
     for(section in Edge) {
       Edge[section].selectEndpoints().repaint();
       Edge[section].select().repaint();
@@ -86,7 +108,6 @@
   }
 
   function scaffold() {
-    //addCss('lines-and-arrows')
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
@@ -122,7 +143,7 @@
         return;
       }
       var 
-        depth = Depth(this),
+        depth = domDepth(this),
         brush = (depth > 6) ? 
           Edge.h2 : Edge.default;
 
@@ -183,9 +204,7 @@
         lastContent = this;
     });
     categoryConnect();
-    if(Step > 3) {
-      evda.set('hook-events');
-    }
+    nextStage();
     return;
 
   }
@@ -193,7 +212,7 @@
   // Only after the importer, parser and arranger are done do we get
   // to do our line and arrows.
   setTimeout(function(){
-    evda.isset('lines-and-arrows', scaffold);
+    evda.when("StageName", 'lines-and-arrows', scaffold);
   }, 400);
     
 })();  

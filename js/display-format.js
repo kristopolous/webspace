@@ -1,3 +1,23 @@
+// display-format
+//
+//    1. File importer
+//  * 2. Display format
+//    3. Arrange on screen
+//    4. Lines and arrows
+//    5. Event Hooker
+//
+// This file is intended to 
+//
+// Take content arranged in a DOM node in the Input Format
+// (as defined in the wiki) and then do two things:
+//
+//  * Derive shapes from the input format and place it 
+//    in the model.
+//
+//  * Convert the input format (through the model) to
+//    the Display Format and then display THAT on the
+//    screen instead.
+//
 (function(){
 
   function swapTag(nodeList, newTag) {
@@ -65,16 +85,17 @@
   // This eventually needs to be server-side
   self.displayFormat = function (selector) {
     var 
-      intro = _.template($("#T-DF-Intro").html());
-      section = _.template($("#T-DF-Section").html());
+      stage = evda('StageName'),
+      intro = getTemplate(stage, "Intro"),
+      section = getTemplate(stage, "Section");
 
     swapTag(selector, "main");
     var scope = $(selector);
-    //.removeAttr('id');
 
     swapTag(".aside", "aside");
     swapTag(".media", "figure");
     swapTag(".media-caption", "figcaption");
+
 
     // Find the intro
     $("h1", scope).each(function(){
@@ -108,29 +129,49 @@
 
         while(walker && walker.nodeName != tag) {
           next = walker.nextSibling;
-          temp.append(walker);
+          temp.append($(walker).remove());
           walker = next;
         }
 
+        new Category(_.extend(
+          // Start off with our tag name and children
+          { tag: tag, member: dom2Members(temp) },
+
+          // then combine it with ourselves
+          dom2Params(this)
+        ));
+
+        
         var html = section({
           tag: tag,
           title: $(this).remove().html(),
           content: temp.html()
         });
-        temp.replaceWith(html);
+      //  temp.replaceWith(html);
+       
 
       });
     });
 
     reorder(scope);
+
+    /*
+    suck_map({
+      'Aside': 'aside',
+      'Description': '.description',
+      'Category': 'h1, h2, h3, h4, h5, h6',
+      'Path': 'ul',
+      'Procedure': 'ol'
+    });
+    */
+      
+    if(! nextStage()) {
+      addCssfile('gloss');
+    }
   }
 
-  evda.isset('display-format', function() {
+  evda.when("StageName", "display-format", function() {
     displayFormat("#document");
-    if(Step > 1) {
-      evda.set('arrange-on-screen');
-    } else {
-      addCss('gloss');
-    }
   });
+
 })();

@@ -1,3 +1,21 @@
+// hook-events
+//
+//    1. File importer
+//    2. Display format
+//    3. Arrange on screen
+//    4. Lines and arrows
+//  * 5. Event Hooker
+//
+// This file is intended to 
+// 
+//  * Wire click and drag events through the 
+//    model in order to show or hide various
+//    Shapes and their descendents, children
+//
+//  * Introduce the notion of a Panel; that is
+//    a parent container, that can request us
+//    to do various things
+//
 (function(){
 
   var Panel = {
@@ -36,6 +54,7 @@
     }
     this.hide = !this.hide;
   }
+
   function wireLinks() {
     $("a.link-source").each(function(){
       var name = this.getAttribute('href').slice(1);
@@ -104,5 +123,5 @@
     makeFixed();
   }
 
-  evda.isset('hook-events', hook);
+  evda.when("StageName", "hook-events", hook);
 })();

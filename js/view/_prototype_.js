@@ -1,5 +1,5 @@
-v.$proto = {};
-_.each(NodeType, function(which) {
+var v = {$proto: {}};
+_.each(ShapeType, function(which) {
   v.$proto[which] = Backbone.View.extend({
     render: function(container, parent){ },
     initialize: function(model) {

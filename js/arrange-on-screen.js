@@ -1,3 +1,19 @@
+// arrange-on-screen
+//
+//    1. File importer
+//    2. Display format
+//  * 3. Arrange on screen
+//    4. Lines and arrows
+//    5. Event Hooker
+//
+// This file is intended to 
+// 
+//  * take the models created by the display format 
+//
+//  * add the necessary CSS and HTML layout
+//    tricks needed to arrange them on the 
+//    screen in the necessary document flow.
+//
 (function(){
   var templateMap = {};
 
@@ -143,15 +159,13 @@
   }
 
   // by now we know that there is a main of id document
-  function arrange() {
+  function arrange(stage) {
     addCss('reset');
     addCss('arrange-on-screen');
 
-    templateMap = {
-      section: _.template($("#T-A-Section").html()),
-      category: _.template($("#T-A-Category").html()),
-      aside: _.template($("#T-A-Aside").html())
-    };
+    _.each(ShapeType, function(shape) {
+      templateMap[shape] = getTemplate(stage, shape);
+    });
 
     reflow();
     wrapCategories();
@@ -159,11 +173,8 @@
     drawCircles();
     hooks();
     stagnatePaths();
-
-    if(Step > 2) {
-      evda.set('lines-and-arrows');
-    }
+    nextStage();
   }
 
-  evda.isset('arrange-on-screen', arrange);
+  evda.when("StageName", "arrange-on-screen", arrange);
 })();

@@ -1,15 +1,21 @@
-var register = (function(){
-  var UID = 0;
-  return function (what) {
-    register[UID] = what;
-    return UID++;
-  };
-})();
-        
-// inner spans for view
-var m = {}, u = 0;
-(function ($) {
-  var Shape = m.Shape = Backbone.Model.extend({
+// model.js
+//
+// This is the file that defines the model (as in MV*)
+// For the different shapes.
+//
+// They are put in the global namespace (self.)
+var ShapeGroup;
+
+(function () {
+
+  // This is a registry to keep track of all
+  // the models that were created.
+  function register(what) {
+    register[what.cid] = what;
+  }
+
+  // The base shape.
+  self.Shape = Backbone.Model.extend({
     defaults: function(){
       return {
         // Ostensibly immutable {
@@ -23,8 +29,8 @@ var m = {}, u = 0;
           // }
 
           // relationship amongst depth {
-            container: new ShapeGroup(),
-            member: new ShapeGroup(),
+            container: new ShapeGroup(),  // This is the "parent"
+            member: new ShapeGroup(),     // this is the "content"
           // }
 
           label: "",
@@ -39,19 +45,13 @@ var m = {}, u = 0;
     initialize: function() {
       var mthis = this;
 
-      // Register tricks that permit for someone to drop
-      // their own id
-      if(this.get('uid')) {
-        register[this.get('uid')] = this;
-      } else {
-        this.set('uid', register(this));
-      }
-      this.uid = this.get('uid');
+      register(this);
 
-      this.view = new v.use[this.get('type')](this);
+      //this.view = new v.base[this.get('type')](this);
 
       // Sets up the previous next add/remove hierarchy
       // and events
+     /*
       _.each(['add', 'remove'], function(what) {
         _.each(
           [].concat(
@@ -64,6 +64,7 @@ var m = {}, u = 0;
           });
         });
       });
+      */
     },
 
     walk: function(what, parent, depth) {
@@ -81,6 +82,8 @@ var m = {}, u = 0;
       });
     }
   });
+
+  // Getters and setter 
   _.each(['previous', 'next', 'member', 'container'], function(which) {
     Shape.prototype[which] = function(what) {
       return what ? 
@@ -89,53 +92,50 @@ var m = {}, u = 0;
     }
   });
 
-  _.each(NodeType, function(which) {
-    m[which] = Shape.extend({
+  // Each of the shapes are the base shape with a type associated
+  // with it. Inheritance is done to the prototype after this.
+  _.each(ShapeType, function(which) {
+    self[which] = Shape.extend({
       defaults: function(){
         return inheritAndAdd(Shape, {type: which});
       }
     });
   });
 
-
-  eval(_inject('i'));
-
-  // We need a group of groups.
-  var ShapeGroup = Backbone.Collection.extend({
+  // A ShapeGroup is a generic container
+  ShapeGroup = Backbone.Collection.extend({
     model: Shape
   });
 
-})(jQuery);
+})();
 
 function render(node) {
-  if(v.use.$pre) {
-    v.use.$pre();
-  }
-  try {
-    node.walk($('#document'));
-  } finally {
-    if(v.use.$post) {
-      v.use.$post();
-    }
-  }
+  node.walk($('#document'));
 }
-function parse(payload) {
-  var root;
-  _.each(payload, function(shape) {
-    // This means it's the root node.
-    if(shape.parent == shape.uid) {
-      root = new m[shape.type](shape);
 
-      // Otherwise we should have seen the parent
-      // before the child (if the parser did its work, that is)
-    } else {
-      register[shape.parent].member(new m[shape.type](shape));
+// Suck data into the model from a dom node
+function model_suck(shape, dom) {
+  var content = $("p, li", dom).map(function(){ 
+
+    // Extract the label ... if any
+    var options = {};
+    if(this.hasAttribute('title')) {
+      options.label = this.getAttribute('title');
     }
+    options.content = this.innerHTML;
+
+    return new Description(options);
   });
-  render(root);
+  _.each(content, function(what) {
+    console.log(what.attributes);
+  });
 }
 
-$(function(){
-  setView('html');
-  parse(payload);
-});
+// (type) : (selector)
+function suck_map(map) {
+  _.each(map, function(selector, type) {
+    $(selector).each(function(){
+      model_suck(type, this);
+    });
+  });
+}
