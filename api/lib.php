@@ -1,4 +1,8 @@
 <?
+// lib.php
+//
+// DOM level helpers to modify HTML
+
 // Remove all the attributes of a node
 function _stripAttribs($node) {
   $list = Array();

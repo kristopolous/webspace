@@ -6,7 +6,10 @@ There is
   css/ - CSS with the stages (see below)
   docs/ - Manually authored documents
   import/ - David Glick documentes
-  viewer.html - the MVP viewer
+  js/ - Javascript files
+    min/ - Minified versions of the dependencies
+    raw/ - "Debug" versions of the dependencies
+  viewer.html - the MVP viewer (see files for documentation)
   panel.html - The panel system for the views.
 
 The Viewer is broken down into 5 stages:

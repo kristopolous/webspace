@@ -1,4 +1,10 @@
 <?
+/*
+ * wikipedia_import
+ *
+ * Import pages given a wikipedia url and convert them into
+ * the input format
+ */
 require('lib.php');
 
 
@@ -145,6 +151,7 @@ function paragraphSplitter($xpath) {
     }
     // First put the details before the title
     $node->parentNode->insertBefore($container, $node);
+
     // then swap the ordering.
     $node->nodeValue = $firstSentence . '.';
     $node->parentNode->insertBefore($node, $container);
@@ -161,6 +168,17 @@ function addTitle($article, $title) {
   );
 }
 
+function getArticle($dom) {
+  $article = new DOMDocument();
+  $article->appendChild(
+    $article->importNode(
+      $dom->getElementById('mw-content-text'),
+      true
+    )
+  );
+  return $article;
+}
+
 $url = urldecode($_GET['url']);
 $url = parse_url($url);
 if(!empty($url['host'])) {
@@ -174,14 +192,7 @@ $doc = new DOMDocument();
 
 $title = $doc->getElementById('firstHeading');
 
-$article = new DOMDocument();
-$article->appendChild(
-  $article->importNode(
-    $doc->getElementById('mw-content-text'),
-    true
-  )
-);
-
+$article = getArticle($doc);
 $xpath = new DOMXPath($article);
 
 addTitle($article, $title);

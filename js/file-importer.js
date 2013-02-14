@@ -30,7 +30,7 @@
     },
 
     wikipedia: function(url, cb) {
-      $.get('api/getpage.php?url=' + url, cb);
+      $.get('api/wikipedia_import.php?url=' + url, cb);
     },
 
     $done: function (data) {
