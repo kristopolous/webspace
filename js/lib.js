@@ -2,6 +2,8 @@
 //
 // Global function helpers that aren't in a specific closure.
 
+var slice = Array.prototype.slice;
+
 
 // _.attr
 //
@@ -9,10 +11,21 @@
 // explicitly call setAttribute on a node in
 // pure DOM, to make things work
 _.attr = function(node, obj) {
-  _.each(obj, function(value, key) {
-    node.setAttribute(key, value);
+  // if two arguments are passed then set
+  // things up
+  if(arguments.length == 2) {
+    _.each(obj, function(value, key) {
+      node.setAttribute(key, value);
+    });
+    return node;
+  }
+
+  // Otherwise make a map
+  var map = {};
+  _.each($(node).get(0).attributes, function(attrib) {
+    map[attrib.nodeName] = attrib.nodeValue;
   });
-  return node;
+  return map;
 }
 
 
@@ -157,44 +170,70 @@ function getTemplate(stage, shape) {
 }
 
 
-// dom2Params
+// getAllTemplates
 //
-// Take a dom node in the input format and then
-// determine what part of the markup maps over
-// to our model. 
-//
-// Create a Javascript object for that, but not 
-// an instance of any specific model.
-//
-// Return that object, which is a value argument
-// for creating a model instance.
-function dom2Params(dom) {
-  var options = {};
+// Loads all the templates for a given stage
+// due to predictable naming schemes
+function getAllTemplates(stage) {
+  var map = {};
 
-  // Extract the label ... if any
-  if(dom.hasAttribute('title')) {
-    options.label = dom.getAttribute('title');
+  $("#templateList-" + stage + " script").each(function() {
+
+    // Take the class, drop the template- off of it, then join it back together
+    var shapeName = this.getAttribute('class')
+      .split('-')
+      .slice(1)
+      .join('-');
+
+    // this is the key for our map. then we take the html
+    // and pass it back in
+    map[shapeName] = _.template($(this).html());
+  });
+
+  return map;
+}
+
+
+// log
+//
+// log with timestamp and where its coming from
+function log() {
+  console.log.apply(this, [
+    '@' +
+      ((new Date() - Start) / 1000).toFixed(2) + ' ' +
+      stackTrace(2,3)
+        .split('/')
+        .pop() +
+    ':'
+  ].concat(
+    slice.call(arguments)
+  ));
+}
+
+
+// stackTrace
+//
+// returns a stack trace of the current call stack
+// between start and stop
+function stackTrace(start, stop) {
+  if (arguments.length == 0) {
+    start = 4;
+    stop = 22;
   }
-
-  options.content = dom.innerHTML;
-
-  return options;
+  try { throw new Error(); }
+  catch (e) { return(
+    e.stack
+      .split('\n')
+      .slice(start,stop)
+      .join('\n')
+      .replace(/^[^@]*/mg, '')
+      .replace(/\n[^@]*/mg, '\n   ')
+    || e.stack);
+  }
 }
 
-
-// dom2Members
-//
-// 1. Take a DOM node's children, 
-// 2. Create base level Description nodes from them
-// 3. Encapsulate this in a ShapeGroup
-//
-// The ShapeGroup can then be used as the member option
-// in another Shape declaration.
-function dom2Members(dom) {
-  return new ShapeGroup(
-    $("p, li", dom).map(function(){ 
-      return new Description(dom2Params(this));
-    })
-  );
+function assert(key, value, message) {
+  if( key !== value) {
+    log("!failed:", message, key, value);
+  }
 }
-

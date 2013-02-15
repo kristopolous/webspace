@@ -6,7 +6,7 @@ a {
 @font-face {
   font-family: 'ico';
   src: url('vendor/iconic_fill.ttf') format('truetype'), 
-    url('vendor/iconic_fill.wof') format('woff');
+    url('vendor/iconic_fill.woff') format('woff');
 }
 
 h1,

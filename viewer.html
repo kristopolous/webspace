@@ -39,6 +39,12 @@
     </div>
   </script>
 
+  <script type="text/template" class="template-Aside">
+    <aside>
+      <%= content %>
+    </aside>
+  </script>
+
   <script type="text/template" class="template-Section">
     <section>
       <<%=tag %>><%= title %></<%= tag %>>
@@ -90,7 +96,7 @@
     <h2><%= content %></h2>
   </script>
     
-  <!-- A distinction is made between the document title (h1) category and the rest -->
+  <!-- A distinction is made between the document title (h1) category and the other categories -->
   <script type="text/template" class="template-Title">
     <div class="document-title">
       <h1 class="shape"><%= content %>

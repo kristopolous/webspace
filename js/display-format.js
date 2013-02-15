@@ -20,20 +20,179 @@
 //
 (function(){
 
-  Event.when("StageName", "display-format", function() {
+  Event.when("StageName", "display-format", function(stage) {
     displayFormat("#document");
   });
 
-  function swapTag(nodeList, newTag) {
-    return $(nodeList).map(function(what, node) {
+  // =======================================
+  // suck*
+  // =======================================
+  //
+  // The colorfully named suck* functions grab
+  // content from the dom in the input format
+  // and then create model abstractions based on
+  // them with (in principle)
+  // 
+  //  * no information loss
+  //
+  //  * sibling and parenting preserved
+  //
+
+
+  // suckParams
+  //
+  // Take a dom node in the input format and then
+  // determine what part of the markup maps over
+  // to our model. 
+  //
+  // Create a Javascript object for that, but not 
+  // an instance of any specific model.
+  //
+  // Return that object, which is a value argument
+  // for creating a model instance.
+  function suckParams(dom) {
+    var options = {
+      'content': dom.innerHTML
+    };
+
+    // Extract the label ... if any
+    if(dom.hasAttribute('title')) {
+      options.label = dom.getAttribute('title');
+    }
+
+    return options;
+  }
+
+  // suckGroup
+  //
+  // Given a dom node, this function tries to
+  // find everything that would constitue a 
+  // description node (ie, content) and create
+  // new nodes based on that.
+  //
+  // 1. Take a DOM node's children, 
+  // 2. Create base level Description nodes from them
+  // 3. Encapsulate this in a ShapeGroup
+  //
+  // it returns a ShapeGroup of those.
+  function suckGroup(dom) {
+    var lastShape = false;
+
+    return new ShapeGroup(
+      $("> p, > li", dom).map(function(){ 
+
+        var 
+          currentShape, 
+
+          // Set up the obvious content
+          options = suckParams(this);
+
+        // If a shape already existed then
+        // we can add it as our previous
+        if(lastShape) {
+          options.previous = lastShape;
+        }
+
+        currentShape = new Description(options);
+
+        // Take the previous and add us as the next
+        if(lastShape) {
+          lastShape.set('next', currentShape);
+        }
+
+        // And finally, move the pointer forward
+        lastShape = currentShape;
+        
+        // and then dump our contents
+        $(this).remove();
+
+        // Then return it for the map
+        return currentShape;
+      })
+    );
+  }
+
+
+  // suckName
+  //
+  // This finds if there is an
+  //
+  // <a name=blah>
+  //
+  // within a dom and if so it returns it as the name
+  function suckName(dom) {
+    var name = false;
+
+    $("a", dom).filter(function(){
+      return this.hasAttribute('name')
+    }).each(function(){
+
+      // only take the first
+      if(!name) {
+        name = this.getAttribute('name');
+        assert(this.innerHTML, '', "name to be sucked is empty");
+        $(this).remove();
+      }
+    });
+    return name;
+  }
+
+
+  // suckMap
+  //
+  // This function uses an associative array in order to
+  // create objects in the model that correspond to a 
+  // a certain selector.
+  //
+  // The format of the map is 
+  // {
+  //    (Shape): (jquery selector)
+  // }
+  function suckMap(map) {
+    _.each(map, function(selector, type) {
+      $(selector).each(function(){
+        new self[type](_.extend(
+          // Start off with our name and children
+          {
+            name: suckName(this),
+            member: suckGroup(this)
+          },
+
+          // then combine it with ourselves
+          suckParams(this)
+        ));
+      });
+    });
+  }
+
+
+  // swapTag
+  // 
+  // Swap tag takes a number of tags mapped
+  // by a jquery selector and then changes their
+  // tags to a newTag name. 
+  //
+  // Swap DESTROYS THINGS AND REPLACES THEM
+  // That means your jquery selectors will be
+  // shot to hell.
+  //
+  // It also means that you should run this
+  // early early early
+  //
+  // A similar function is implemented in the
+  // PHP importer.
+  function swapTag(selector, newTag) {
+    return $(selector).map(function(what, node) {
       var 
         html = $(node).html(),
-        replace = $("<" + newTag + ">").html(html),
-        replaceDOM = replace.get(0);
+        replace = $("<" + newTag + ">").html(html);
 
-      _.each($(node).get(0).attributes, function(attrib) {
-        replaceDOM.setAttribute(attrib.nodeName, attrib.nodeValue);
-      });
+      // Set up the new dom node
+      _.attr(
+        replace.get(0),
+        // with the attributes from the old one
+        _.attr(node)
+      );
 
       $(node).replaceWith(replace);
     });
@@ -86,17 +245,84 @@
     });
   }
 
+
+  // createCategories
+  //
+  // Use the HTML4 implicit document flow
+  // to:
+  //
+  //  * Create category shapes
+  //
+  //  * Assign them membership rules based
+  //    on the vertical positioning of where
+  //    they will live in the VizDocument
+  function createCategories(scope){
+    // Find all nodes between two h* nodes
+    //
+    // Note: Always get the next sibling PRIOR to insertion
+    // or else the nextSibling walking will not work.
+    var tag;
+
+    for(var i = 2; i <= 6; i++) {
+      tag = 'H' + i;
+
+      $(tag, scope).each(function(){
+        var 
+          temp = $("<div />").insertBefore(this),
+          next,
+          walker = this.nextSibling;
+
+        // Construct a collection of the children
+        // (as in a description collection) and then
+        // create a group of them, making it the member
+        // of the category node that we are dealing with.
+        while(walker && walker.nodeName != tag) {
+          next = walker.nextSibling;
+
+          // Remove the node from the dom as
+          // as put it in the model
+          temp.append($(walker).remove());
+          walker = next;
+        }
+
+        new Category(_.extend(
+          // Start off with our tag name and children
+          { tag: tag, member: suckGroup(temp) },
+
+          // then combine it with ourselves
+          suckParams(this)
+        ));
+
+        // after getting all the children and our
+        // selfs we can finally remove ourselves
+        $(this).remove();
+
+      });
+    };
+  }
+
+
   // This eventually needs to be server-side
   self.displayFormat = function (selector) {
     var 
       stage = Event.get('StageName'),
-      intro = getTemplate(stage, "Intro"),
-      section = getTemplate(stage, "Section");
+      templateMap = getAllTemplates(stage);
 
+    // Use the HTML5 main tag as opposed to
+    // <div id="document">
+    //
+    // This doesn't go into our model as it
+    // becomes the constant container for
+    // everything.
     swapTag(selector, "main");
     var scope = $(selector);
 
-    swapTag(".aside", "aside");
+    suckMap({
+      Aside: '.aside',
+      Path: 'ul',
+      Procedure: 'ol'
+    });
+
     swapTag(".media", "figure");
     swapTag(".media-caption", "figcaption");
 
@@ -114,48 +340,14 @@
         walker = next;
       }
 
-      var html = intro({
+      var html = templateMap.Intro({
         content: temp.html()
       });
       temp.replaceWith(html).insertAfter(this);
     });
 
-    // Find all nodes between two h2 nodes
-    //
-    // Note: Always get the next sibling PRIOR to insertion
-    // or else the nextSibling walking will not work.
-    _.each(['H2', 'H3', 'H4'], function(tag) {
-      $(tag, scope).each(function(){
-        var 
-          temp = $("<div />").insertBefore(this),
-          next,
-          walker = this.nextSibling;
-
-        while(walker && walker.nodeName != tag) {
-          next = walker.nextSibling;
-          temp.append($(walker).remove());
-          walker = next;
-        }
-
-        new Category(_.extend(
-          // Start off with our tag name and children
-          { tag: tag, member: dom2Members(temp) },
-
-          // then combine it with ourselves
-          dom2Params(this)
-        ));
-
-        var html = section({
-          tag: tag,
-          title: $(this).remove().html(),
-          content: temp.html()
-        });
-      //  temp.replaceWith(html);
-       
-
-      });
-    });
-
+  
+    createCategories(scope);
     reorder(scope);
 
     /*

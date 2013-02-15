@@ -13,8 +13,6 @@
 //
 //  * Put it in the input format.
 //
-//  * Pass it off to the display-format
-//
 (function(){
   // The format of the request url is
   // engine|url
@@ -39,7 +37,7 @@
       nextStage();
     }
   };
-
+  
   $(function(){
     var 
       toLoad = window.location.search.slice(1).split('|'),
@@ -47,6 +45,8 @@
       url = toLoad[1];
 
     Event.set('StageMax', parseInt(toLoad[2]));
+
+    log("Loading document");
 
     if(Loader[engine]) {
       Loader[engine](url, Loader.$done);

@@ -24,8 +24,8 @@ var ShapeGroup;
         
         // Modifiable {
           // previous or next at same depth {
-            previous: new ShapeGroup(),
-            next: new ShapeGroup(),
+            previous: null,
+            next: null,
           // }
 
           // relationship amongst depth {
@@ -113,29 +113,3 @@ function render(node) {
   node.walk($('#document'));
 }
 
-// Suck data into the model from a dom node
-function model_suck(shape, dom) {
-  var content = $("p, li", dom).map(function(){ 
-
-    // Extract the label ... if any
-    var options = {};
-    if(this.hasAttribute('title')) {
-      options.label = this.getAttribute('title');
-    }
-    options.content = this.innerHTML;
-
-    return new Description(options);
-  });
-  _.each(content, function(what) {
-    console.log(what.attributes);
-  });
-}
-
-// (type) : (selector)
-function suck_map(map) {
-  _.each(map, function(selector, type) {
-    $(selector).each(function(){
-      model_suck(type, this);
-    });
-  });
-}

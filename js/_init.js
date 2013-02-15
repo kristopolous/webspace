@@ -27,6 +27,8 @@ var
   // A generic repaint callback, Defined in lines and arrows
   Repaint = function(){},
 
+  Start = +(new Date()),
+
   ColorList = [
     "#647D7A"
   ];
@@ -54,6 +56,6 @@ Event.whenSet("StageMax", function(maxStage) {
 })
 
 Event.on("StageName", function(what) {
-  console.log(what);
+  log(what);
 });
 

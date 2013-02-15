@@ -20,9 +20,7 @@
     addCss('reset');
     addCss('arrange-on-screen');
 
-    _.each(ShapeType, function(shape) {
-      templateMap[shape] = getTemplate(stage, shape);
-    });
+    templateMap = getAllTemplates(stage);
 
     reflow();
 
@@ -126,7 +124,7 @@
         });
 
         // and finally replace our dummy
-        first.replaceWith(templateMap.category({
+        first.replaceWith(templateMap.Category({
           tag: "h" + i,
           content: $(this).remove().html(),
           intro: replacer.html()
@@ -147,7 +145,7 @@
         content = $(AnchorMap[name].destination[0]);
       // }} Put in model.
       
-      $(source).replaceWith(templateMap.aside({
+      $(source).replaceWith(templateMap.Aside({
         content: content.remove().html(),
         source: source.html()
       }));
