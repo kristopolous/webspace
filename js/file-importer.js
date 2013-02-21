@@ -2,9 +2,10 @@
 //
 //  * 1. File importer
 //    2. Display format
-//    3. Arrange on screen
-//    4. Lines and arrows
-//    5. Event Hooker
+//    3. Build model
+//    4. Arrange on screen
+//    5. Lines and arrows
+//    6. Event Hooker
 //
 // This file is intended to 
 //
@@ -12,8 +13,8 @@
 //    a server-side converting script
 //
 //  * Put it in the input format.
-//
 (function(){
+
   // The format of the request url is
   // engine|url
   //
@@ -54,4 +55,5 @@
       $(document.body).html($("#T-Help").html());
     }
   });
+
 })();

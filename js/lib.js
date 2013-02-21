@@ -11,7 +11,8 @@ var slice = Array.prototype.slice;
 // explicitly call setAttribute on a node in
 // pure DOM, to make things work
 _.attr = function(node, obj) {
-  // if two arguments are passed then set
+
+  // If two arguments are passed then set
   // things up
   if(arguments.length == 2) {
     _.each(obj, function(value, key) {
@@ -25,13 +26,21 @@ _.attr = function(node, obj) {
   _.each($(node).get(0).attributes, function(attrib) {
     map[attrib.nodeName] = attrib.nodeValue;
   });
+
   return map;
 }
 
+// This is our type check for the various shapes.
+_.each(ShapeType, function(which) {
+  _['is' + which] = function(what) {
+    // getType is defined in the build-model
+    return _.getType(what) == which;
+  }
+});
 
 // addCss
 //
-// Inject a css file into the dom by filename
+// Inject a CSS file into the DOM by filename
 // This is used so that different stages can
 // have different markup.
 function addCss(file) {
@@ -77,6 +86,7 @@ function domDepth(dom) {
     depth++;
     el = el.parentNode;
   }
+
   return depth;
 }	
 
@@ -84,9 +94,10 @@ function domDepth(dom) {
 // decorate
 //
 // This is a pythonic decorator pattern that is intended
-// to be used for class inheritance in the model
+// to be used for class inheritance in the model.
 //
-// see http://en.wikipedia.org/wiki/Decorator_pattern
+// See http://en.wikipedia.org/wiki/Decorator_pattern
+// for more information and how to use this.
 function decorate(initial, decorator) {
   return function() {
     return decorator.call(
@@ -145,8 +156,7 @@ function permute(array) {
 // Attempts to go to the next stage in the course of events.
 // This is dependent on the third argument in the pipe-bar.
 // 
-// Look in file-importer for the hook.
-//
+// Look in _init.js for the hook.
 function nextStage() {
   var 
     current = Event.get("Stage"),
@@ -159,7 +169,7 @@ function nextStage() {
 // getTemplate
 //
 // Gets the template based on the stage name
-// and the shape
+// and the shape.
 function getTemplate(stage, shape) {
   return _.template(
     $([ 
@@ -173,21 +183,24 @@ function getTemplate(stage, shape) {
 // getAllTemplates
 //
 // Loads all the templates for a given stage
-// due to predictable naming schemes
+// due to predictable naming schemes.
 function getAllTemplates(stage) {
   var map = {};
 
   $("#templateList-" + stage + " script").each(function() {
 
-    // Take the class, drop the template- off of it, then join it back together
+    // 1. Take the class
+    // 2. Drop the 'template-' off of it
+    // 3. Join it back together
     var shapeName = this.getAttribute('class')
       .split('-')
       .slice(1)
       .join('-');
 
-    // this is the key for our map. then we take the html
+    // This is the key for our map. then we take the html
     // and pass it back in
     map[shapeName] = _.template($(this).html());
+
   });
 
   return map;
@@ -196,7 +209,8 @@ function getAllTemplates(stage) {
 
 // log
 //
-// log with timestamp and where its coming from
+// Log a message with a relative timestamp 
+// and where the call was initiated from.
 function log() {
   console.log.apply(this, [
     '@' +
@@ -213,27 +227,37 @@ function log() {
 
 // stackTrace
 //
-// returns a stack trace of the current call stack
+// Returns a stack trace of the current call stack
 // between start and stop
 function stackTrace(start, stop) {
   if (arguments.length == 0) {
     start = 4;
     stop = 22;
   }
-  try { throw new Error(); }
-  catch (e) { return(
-    e.stack
-      .split('\n')
-      .slice(start,stop)
-      .join('\n')
-      .replace(/^[^@]*/mg, '')
-      .replace(/\n[^@]*/mg, '\n   ')
-    || e.stack);
+
+  try { 
+    throw new Error(); 
+  } catch (e) { 
+    return(
+      e.stack
+        .split('\n')
+        .slice(start,stop)
+        .join('\n')
+        .replace(/^[^@]*/mg, '')
+        .replace(/\n[^@]*/mg, '\n   ')
+      || e.stack);
   }
 }
 
+// assert
+//
+// a trivial ASSERT system that falls through
+// and prints out stuff to the console when
+// key !== value.
+//
+// Add a message for more meaningful output.
 function assert(key, value, message) {
-  if( key !== value) {
+  if( key !== value ) {
     log("!failed:", message, key, value);
   }
 }

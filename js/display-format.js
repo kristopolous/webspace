@@ -2,9 +2,10 @@
 //
 //    1. File importer
 //  * 2. Display format
-//    3. Arrange on screen
-//    4. Lines and arrows
-//    5. Event Hooker
+//    3. Build model
+//    4. Arrange on screen
+//    5. Lines and arrows
+//    6. Event Hooker
 //
 // This file is intended to 
 //
@@ -18,11 +19,41 @@
 //    the Display Format and then display THAT on the
 //    screen instead.
 //
+//
+// idea:
+//  have well-formed html in the member and content
+//  nodes and then break it down recursively.
 (function(){
 
+  var templateMap = {};
+  // This eventually needs to be server-side
   Event.when("StageName", "display-format", function(stage) {
+    templateMap = getAllTemplates(stage);
     displayFormat("#document");
+
+    // Now we remove the well structured display-formatted document
+    // and place it into the data node. this will be ther reference
+    // for the rest of the scaffolding.
+    $("#data").html( $("#document").html() );
+    $("#document").empty();
+
+    /*
+    var selector = "#document";
+
+    suckMap({
+      Aside: '.aside',
+      Path: 'ul',
+      Procedure: 'ol'
+    }, $(selector));
+
+    createCategories($(selector));
+    */
+      
+    if(! nextStage()) {
+      addCssfile('gloss');
+    }
   });
+
 
   // =======================================
   // suck*
@@ -52,7 +83,7 @@
   // for creating a model instance.
   function suckParams(dom) {
     var options = {
-      'content': dom.innerHTML
+      'content': $.trim(dom.innerHTML)
     };
 
     // Extract the label ... if any
@@ -104,7 +135,7 @@
         lastShape = currentShape;
         
         // and then dump our contents
-        $(this).remove();
+//        $(this).remove();
 
         // Then return it for the map
         return currentShape;
@@ -131,7 +162,7 @@
       if(!name) {
         name = this.getAttribute('name');
         assert(this.innerHTML, '', "name to be sucked is empty");
-        $(this).remove();
+//        $(this).remove();
       }
     });
     return name;
@@ -148,9 +179,9 @@
   // {
   //    (Shape): (jquery selector)
   // }
-  function suckMap(map) {
+  function suckMap(map, scope) {
     _.each(map, function(selector, type) {
-      $(selector).each(function(){
+      $(selector, scope).each(function(){
         new self[type](_.extend(
           // Start off with our name and children
           {
@@ -198,6 +229,132 @@
     });
   }
     
+
+
+  // createCategories
+  //
+  // Use the HTML4 implicit document flow
+  // to:
+  //
+  //  * Create category shapes
+  //
+  //  * Assign them membership rules based
+  //    on the vertical positioning of where
+  //    they will live in the VizDocument
+  function createCategories(scope){
+    // Find all nodes between two H* tags
+    //
+    // Note: Always get the next sibling PRIOR to insertion
+    // or else the nextSibling walking will not work.
+    var 
+      tag, 
+      type;
+
+    // TODO This needs to recursively create
+    // the document hierarchy somehow.
+    for(var i = 6; i > 0; i--) {
+      tag = 'H' + i;
+
+      // The h1 tag is the title of the document
+      // which is a special shape.
+      if(i == 1) {
+        type = "Title";
+      } else {
+        type = "Category";
+      }
+
+      $(tag, scope).each(function(){
+        var 
+          next,
+          temp = $("<div />").insertBefore(this),
+          walker = this.nextSibling;
+
+        // Construct a collection of the children
+        // (as in a description collection) and then
+        // create a group of them, making it the member
+        // of the category node that we are dealing with.
+        while(walker && walker.nodeName.slice(0,1) != 'H') {
+          next = walker.nextSibling;
+
+          // Remove the node from the dom as
+          // as put it in the model
+          temp.append($(walker));//.remove());
+          walker = next;
+        }
+
+        new self[type](_.extend(
+          // Start off with our tag name and children
+          { tag: tag, member: suckGroup(temp) },
+
+          // then combine it with ourselves
+          suckParams(this)
+        ));
+
+        // After getting all the children and our
+        // selfs we can finally remove ourselves
+//        $(this).remove();
+
+      });
+    };
+  }
+  self.displayFormat = function (selector) {
+
+    swapTag(selector, "main");
+    var scope = $(selector);
+    //.removeAttr('id');
+
+    swapTag(".aside", "aside");
+    swapTag(".media", "figure");
+    swapTag(".media-caption", "figcaption");
+
+    // Find the intro
+    $("h1", scope).each(function(){
+      var 
+        temp = $("<div />"),
+        next,
+        walker = this.nextSibling;
+
+      while(walker && walker.nodeName != 'H2') {
+        next = walker.nextSibling;
+        temp.append(walker);
+        walker = next;
+      }
+
+      var html = templateMap.Intro({
+        content: temp.html()
+      });
+      temp.replaceWith(html).insertAfter(this);
+    });
+
+    // Find all nodes between two h2 nodes
+    //
+    // Note: Always get the next sibling PRIOR to insertion
+    // or else the nextSibling walking will not work.
+    _.each(['H2', 'H3', 'H4'], function(tag) {
+      $(tag, scope).each(function(){
+        var 
+          temp = $("<div />").insertBefore(this),
+          next,
+          walker = this.nextSibling;
+
+        while(walker && walker.nodeName != tag) {
+          next = walker.nextSibling;
+          temp.append(walker);
+          walker = next;
+        }
+
+        var html = templateMap.Section({
+          tag: tag,
+          title: $(this).remove().html(),
+          content: temp.html()
+        });
+        temp.replaceWith(html);
+
+      });
+    });
+
+    reorder(scope);
+  }
   function reorder(scope) {
     // Find all of the anchor tags and break them up into
     // source destination tuples.
@@ -245,123 +402,5 @@
     });
   }
 
-
-  // createCategories
-  //
-  // Use the HTML4 implicit document flow
-  // to:
-  //
-  //  * Create category shapes
-  //
-  //  * Assign them membership rules based
-  //    on the vertical positioning of where
-  //    they will live in the VizDocument
-  function createCategories(scope){
-    // Find all nodes between two h* nodes
-    //
-    // Note: Always get the next sibling PRIOR to insertion
-    // or else the nextSibling walking will not work.
-    var tag;
-
-    for(var i = 2; i <= 6; i++) {
-      tag = 'H' + i;
-
-      $(tag, scope).each(function(){
-        var 
-          temp = $("<div />").insertBefore(this),
-          next,
-          walker = this.nextSibling;
-
-        // Construct a collection of the children
-        // (as in a description collection) and then
-        // create a group of them, making it the member
-        // of the category node that we are dealing with.
-        while(walker && walker.nodeName != tag) {
-          next = walker.nextSibling;
-
-          // Remove the node from the dom as
-          // as put it in the model
-          temp.append($(walker).remove());
-          walker = next;
-        }
-
-        new Category(_.extend(
-          // Start off with our tag name and children
-          { tag: tag, member: suckGroup(temp) },
-
-          // then combine it with ourselves
-          suckParams(this)
-        ));
-
-        // after getting all the children and our
-        // selfs we can finally remove ourselves
-        $(this).remove();
-
-      });
-    };
-  }
-
-
-  // This eventually needs to be server-side
-  self.displayFormat = function (selector) {
-    var 
-      stage = Event.get('StageName'),
-      templateMap = getAllTemplates(stage);
-
-    // Use the HTML5 main tag as opposed to
-    // <div id="document">
-    //
-    // This doesn't go into our model as it
-    // becomes the constant container for
-    // everything.
-    swapTag(selector, "main");
-    var scope = $(selector);
-
-    suckMap({
-      Aside: '.aside',
-      Path: 'ul',
-      Procedure: 'ol'
-    });
-
-    swapTag(".media", "figure");
-    swapTag(".media-caption", "figcaption");
-
-
-    // Find the intro
-    $("h1", scope).each(function(){
-      var 
-        temp = $("<div />"),
-        next,
-        walker = this.nextSibling;
-
-      while(walker && walker.nodeName != 'H2') {
-        next = walker.nextSibling;
-        temp.append(walker);
-        walker = next;
-      }
-
-      var html = templateMap.Intro({
-        content: temp.html()
-      });
-      temp.replaceWith(html).insertAfter(this);
-    });
-
-  
-    createCategories(scope);
-    reorder(scope);
-
-    /*
-    suck_map({
-      'Aside': 'aside',
-      'Description': '.description',
-      'Category': 'h1, h2, h3, h4, h5, h6',
-      'Path': 'ul',
-      'Procedure': 'ol'
-    });
-    */
-      
-    if(! nextStage()) {
-      addCssfile('gloss');
-    }
-  }
 })();
+

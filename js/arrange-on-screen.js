@@ -2,9 +2,10 @@
 //
 //    1. File importer
 //    2. Display format
-//  * 3. Arrange on screen
-//    4. Lines and arrows
-//    5. Event Hooker
+//    3. Build model
+//  * 4. Arrange on screen
+//    5. Lines and arrows
+//    6. Event Hooker
 //
 // This file is intended to 
 // 
@@ -14,7 +15,11 @@
 //    tricks needed to arrange them on the 
 //    screen in the necessary document flow.
 //
+// TODO: Most of this stuff should be put into the 
+//  MV* style way of doing things as opposed to
+//  re-entering the dom as the data-store every time.
 (function(){
+
   Event.when("StageName", "arrange-on-screen", function(stage) {
 
     addCss('reset');
@@ -177,6 +182,4 @@
 
     replacer.insertAfter(first);
   }
-
-
 })();

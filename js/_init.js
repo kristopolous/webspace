@@ -12,8 +12,16 @@ var
     StageName: ""
   }),
 
+  // Some handy db of every part of the display-format (populated 
+  // in build-model)
+  Db = {},
+
   // The types of shapes we have 
   ShapeType = [ 
+
+    "Title",  // The title is a special kind of category node ... it's 
+              // effectively the root of the document.
+              
     "Category", 
     "Aside", 
     "Description", 
@@ -42,6 +50,7 @@ Event.on("Stage", function(what) {
   Event.set("StageName", [
     "file-importer",
     "display-format",
+    "build-model",
     "arrange-on-screen",
     "lines-and-arrows",
     "hook-events"
@@ -56,6 +65,8 @@ Event.whenSet("StageMax", function(maxStage) {
 })
 
 Event.on("StageName", function(what) {
-  log(what);
+  log("Setting the stage", [what]);
 });
 
+
+// From here go to file-importer.js

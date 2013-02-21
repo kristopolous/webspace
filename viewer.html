@@ -16,7 +16,15 @@
 	</head>
 	<body>
 
+    <!-- #document is the stuff displayed on the screen -->
     <div id="document"></div>
+
+    <!-- #data is intended for the model. It will usually be
+         in the display format, which can exist in the document
+         depending on the parsing level.
+    -->
+    <div id="data"></div>
+
     <div id="sound"></div> 
 
   </body>
@@ -142,7 +150,7 @@
 </ol>
 </script>
 	    
-<script src="js/raw/evda.js"></script>
+<script src="js/min/evda.js"></script>
 <script src="js/min/_inject.js"></script>
 <script src="js/raw/underscore.js"></script>
 <script src="js/raw/backbone.js"></script>
@@ -157,19 +165,21 @@
   <script src="js/min/jquery.jsPlumb-1.3.16-all.js"></script>
   <script src="js/lines-and-arrows-plumb.js"></script>
 
-  <!-- raphael wants this 
+<!-- raphael wants this 
   <script src="js/min/raphael.js"></script>
   <script src="js/lines-and-arrows-raphael.js"></script>
-  -->
+-->
 
 <!-- Step # -->
 <!--  0 --> <script src="js/file-importer.js"></script>
 <!--  1 --> <script src="js/display-format.js"></script>
-<!--  2 --> <script src="js/arrange-on-screen.js"></script>
-<!--  4 --> <script src="js/hook-events.js"></script>
+<!--  2 --> <script src="js/build-model.js"></script>
+<!--  3 --> <script src="js/arrange-on-screen.js"></script>
+
+<!--  5 --> <script src="js/hook-events.js"></script>
 
 <script src="js/view/_prototype_.js"></script>
 <script src="js/view/base.js"></script>
-<script src="js/model.js"></script>
+<script src="js/model-dom.js"></script>
 
 </html>
