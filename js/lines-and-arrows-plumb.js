@@ -23,6 +23,7 @@
 (function(){
   setTimeout(function(){
     Event.when("StageName", 'lines-and-arrows', run);
+    nextStage();
   }, 400);
     
   var 

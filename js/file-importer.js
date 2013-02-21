@@ -32,6 +32,10 @@
       $.get('api/wikipedia_import.php?url=' + url, cb);
     },
 
+    glick: function(url, cb) {
+      $.get('api/glick_import.php?url=' + url, cb);
+    },
+
     $done: function (data) {
       $("#document").replaceWith(data);
 

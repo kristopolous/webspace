@@ -23,6 +23,7 @@ var
               // effectively the root of the document.
               
     "Category", 
+
     "Aside", 
     "Description", 
     "Intro", 

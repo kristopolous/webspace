@@ -41,24 +41,28 @@
 </script>
 
 <div id="templateList-display-format"> 
-  <script type="text/template" class="template-Intro">
-    <div class="intro">
-      <%= content %>
-    </div>
-  </script>
-
   <script type="text/template" class="template-Aside">
     <aside>
       <%= content %>
     </aside>
   </script>
 
-  <script type="text/template" class="template-Section">
+  <script type="text/template" class="template-Category">
     <section>
-      <<%=tag %>><%= title %></<%= tag %>>
-      <div class="description">
+      <<%= tag %>
+
+        <% if (label) { %>
+          title="<%= label %>"
+        <% } %>
+      >
+        <%= title %>
+      </<%= tag %>>
+
+      <div class="<%= type %>">
         <%= content %>
       </div>
+
+      <%= section %>
     </section>
   </script>
 
@@ -137,6 +141,7 @@
 <ul>
   <li>raw - retrieves the file raw</li>
   <li>wikipedia - retrieves a wikipedia page and tries to convert it</li>
+  <li>glick - a path to a glick-formatted xml</li>
 </ul>
 
 <p>And step is 0 - 4</p>
