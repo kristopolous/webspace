@@ -20,6 +20,7 @@
   //
   // Where engine is one of
   //
+  // * glick
   // * raw
   // * wikipedia
   //

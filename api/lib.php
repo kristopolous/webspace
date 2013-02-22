@@ -4,6 +4,7 @@
 // DOM level helpers to modify HTML
 
 // Remove all the attributes of a node
+// Except those that may be specified in the second argument, $leave
 function _stripAttribs($node, $leave = Array()) {
   $list = Array();
 
@@ -19,6 +20,8 @@ function _stripAttribs($node, $leave = Array()) {
   return $node;
 }
 
+// Copy all the attributes in the node $from to
+// the node $to
 function _copyAttribs($from, $to) {
   foreach($from->attributes as $attr) {
     $to->setAttribute($attr->name, $attr->value);
@@ -32,6 +35,7 @@ function _remove($node) {
   return $parent;
 }
 
+// Insert node X before node Y, based on Y.
 function _xBeforeY($x, $y) {
   $y->parentNode->insertBefore($x, $y);
 }
@@ -50,6 +54,7 @@ function _moveDeep($from, $to) {
   }
 }
 
+// Get the DOM depth of a node
 function _depth($node) {
   $depth = 0;
   while($node->parentNode) {
@@ -59,6 +64,7 @@ function _depth($node) {
   return $depth;
 }
 
+// Add a CSS class to a node ... minding the spacing rules
 function _addClass($node, $cls) {
   $existing = $node->hasAttribute('class') ? 
     $node->getAttribute('class') : "";
@@ -76,7 +82,7 @@ function _changeTag($node, $name) {
   return $newnode;
 }
 
-// Do a shallow unwrapping of a tag
+// Do a shallow unwrapping of a tag: i.e, just the nodeValue
 function _unwrapShallow($nodeList) {
   foreach($nodeList as $node) {
     $text = $node->nodeValue;
@@ -86,13 +92,13 @@ function _unwrapShallow($nodeList) {
   }
 }
 
-// Do a deep-unwrapping of a tag
+// Do a deep-unwrapping of a tag: i.e., all the children; as in cloneNode(true)
 function _unwrapDeep($node) {
   _moveDeep($node, $node->parentNode);
   return _remove($node);
 }
 
-// remove and return value
+// Remove and return an attribute iff it exists.
 function _rmAttr($node, $attr) {
   if($node->hasAttribute($attr)) {
     $value = $node->getAttribute($attr);

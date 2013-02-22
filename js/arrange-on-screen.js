@@ -175,13 +175,10 @@
   // the $().height() returning a valid number.
   function wrapAsides(scope) {
     $("aside a.link-destination", scope).each(function(){
-      var name = this.getAttribute('name');
-      
-      // TODO: put in model {{
       var 
+        name = this.getAttribute('name'),
         source = $(AnchorMap[name].source[0]),
         content = $(AnchorMap[name].destination[0]);
-      // }} Put in model.
       
       $(source).replaceWith(templateMap.Aside({
         content: content.remove().html(),
