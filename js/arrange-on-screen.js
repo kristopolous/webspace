@@ -166,6 +166,10 @@
         nodeList = [], 
         replacer;
 
+    $("h3 + .description").each(function() {
+      $(this.parentNode).addClass("pull-left");
+    });
+
     // There is only one hr per article
     // TODO: inline-subdocumenting.
     $("h1 ~ section").each(function(){

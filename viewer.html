@@ -54,13 +54,13 @@
         <% if (label) { %>
           title="<%= label %>"
         <% } %>
-      >
-        <%= title %>
-      </<%= tag %>>
+      ><%= title %></<%= tag %>>
 
+      <% if (content.length) { %>
       <div class="<%= type %>">
         <%= content %>
       </div>
+      <% } %>
 
       <%= section %>
     </section>

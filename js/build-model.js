@@ -88,7 +88,7 @@
     };
 
     // Then we add the attribute, meaning that it will no longer validate
-    what.setAttribute('index', _index);
+    // what.setAttribute('index', _index);
 
     // Now we set an entry in the global Db object
     // which is flat, unstructured data (we rely on

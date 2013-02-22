@@ -49,12 +49,12 @@ section {
 
 .category-group-super {
   display: block;
-  text-align:center;
+  text-align: center;
 }
 
 .category-group-super.h4,
 .category-group-super.h2 {
-  text-align: left
+  text-align: center;
 }
 
 .category-group {
@@ -81,13 +81,27 @@ div.aside-container {
   float: right;
   */
 }
+
 /* 
  * While the aside itself still registers
  * its normal height
  */
 aside.aside{
   float: right;
-  margin: -2em 0 3em 1em;
+  margin: 0 0 2em 1em;
+}
+
+/* 
+ * If a section is the same level as a
+ * paragraph, then make the section display
+ * block
+ */
+p + section {
+  display: block;
+}
+
+.pull-left > .category-group-super {
+  text-align:left
 }
 
 .intro,
@@ -122,10 +136,12 @@ ol {
   margin-top: 1em
 }
 
+/*
 .intro .description,
 .description .description {
   margin-left: 3em;
 }
+  */
 
 .section-group {
   margin-top: 2em;
@@ -139,6 +155,9 @@ ol {
   padding-left: 2em;
 }
 
+.category-group-super.h3 {
+  margin-top:2em
+}
 section {
   margin: 0 2em;
 }

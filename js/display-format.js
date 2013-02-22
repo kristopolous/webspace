@@ -156,25 +156,28 @@
           tag: tag,
           label: label,
           type: contentType,
-          title: $(this).remove().html(),
+          title: $.trim($(this).remove().html()),
           section: section.html(),
-          content: temp.html()
+          content: $.trim(temp.html())
         });
         temp.replaceWith(html);
 
-        // After getting all the children and our
-        // selfs we can finally remove ourselves
-//        $(this).remove();
 
       });
 
+      $("section").addClass("section");
       // Unwrap double-dipped descriptions
       $(".description", scope).each(function(){
         if($(this).children(":first").hasClass("description")) {
           var html = $(this).children(":first").remove().html();
           this.innerHTML = html;
         }
+        // Or if it's just a bunch of sections
+        else if($(this).children(":first").hasClass('section')) {
+          $(this).replaceWith($(this).children().remove());
+        }
       });
+      $("section").removeClass("section");
     };
   }
 
@@ -189,56 +192,9 @@
     swapTag(".media-caption", "figcaption");
 
     createSections(scope);
-    /*
-    // Find the intro
-    $("h1", scope).each(function(){
-      var 
-        temp = $("<div />"),
-        next,
-        walker = this.nextSibling;
-
-      while(walker && walker.nodeName != 'H2') {
-        next = walker.nextSibling;
-        temp.append(walker);
-        walker = next;
-      }
-
-      var html = templateMap.Intro({
-        content: temp.html()
-      });
-      temp.replaceWith(html).insertAfter(this);
-    });
-
-    // Find all nodes between two h2 nodes
-    //
-    // Note: Always get the next sibling PRIOR to insertion
-    // or else the nextSibling walking will not work.
-    _.each(['H2', 'H3', 'H4'], function(tag) {
-      $(tag, scope).each(function(){
-        var 
-          temp = $("<div />").insertBefore(this),
-          next,
-          walker = this.nextSibling;
-
-        while(walker && walker.nodeName != tag) {
-          next = walker.nextSibling;
-          temp.append(walker);
-          walker = next;
-        }
-
-        var html = templateMap.Section({
-          tag: tag,
-          title: $(this).remove().html(),
-          content: temp.html()
-        });
-        temp.replaceWith(html);
-
-      });
-    });
-    */
-
     reorder(scope);
   }
+
   function reorder(scope) {
     // Find all of the anchor tags and break them up into
     // source destination tuples.
