@@ -131,7 +131,7 @@
   }
 
   function run(stage) {
-    console.log("HI");
+    return nextStage();
     templateMap = getAllTemplates(stage);
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],

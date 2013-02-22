@@ -1,5 +1,5 @@
 a {
-  color:blue;
+  color: blue;
   cursor: pointer;
 }
 
@@ -9,121 +9,113 @@ a {
     url('vendor/iconic_fill.woff') format('woff');
 }
 
-h1,
-h2,
-h3,
-h4 {
-  position:relative;
-}
-
 svg {
   position: absolute;
   z-index: -1;
 }
 
 .Plus {
-  cursor:pointer;
-  color: #cedde1;
-  position:absolute;
-  bottom:-0.55em;
-  text-align:center; 
-  border-radius:20px;
-  font-family: 'ico';
+  cursor: pointer;
+  position: absolute;
+  bottom: -0.55em;
+  text-align: center; 
+  border-radius: 20px;
+
   line-height: 16px;
+  font-family: 'ico';
   font-size: 18px;
-  background:black;
+
+  left: 2em;
+  color: #cedde1;
+  background: black;
 }
 
-.more{
-  border-bottom:2px solid blue;
+.center-expand .Plus {
+  left: 50%;
+}
+
+.more {
+  border-bottom: 2px solid blue;
 }
 
 ._jsPlumb_connector {
-    z-index:1;
+    z-index: 1;
 }
 
-.section{
-  display:inline-block;
-  text-align:left;
+.section {
+  display: inline-block;
+  text-align: left;
 }
 
-.section-container{
-  text-align:right;
-  vertical-align:top;
-  margin:0 2.5em;
-  min-width:20em;
-  display:inline-block
+.section-container {
+  text-align: right;
+  vertical-align: top;
+  margin: 0 2.5em;
+  min-width: 20em;
+  display: inline-block
 }
 
-.entry{
-  display:block
+.entry {
+  display: block
 }
 
 .shape {
-  z-index:2;
-  display:inline-block;
+  z-index: 2;
+  display: inline-block;
 }
 
-.connector , .arrow-helper {
-  margin-top:.7em;
-  height:0;
-  vertical-align:top;
+.connector, 
+.arrow-helper {
+  margin-top: .7em;
+  height: 0;
+  vertical-align: top;
 }
 
 .arrow-helper {
-  display:inline-block;
-  width:0;
+  display: inline-block;
+  width: 0;
 }
 
 .connector {
-  display:inline-block;
-  width:2.05em;
+  display: inline-block;
+  width: 2.05em;
 }
-
 
 h2.title {
   background: rgb(79, 129, 189); 
-  position:relative;
-  z-index:10;
+  position: relative;
+  z-index: 10;
   color: #fff;
-  margin-top:-0.5em;
-  margin-bottom:0;
+  margin-top: -0.5em;
+  margin-bottom: 0;
   padding: 0.95em 0.65em;
 }
 
 h2.twoLines {
-  text-align:left;
+  text-align: left;
   padding: 0.45em 0.65em;
 }
 
 .line-helper {
-  height:2em;
-  width:2em;
-  margin-bottom:-0.25em;
+  height: 2em;
+  width: 2em;
+  margin-bottom: -0.25em;
 }
 
 .arrow-down {
-  margin-top:0;
-  margin-bottom:.5em;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
-
-h1.title{
-  text-transform: uppercase;
-  margin-bottom:0.75em;
-  display:inline-block;
-  color: #000;
-}
-
 
 .h2Container {
-  text-align:center;
-  display:inline-block
+  text-align: center;
+  display: inline-block
 }
 
-.fix{
-  line-height:2em;
-  margin-top:3em;
-  background:red;
-  padding:3em
+.fix {
+  line-height: 2em;
+  margin-top: 3em;
+  background: red;
+  padding: 3em
 }
 

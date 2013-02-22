@@ -46,28 +46,35 @@
     }
   };
 
+  function zoomShow(node) {
+    $(node).show().animate({
+      opacity: 1,
+      fontSize: "14px"
+    }, {
+      duration: 600,
+      step:Repaint
+    });
+  }
+  function zoomHide(node) {
+    $(node).animate({
+      opacity: 0,
+      fontSize: "0px"
+    }, {
+      duration: 600,
+      step:Repaint
+    }, function(){
+      node.css('display', 'none');
+    });
+  }
+
   function toggle(){
     var node = $(this).parent().parent().parent().next();
     if(this.hide) {
       this.innerHTML = '&#xe009;';
-      $(node).show().animate({
-        opacity: 1,
-        fontSize: "14px"
-      }, {
-        duration: 600,
-        step:Repaint
-      });
+      zoomShow(node);
     } else {
       this.innerHTML = '&#xe008;';
-      $(node).animate({
-        opacity: 0,
-        fontSize: "0px"
-      }, {
-        duration: 600,
-        step:Repaint
-      }, function(){
-        node.css('display', 'none');
-      });
+      zoomHide(node);
     }
     this.hide = !this.hide;
   }
@@ -81,15 +88,15 @@
       this.removeAttribute('href');
       var destination = $("a[name='" + name + "']").parent();
 
-      destination.hide();
+      zoomHide(destination);
       // Replace it with a click handler that
       // collapses and expands the node
       // TODO: put in model {{
       $(this).click(function(){
         if(destination.hide) {
-          destination.slideDown();
+          zoomShow(destination);
         } else {
-          destination.slideUp();
+          zoomHide(destination);
         }
         $(this).toggleClass('expanded');
         destination.hide = !destination.hide;

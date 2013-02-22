@@ -16,7 +16,10 @@ h2 {
   letter-spacing: 0.0205em;
 }
 
-h4, h3 {
+h6,
+h5,
+h4,
+h3 {
   font-size: 1.35em;
   letter-spacing: -0.0205em;
 }
@@ -38,6 +41,15 @@ figure,
   display: block;
   white-space: nowrap;
   vertical-align: top;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  position: relative;
 }
 
 section {
@@ -214,6 +226,9 @@ li {
   max-width: 19em
 }
 
+h6,
+h5,
+h4,
 h3,
 h2 {
   min-width: 12em;
@@ -230,6 +245,9 @@ h2 {
   border-bottom: 4px solid #9ec5c0;
 }
 
+h6,
+h5,
+h4,
 h3 { 
   border-bottom: 3px solid rgba(39, 63, 32, 0.35);
 }

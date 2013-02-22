@@ -28,7 +28,6 @@
     templateMap = getAllTemplates(stage);
 
     reflow();
-
     wrapCategories();
     wrapAsides();
 
@@ -136,6 +135,13 @@
         }));
       });
     }
+
+    $(".section-group").each(function(){
+      var before = $(this).prev();
+      if(before) {
+        before.addClass('center-expand');
+      }
+    });
   }
 
   // These are needed to make the flow of the LHS proper while also keeping
