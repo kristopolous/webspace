@@ -21,12 +21,15 @@
 // to get the arrows and lines to play nicely.
 //
 (function(){
-  setTimeout(function(){
-    Event.when("StageName", 'lines-and-arrows', run);
-    nextStage();
-  }, 400);
+
+    Event.when("StageName", 'lines-and-arrows', function(stage) {
+      setTimeout(function(){
+        run(stage);
+      }, 1000);
+    });
     
   var 
+    templateMap = {},
     width = 4,
     Ends = {},
     Edge = {},
@@ -63,26 +66,20 @@
   }
 
   function setup(){
-    var tmpl = {
-      title: _.template($("#T-LA-Title").html()),
-      description: _.template($("#T-LA-Description").html()),
-      category: _.template($("#T-LA-Category").html())
-    },
     tagMap = {
-      h2: 'category',
-      h1: 'title',
-      p: 'description'
+      '.category-group-super.h1': 'Title',
+      'section': 'Category',
+      p: 'Description'
     };
 
     _.each(tagMap, function(template, tag) {
       $(tag).replaceWith(function(){
-        return tmpl[template]({
+        return templateMap[template]({
           content: $(this).html()
         });
       });
     });
 
-    $(".category-group").addClass("shape title");
   }
 
   function categoryConnect(){
@@ -113,7 +110,29 @@
     });
   }
 
-  function run() {
+  function fastLines() {
+    $("section").each(function(){
+      var 
+        source = $(this).first(),
+        destination = source.siblings("section");
+
+      destination.each(function(){
+        Edge.arrow.connect({
+          source: source,
+          target: this,
+          anchors:[ [ "TopCenter" ], [ "TopCenter" ] ],
+          overlays: [
+            ["Arrow", { foldback: 0.75, location: 1, width: 13, length:8}]
+          ]
+        });				
+      });
+    });
+
+  }
+
+  function run(stage) {
+    console.log("HI");
+    templateMap = getAllTemplates(stage);
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
       rec1: [ "Rectangle", {width: width + 4, height: 8} ]
@@ -133,6 +152,9 @@
       default: makeBrush(width, ColorList[0])
     };
       
+    fastLines();
+    nextStage();
+    return;
     //setup();
     
     var lastContent = $(".shape").get(0), 

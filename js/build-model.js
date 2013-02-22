@@ -61,7 +61,6 @@
       what.viz.type = what.parentNode.viz.type;
     } else {
 
-      console.log(what.nodeName, what.className, what.innerHTML);
     }
   }
 

@@ -172,6 +172,17 @@
 
     // There is only one hr per article
     // TODO: inline-subdocumenting.
+
+    $("section").each(function(){
+      if(!$(this.parentNode).hasClass('section-group') ) {
+        replacer = $("<div />").addClass('section-group');
+        $(this).before(replacer);
+
+        replacer.html($(this.parentNode).children("section").remove());
+      }
+    });
+
+      /*
     $("h1 ~ section").each(function(){
       if (!first) {
         first = this.previousSibling;
@@ -185,5 +196,6 @@
     });
 
     replacer.insertAfter(first);
+    */
   }
 })();
