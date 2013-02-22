@@ -27,16 +27,24 @@
 
     templateMap = getAllTemplates(stage);
 
-    reflow();
-    wrapCategories();
-    wrapAsides();
+    // We copy the data back into the document and work with that.
+    var scope = "#document"; 
+    $(scope).html( $("#data").html() );
 
-    drawCircles();
+    wrapSections(scope);
+    wrapCategories(scope);
+    wrapAsides(scope);
 
-    balanceTree();
-    stagnatePaths();
+    drawCircles(scope);
+
+    balanceTree(scope);
+    stagnatePaths(scope);
 
     nextStage();
+
+    // There is only one hr per article
+    // TODO: inline-subdocumenting.
+
   });
 
   var templateMap = {};
@@ -44,11 +52,12 @@
   // This makes sure that the tree remains balanced
   // it works off tags
   function balance(tag, scope) {
-    var nodeList = $(tag, scope), 
-        widthList,
-        docWidth,
-        widest,
-        siblings;
+    var 
+      nodeList = $(tag, scope), 
+      widthList,
+      docWidth,
+      widest,
+      siblings;
 
     if(!nodeList.length > 0) {
       return;
@@ -79,13 +88,14 @@
     });
   }
 
-  function balanceTree() {
-    balance('section', document.body);
+  function balanceTree(scope) {
+    balance('section', scope);
   }
 
-  function stagnatePaths() {
+  function stagnatePaths(scope) {
     var multiplier = 3;
-    $("ul").each(function(){
+
+    $("ul", scope).each(function(){
       var left = 0;
       $("> li", this).each(function(){
         left ++;
@@ -94,50 +104,67 @@
     });
   }
 
-  function drawCircles() {
-    $("a").each(function(){
-      if(this.hasAttribute('href') && this.getAttribute('href').substr(0, 1) == '#') {
-        $(this).addClass('circle');
-      };
-    });
+  function drawCircles(scope) {
+    $(Sel.CircleSource, scope).addClass('circle');
   }
 
-  function wrapCategories() {
-    var first, nodeList = [], replacer;
+  function wrapCategories(scope) {
+    var shape;
 
     for(var i = 1; i <= 6; i++) {
 
-      $("h" + i).each(function(){
+      // There's semantic differences in how these
+      // are ordered on screen. So the Title and
+      // Category must be distinguished.
+      if (i == 1) {
+        shape = 'Title';
+      } else {
+        shape = 'Category';
+      }
+
+      $("h" + i, scope).each(function(){
         // Because this could be the first child, we place a dummy
         // node before it.
-        first = $("<div />").insertBefore(this);
+        var 
+          dummy = $("<div />").insertBefore(this),
 
-        // Then we initialize the node list to just be it
-        nodeList = [];
+          next = $(this).next(),
+        
+          label,
 
-        // and an intro container if it does exist.
-        var next = $(this).next();
+          // The Block (as in the Syntactical Block)
+          block;  
+
+        // Add the Intro Block if it exists.
         if (next.hasClass('intro')) {
-          nodeList.push(next.get(0));
+          block = next.remove().html();
+
+          // According to the Syntax (see wiki), Labels come after Intros
+          // Since we test for labels after this block, move the next pointer
+          // forward.
+          next = next.next();
         }
       
-        // now we map everything to the replacer 
-        replacer = $("<div />");
-        _.each(nodeList, function(node) {
-          replacer.append($(node).remove());
-        });
+        // Add the Label if it exists.
+        if (next.hasClass('label')) {
+          label = next.remove().html();
+        }
 
-        // and finally replace our dummy
-        first.replaceWith(templateMap.Category({
-          tag: "h" + i,
-          content: $(this).remove().html(),
-          intro: replacer.html()
-        }));
+        // Replace our dummy container
+        dummy.replaceWith(
+          templateMap[shape]({
+            tag: "h" + i,
+            content: $(this).remove().html(),
+            label: label,
+            block: block
+          })
+        );
       });
     }
 
-    $(".section-group").each(function(){
+    $(".section-group", scope).each(function(){
       var before = $(this).prev();
+
       if(before) {
         before.addClass('center-expand');
       }
@@ -146,8 +173,8 @@
 
   // These are needed to make the flow of the LHS proper while also keeping
   // the $().height() returning a valid number.
-  function wrapAsides() {
-    $("aside a.link-destination").each(function(){
+  function wrapAsides(scope) {
+    $("aside a.link-destination", scope).each(function(){
       var name = this.getAttribute('name');
       
       // TODO: put in model {{
@@ -163,23 +190,18 @@
     });
   }
 
-  function reflow() {
+  function wrapSections(scope) {
     // This is where we make sure that our document hierarchy is strict.
     // Our sections of the same height should be in a section container,
     // which has the proper overflow rules.
     
-    var first, 
-        nodeList = [], 
-        replacer;
+    var replacer;
 
-    $("h3 + .description").each(function() {
+    $("h3 + .description", scope).each(function() {
       $(this.parentNode).addClass("pull-left");
     });
 
-    // There is only one hr per article
-    // TODO: inline-subdocumenting.
-
-    $("section").each(function(){
+    $("section", scope).each(function(){
       if(!$(this.parentNode).hasClass('section-group') ) {
         replacer = $("<div />").addClass('section-group');
         $(this).before(replacer);
@@ -187,21 +209,5 @@
         replacer.html($(this.parentNode).children("section").remove());
       }
     });
-
-      /*
-    $("h1 ~ section").each(function(){
-      if (!first) {
-        first = this.previousSibling;
-      }
-      nodeList.push(this);
-    })
-    replacer = $("<div />").addClass('section-group')
-
-    _.each(nodeList, function(node) {
-      replacer.append($(node).remove());
-    });
-
-    replacer.insertAfter(first);
-    */
   }
 })();

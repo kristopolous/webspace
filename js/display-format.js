@@ -36,21 +36,9 @@
     // for the rest of the scaffolding.
     $("#data").html( $("#document").html() );
     $("#document").empty();
-
-    /*
-    var selector = "#document";
-
-    suckMap({
-      Aside: '.aside',
-      Path: 'ul',
-      Procedure: 'ol'
-    }, $(selector));
-
-    createCategories($(selector));
-    */
       
     if(! nextStage()) {
-      addCssfile('gloss');
+      addCss('gloss');
     }
   });
 
@@ -165,27 +153,32 @@
 
       });
 
-      $("section").addClass("section");
-      // Unwrap double-dipped descriptions
-      $(".description", scope).each(function(){
-        if($(this).children(":first").hasClass("description")) {
-          var html = $(this).children(":first").remove().html();
-          this.innerHTML = html;
-        }
-        // Or if it's just a bunch of sections
-        else if($(this).children(":first").hasClass('section')) {
-          $(this).replaceWith($(this).children().remove());
-        }
-      });
-      $("section").removeClass("section");
     };
+
+    $("section").addClass("section");
+    // Unwrap double-dipped descriptions
+    $(".description", scope).each(function(){
+      if($(this).children(":first").hasClass("description")) {
+        var html = $(this).children(":first").remove().html();
+        this.innerHTML = html;
+      }
+      // Or if it's just a bunch of sections
+      else if($(this).children(":first").hasClass('section')) {
+        $(this).replaceWith($(this).children().remove());
+      }
+    });
+    $("section").removeClass("section");
+
+    // This process tosses the entire document in a giant section, which is fine, but that's not what we want.
+    $(scope).html(
+      $(scope).children(":first").remove().html()
+    );
   }
 
   self.displayFormat = function (selector) {
 
     swapTag(selector, "main");
     var scope = $(selector);
-    //.removeAttr('id');
 
     swapTag(".aside", "aside");
     swapTag(".media", "figure");

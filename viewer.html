@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="css/gloss.css">	
       <link rel="stylesheet" href="css/arrange-on-screen.css">	
     -->
+      <link rel="stylesheet" href="css/base.css"> 
       <link rel="stylesheet" href="css/lines-and-arrows.css"> 
 
 
@@ -47,19 +48,27 @@
     </aside>
   </script>
 
+  <!-- Mind the white-space:
+
+       1. HTML tags MUST be "<tagname" with no space between the < and the tagname
+
+       2. There should be ><text>< with no padding within the content; otherwise content
+          flow may be off.
+
+       These aren't my rules, they are the browsers!
+  -->
   <script type="text/template" class="template-Category">
     <section>
-      <<%= tag %>
+      <<%= tag %>><%= title %></<%= tag %>>
 
-        <% if (label) { %>
-          title="<%= label %>"
-        <% } %>
-      ><%= title %></<%= tag %>>
+      <% if (label) { %>
+        <span class="label"><%= label %></span>
+      <% } %>
 
       <% if (content.length) { %>
-      <div class="<%= type %>">
-        <%= content %>
-      </div>
+        <div class="<%= type %>">
+          <%= content %>
+        </div>
       <% } %>
 
       <%= section %>
@@ -72,13 +81,42 @@
 </div>
 
 <div id="templateList-arrange-on-screen">
+  <!-- 
+     Note how the Title and the Category are NEARLY 
+     identical except the label and block are swapped.
+
+     Refer to the syntax and design language document for
+     more information.
+  -->
+
+  <script type="text/template" class="template-Title">
+    <div class="category-group-super <%=tag%>">
+      <div class="category-group">
+        <<%=tag%>><%= content %>
+          <div class="<%=tag%> Plus">&#xe009;</div>
+        </<%=tag%>>
+        <% if (block) { %>
+          <%= block %>
+        <% } %>
+        <% if (label) { %>
+          <span class='label'><%= label %></span>
+        <% } %>
+      </div>
+    </div>
+  </script>
+
   <script type="text/template" class="template-Category">
     <div class="category-group-super <%=tag%>">
       <div class="category-group">
         <<%=tag%>><%= content %>
           <div class="<%=tag%> Plus">&#xe009;</div>
         </<%=tag%>>
-        <%= intro %>
+        <% if (label) { %>
+          <span class='label'><%= label %></span>
+        <% } %>
+        <% if (block) { %>
+          <%= block %>
+        <% } %>
       </div>
     </div>
   </script>

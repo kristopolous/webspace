@@ -1,5 +1,7 @@
-/*
- * Typography
+/* 
+ * ==============
+ *   Typography
+ * ==============
  */
 
 @font-face {
@@ -28,9 +30,13 @@ body {
   font: 14px/19px 'dserif', Times;
 }
 
+
 /*
- * Flow and alignment
+ * ====================
+ *   Flow & Alignment
+ * ====================
  */
+
 figure,
 .intro {
   display: block;
@@ -75,12 +81,14 @@ section {
 }
 
 ol { 
-  float: none
+  float: none;
 }
+
 ol > li {
   float: none;
   display: inline-block;
 }
+
 /* 
  * this is kept at height 0 to make the flow
  * of the aside work.
@@ -97,10 +105,12 @@ div.aside-container {
 /* 
  * While the aside itself still registers
  * its normal height
+ *
  */
 aside.aside{
   float: right;
-  margin: 0 0 2em 1em;
+  text-align: left;
+  margin: 0.5em 0 2em 4em;
 }
 
 /* 
@@ -113,7 +123,7 @@ p + .section-group > section {
 }
 
 .pull-left > .category-group-super {
-  text-align:left
+  text-align: left;
 }
 
 .intro,
@@ -133,10 +143,12 @@ h2 {
 }
 
 
-
-/*
- * Spacing
+/* 
+ * ===========
+ *   Spacing
+ * ===========
  */
+ 
 .intro,
 .description,
 ul,
@@ -161,26 +173,35 @@ ol {
 
 .intro p,
 .description p,
-.description figure
-{
+.description figure {
   margin-left: 0;
   padding-left: 2em;
 }
 
-.category-group-super.h3 {
-  margin-top:2em
+.label {
+  display: block;
+  padding-top: 1em;
 }
+
+.category-group-super.h1 {
+  margin-bottom: 3em;
+}
+
+.category-group-super.h3 {
+  margin-top: 2em;
+}
+
 section {
   margin: 0 2em;
 }
 
 li,
 p {
-  margin-bottom:1.25em;
+  margin-bottom: 1.25em;
 }
 
 li {
-  padding: 0.5em
+  padding: 0.5em;
 }
 
 h1 { 
@@ -196,26 +217,30 @@ h3 {
 }
 
 h4 {
-  padding: 0
+  padding: 0;
 }
 
 .intro,
 .description {
-  padding:0 0.25em;
-  margin-bottom:1.5em;
+  padding: 0 0.25em;
+  margin-bottom: 1.5em;
 }
 
 .description {
-  margin-top: 1.5em
+  margin-top: 1.5em;
 }
 
 p + .description {
-  margin-top: 0
+  margin-top: 0;
 }
 
-/*
- * Confinement
+
+/* 
+ * ===============
+ *   Confinement
+ * ===============
  */
+
 .intro p,
 figcaption, 
 .description p {
@@ -223,7 +248,7 @@ figcaption,
 }
 
 li {
-  max-width: 19em
+  max-width: 19em;
 }
 
 h6,
@@ -235,8 +260,12 @@ h2 {
   max-width: 20em;
 }
 
-/*
- * Coloring rules
+
+/* 
+ * ============
+ *   Coloring
+ * ============
+ *
  * using http://www.studiopress.com/palettes/joy-to-the-world
  */
 h2 {
@@ -252,35 +281,44 @@ h3 {
   border-bottom: 3px solid rgba(39, 63, 32, 0.35);
 }
 
-h1, h3 {
+h1, 
+h3 {
   color: #273F20;
 }
 
 .circle:hover {
   border-color: #647D7A;
-  box-shadow:0 0 2px 0.15em #647D7A;
+  box-shadow: 0 0 2px 0.15em #647D7A;
 }
 
-.circle.expanded{
-  margin-bottom:1em;
+.circle.expanded {
+  margin-bottom: 1em;
 }
-.circle{
-  color: #1C2D17;
-  text-decoration: none;
-  border-radius:5px;
-  border:0.15em solid #9ec5c0;
+
+.circle {
   background: #cedde1;
-  margin:0.1em -0.25em 0;
-  padding:0 0.10em;
-  whitespace:pre;
-  display:inline-block;
+  color: #1C2D17;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+  border: 0.15em solid #9ec5c0;
+
+  display: inline-block;
+  margin: 0.1em -0.25em 0;
+  padding: 0 0.10em;
+
+  whitespace: pre;
 }
+
 
 /*
- * Misc 
+ * =================
+ *   Miscellaneous
+ * =================
  */
 .definition-group {
-  display: none
+  display: none;
 }
 
 .debug figure, 

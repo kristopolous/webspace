@@ -1,6 +1,12 @@
 /* 
  * This is the display formatting semantic-glosser.
  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 figure, 
 figcaption,
 section, 
@@ -8,22 +14,26 @@ main,
 ol, 
 ul, 
 aside, 
+.label,
 .description, 
 .definition-group, 
 .intro, 
 .meta {
   border: 2px solid rgba(50, 122, 75, 0.5);
-  margin: 2px;
+  margin: 8px;
 }
 
 *:before {
    display: inline-block;
    background: rgba(80, 152, 100, 0.35);
+   color: rgba(20, 40, 25, 0.8);
    font: 0.75em Verdana;
    font-weight: bold;
-   padding: 0.25em;
+   padding: 0.25em 0.5em;
+   margin-right: .5em;
    text-align: left;
    text-transform: uppercase;
+   text-shadow: -1px -1px 1px rgba(10, 20, 10, 0.3);
 }
 
 .section:before     { content: "section" }
@@ -36,3 +46,15 @@ figcaption:before   { content: "figcaption" }
 .description:before { content: "description" }
 .intro:before       { content: "intro" }
 .meta:before        { content: "meta" }
+.label:before       { content: "label" }
+
+h1:before           { content: "title" }
+
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before
+{ content: "Category" }
+
+#data { display: block }

@@ -16,6 +16,12 @@ var
   // in build-model)
   Db = {},
 
+  // A convenient list of complex selectors
+  Sel = {
+    CircleSource: "a[href^='#']",
+    CircleDest: "a[name]"
+  },
+
   // The types of shapes we have 
   ShapeType = [ 
 

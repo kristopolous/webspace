@@ -131,7 +131,6 @@
   }
 
   function run(stage) {
-    return nextStage();
     templateMap = getAllTemplates(stage);
     Ends =  {
       rec: [ "Rectangle", {width: width , height: width} ],
@@ -152,8 +151,8 @@
       default: makeBrush(width, ColorList[0])
     };
       
+    return nextStage();
     fastLines();
-    nextStage();
     return;
     //setup();
     
