@@ -149,26 +149,22 @@
           content: $.trim(temp.html())
         });
         temp.replaceWith(html);
+      });
 
 
+      // Unwrap double-dipped descriptions
+      $(".description", scope).each(function(){
+        if($(this).children(":first").hasClass("description")) {
+          var html = $(this).children(":first").remove().html();
+          this.innerHTML = html;
+        }
+        // Or if it's just a bunch of sections
+        else if($(this).children(":first").filter("section").length) {
+          $(this).replaceWith($(this).children());
+        }
       });
 
     };
-
-    $("section").addClass("section");
-    // Unwrap double-dipped descriptions
-    $(".description", scope).each(function(){
-      if($(this).children(":first").hasClass("description")) {
-        var html = $(this).children(":first").remove().html();
-        this.innerHTML = html;
-      }
-      // Or if it's just a bunch of sections
-      else if($(this).children(":first").hasClass('section')) {
-        $(this).replaceWith($(this).children().remove());
-      }
-    });
-    $("section").removeClass("section");
-
     // This process tosses the entire document in a giant section, which is fine, but that's not what we want.
     $(scope).html(
       $(scope).children(":first").remove().html()

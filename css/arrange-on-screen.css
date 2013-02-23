@@ -20,7 +20,10 @@ h2 {
 
 h6,
 h5,
-h4,
+h4 { 
+  font-size: 1em;
+}
+
 h3 {
   font-size: 1.35em;
   letter-spacing: -0.0205em;
@@ -70,7 +73,6 @@ section {
   text-align: center;
 }
 
-.category-group-super.h4,
 .category-group-super.h2 {
   text-align: center;
 }
@@ -89,23 +91,13 @@ ol > li {
   display: inline-block;
 }
 
-/* 
- * this is kept at height 0 to make the flow
- * of the aside work.
- */
-div.aside-container {
-  /*
-  margin-top: -2em;
-  margin-left: 1em;
-  height:0;
-  float: right;
-  */
+.center-expand .label {
+  text-align: center;
 }
 
 /* 
- * While the aside itself still registers
+ * The aside registers
  * its normal height
- *
  */
 aside.aside{
   float: right;
@@ -180,7 +172,7 @@ ol {
 
 .label {
   display: block;
-  padding-top: 1em;
+  padding-top: 1.5em;
 }
 
 .category-group-super.h1 {
@@ -193,6 +185,27 @@ ol {
 
 section {
   margin: 0 2em;
+}
+
+/* 
+ * If there's a sectiongroup that
+ * expands off a description node then
+ * don't indent that section.
+ *
+ * Instead, bring it in with everthing
+ * else.
+ */
+p + .section-group {
+  margin-top: 0;
+  margin-left: 0;
+  float: left;
+  clear: both;
+}
+p + .section-group > section {
+}
+
+p + .section-group > section {
+  margin-left: 0 
 }
 
 li,
@@ -212,13 +225,10 @@ h2 {
   padding: 0.75em 1em;
 }
 
-h3 {
-  padding: 0.5em;
+h4, h3 {
+  padding: 0.5em 0.5em 0.65em;
 }
 
-h4 {
-  padding: 0;
-}
 
 .intro,
 .description {

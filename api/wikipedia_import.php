@@ -21,6 +21,8 @@ function removeMeta($xpath) {
 
     'dablink',    // ??
 
+    'rellink',    // "Main article": 
+
     'infobox',    // The box of info that often appears on the RHS.
     'toc',        // Table of contents that appears at the top of the screen
 

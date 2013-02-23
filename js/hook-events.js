@@ -61,9 +61,10 @@
       fontSize: "0px"
     }, {
       duration: 600,
-      step:Repaint
-    }, function(){
-      node.css('display', 'none');
+      step:Repaint,
+      complete:function(){
+        node.css('display', 'none');
+      }
     });
   }
 
