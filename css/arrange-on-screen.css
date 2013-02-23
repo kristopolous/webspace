@@ -257,6 +257,10 @@ figcaption,
   width: 19em; 
 }
 
+img {
+  width: 18.5em;
+}
+
 li {
   max-width: 19em;
 }

@@ -19,6 +19,10 @@ function removeMeta($xpath) {
 
     'refbegin',   // Bibliograph, footnotes, etc.
 
+    'floatnone',  // maps
+
+    'noexcerpt',  // pronounce guide
+
     'dablink',    // ??
 
     'rellink',    // "Main article": 
@@ -57,6 +61,11 @@ function removeMeta($xpath) {
       }
       _remove($parent);
     }
+  }
+
+  $nodeList = $xpath->query("//sup");
+  foreach($nodeList as $node) {
+    _remove($node);
   }
  
 }
@@ -128,7 +137,37 @@ function rootPrepare($article) {
   $wrap->setAttribute('id', 'document');
 }
 
-function paragraphSplitter($xpath) {
+function htmlCleaner($str) {
+  $tagList = Array('b', 'em', 'i');
+  foreach($tagList as $tag) {
+    $str = preg_replace("/<$tag>/", '', $str);   
+    $str = preg_replace("/<\/$tag>/", '', $str);   
+  }
+  return $str;
+}
+
+function paragraphSplitter($str) {
+
+  // First we go in between the nodes
+  return preg_replace_callback('/p>(.+)<\/p/', function($matches) {
+
+    // This is the raw text
+    $string = $matches[1];
+
+    $string = preg_replace('/\s+/', ' ', $string);
+
+    // Break on sentence like punctuation 
+    // we very very cheaply avoid initials ... avoiding St.
+    $string = preg_replace_callback('/([>a-su-z0-9][\.!\?])\ /', function($matches) {
+      // And wrap that in the necessary p tags
+      return $matches[1] . "</p>\n" . '<p>';
+    }, $string);
+
+    return 'p>' . $string . '</p';
+  }, $str);
+}
+
+function domparagraphSplitter($xpath) {
   $nodeList = $xpath->query('//p');
 
   foreach($nodeList as $node) {
@@ -202,7 +241,11 @@ removeMeta($xpath);
 unwrap($xpath);
 makeSemantic($xpath);
 setupLinks($xpath);
-paragraphSplitter($xpath);
 rootPrepare($article);
 
-echo $article->saveHTML();
+$raw = $article->saveHTML();
+$raw = htmlCleaner($raw);
+$raw = paragraphSplitter($raw);
+
+header("Content-type: text/plain");
+echo $raw;
